@@ -1,0 +1,7 @@
+.env
+node_modules/
+
+# src/*
+# src/DB/db.js
+# !src/DB/
+# !src/DB/sup/
