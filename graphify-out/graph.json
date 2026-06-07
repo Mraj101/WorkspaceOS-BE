@@ -72,7 +72,7 @@
       "source_file": "package.json",
       "source_location": "L5",
       "id": "package_scripts",
-      "community": 8,
+      "community": 2,
       "norm_label": "scripts"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "package.json",
       "source_location": "L6",
       "id": "package_scripts_dev",
-      "community": 8,
+      "community": 2,
       "norm_label": "dev"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "package.json",
       "source_location": "L7",
       "id": "package_scripts_start",
-      "community": 8,
+      "community": 2,
       "norm_label": "start"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "package.json",
       "source_location": "L8",
       "id": "package_scripts_test",
-      "community": 8,
+      "community": 2,
       "norm_label": "test"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "package.json",
       "source_location": "L14",
       "id": "package_dependencies",
-      "community": 2,
+      "community": 8,
       "norm_label": "dependencies"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "package.json",
       "source_location": "L15",
       "id": "package_dependencies_cors",
-      "community": 2,
+      "community": 8,
       "norm_label": "cors"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "package.json",
       "source_location": "L16",
       "id": "package_dependencies_dotenv",
-      "community": 2,
+      "community": 8,
       "norm_label": "dotenv"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "package.json",
       "source_location": "L17",
       "id": "package_dependencies_express",
-      "community": 2,
+      "community": 8,
       "norm_label": "express"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "package.json",
       "source_location": "L18",
       "id": "package_dependencies_helmet",
-      "community": 2,
+      "community": 8,
       "norm_label": "helmet"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "package.json",
       "source_location": "L19",
       "id": "package_dependencies_morgan",
-      "community": 2,
+      "community": 8,
       "norm_label": "morgan"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "package.json",
       "source_location": "L20",
       "id": "package_dependencies_pg",
-      "community": 2,
+      "community": 8,
       "norm_label": "pg"
     },
     {
@@ -218,6 +218,51 @@
       "id": "package_devdependencies_nodemon",
       "community": 2,
       "norm_label": "nodemon"
+    },
+    {
+      "label": "seed_expenses.js",
+      "file_type": "code",
+      "source_file": "seed_expenses.js",
+      "source_location": "L1",
+      "id": "seed_expenses",
+      "community": 14,
+      "norm_label": "seed_expenses.js"
+    },
+    {
+      "label": "http",
+      "file_type": "code",
+      "source_file": "seed_expenses.js",
+      "source_location": "L1",
+      "id": "seed_expenses_http",
+      "community": 14,
+      "norm_label": "http"
+    },
+    {
+      "label": "expenses",
+      "file_type": "code",
+      "source_file": "seed_expenses.js",
+      "source_location": "L3",
+      "id": "seed_expenses_expenses",
+      "community": 14,
+      "norm_label": "expenses"
+    },
+    {
+      "label": "postExpense()",
+      "file_type": "code",
+      "source_file": "seed_expenses.js",
+      "source_location": "L27",
+      "id": "seed_expenses_postexpense",
+      "community": 14,
+      "norm_label": "postexpense()"
+    },
+    {
+      "label": "seed()",
+      "file_type": "code",
+      "source_file": "seed_expenses.js",
+      "source_location": "L66",
+      "id": "seed_expenses_seed",
+      "community": 14,
+      "norm_label": "seed()"
     },
     {
       "label": "server.js",
@@ -490,13 +535,13 @@
       "norm_label": "apperror"
     },
     {
-      "label": "q",
+      "label": "service",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/controller.js",
       "source_location": "L10",
-      "id": "expense_tracker_controller_q",
+      "id": "expense_tracker_controller_service",
       "community": 3,
-      "norm_label": "q"
+      "norm_label": "service"
     },
     {
       "label": "index.js",
@@ -504,7 +549,7 @@
       "source_file": "src/modules/expense-tracker/index.js",
       "source_location": "L1",
       "id": "expense_tracker_index",
-      "community": 3,
+      "community": 13,
       "norm_label": "index.js"
     },
     {
@@ -513,7 +558,7 @@
       "source_file": "src/modules/expense-tracker/index.js",
       "source_location": "L5",
       "id": "expense_tracker_index_router",
-      "community": 3,
+      "community": 13,
       "norm_label": "router"
     },
     {
@@ -630,7 +675,7 @@
       "source_file": "src/modules/expense-tracker/routes.js",
       "source_location": "L1",
       "id": "expense_tracker_routes",
-      "community": 3,
+      "community": 13,
       "norm_label": "routes.js"
     },
     {
@@ -639,7 +684,7 @@
       "source_file": "src/modules/expense-tracker/routes.js",
       "source_location": "L1",
       "id": "expense_tracker_routes_router",
-      "community": 3,
+      "community": 13,
       "norm_label": "{ router }"
     },
     {
@@ -648,8 +693,35 @@
       "source_file": "src/modules/expense-tracker/routes.js",
       "source_location": "L2",
       "id": "expense_tracker_routes_ctrl",
-      "community": 3,
+      "community": 13,
       "norm_label": "ctrl"
+    },
+    {
+      "label": "service.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/service.js",
+      "source_location": "L1",
+      "id": "expense_tracker_service",
+      "community": 3,
+      "norm_label": "service.js"
+    },
+    {
+      "label": "q",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/service.js",
+      "source_location": "L1",
+      "id": "expense_tracker_service_q",
+      "community": 3,
+      "norm_label": "q"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/service.js",
+      "source_location": "L2",
+      "id": "expense_tracker_service_apperror",
+      "community": 3,
+      "norm_label": "apperror"
     },
     {
       "label": "CLAUDE.md",
@@ -1109,6 +1181,15 @@
       "id": "expense_tracker_readme_data_access_style",
       "community": 6,
       "norm_label": "data access style"
+    },
+    {
+      "label": "q",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/controller.js",
+      "source_location": "L10",
+      "community": 3,
+      "norm_label": "q",
+      "id": "expense_tracker_controller_q"
     }
   ],
   "links": [
@@ -1118,9 +1199,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings",
-      "target": "claude_settings_hooks",
-      "confidence_score": 1.0
+      "target": "claude_settings_hooks"
     },
     {
       "relation": "contains",
@@ -1128,9 +1209,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings_hooks",
-      "target": "claude_settings_hooks_pretooluse",
-      "confidence_score": 1.0
+      "target": "claude_settings_hooks_pretooluse"
     },
     {
       "relation": "contains",
@@ -1138,9 +1219,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_author",
-      "confidence_score": 1.0
+      "target": "package_author"
     },
     {
       "relation": "contains",
@@ -1148,9 +1229,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies",
-      "confidence_score": 1.0
+      "target": "package_dependencies"
     },
     {
       "relation": "contains",
@@ -1158,9 +1239,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_description",
-      "confidence_score": 1.0
+      "target": "package_description"
     },
     {
       "relation": "contains",
@@ -1168,9 +1249,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_devdependencies",
-      "confidence_score": 1.0
+      "target": "package_devdependencies"
     },
     {
       "relation": "contains",
@@ -1178,9 +1259,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_keywords",
-      "confidence_score": 1.0
+      "target": "package_keywords"
     },
     {
       "relation": "contains",
@@ -1188,9 +1269,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_license",
-      "confidence_score": 1.0
+      "target": "package_license"
     },
     {
       "relation": "contains",
@@ -1198,9 +1279,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_main",
-      "confidence_score": 1.0
+      "target": "package_main"
     },
     {
       "relation": "contains",
@@ -1208,9 +1289,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name",
-      "confidence_score": 1.0
+      "target": "package_name"
     },
     {
       "relation": "contains",
@@ -1218,9 +1299,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts",
-      "confidence_score": 1.0
+      "target": "package_scripts"
     },
     {
       "relation": "contains",
@@ -1228,9 +1309,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version",
-      "confidence_score": 1.0
+      "target": "package_version"
     },
     {
       "relation": "contains",
@@ -1238,9 +1319,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -1248,9 +1329,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_start",
-      "confidence_score": 1.0
+      "target": "package_scripts_start"
     },
     {
       "relation": "contains",
@@ -1258,9 +1339,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_test",
-      "confidence_score": 1.0
+      "target": "package_scripts_test"
     },
     {
       "relation": "contains",
@@ -1268,9 +1349,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_cors",
-      "confidence_score": 1.0
+      "target": "package_dependencies_cors"
     },
     {
       "relation": "contains",
@@ -1278,9 +1359,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_dotenv",
-      "confidence_score": 1.0
+      "target": "package_dependencies_dotenv"
     },
     {
       "relation": "contains",
@@ -1288,9 +1369,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_express",
-      "confidence_score": 1.0
+      "target": "package_dependencies_express"
     },
     {
       "relation": "contains",
@@ -1298,9 +1379,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_helmet",
-      "confidence_score": 1.0
+      "target": "package_dependencies_helmet"
     },
     {
       "relation": "contains",
@@ -1308,9 +1389,9 @@
       "source_file": "package.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_morgan",
-      "confidence_score": 1.0
+      "target": "package_dependencies_morgan"
     },
     {
       "relation": "contains",
@@ -1318,9 +1399,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_pg",
-      "confidence_score": 1.0
+      "target": "package_dependencies_pg"
     },
     {
       "relation": "contains",
@@ -1328,8 +1409,59 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_nodemon",
+      "target": "package_devdependencies_nodemon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "seed_expenses.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "seed_expenses",
+      "target": "seed_expenses_expenses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "seed_expenses.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "seed_expenses",
+      "target": "seed_expenses_http",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "seed_expenses.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "seed_expenses",
+      "target": "seed_expenses_postexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "seed_expenses.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "seed_expenses",
+      "target": "seed_expenses_seed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "seed_expenses.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "seed_expenses_seed",
+      "target": "seed_expenses_postexpense",
       "confidence_score": 1.0
     },
     {
@@ -1338,9 +1470,9 @@
       "source_file": "server.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_app",
-      "confidence_score": 1.0
+      "target": "server_app"
     },
     {
       "relation": "imports_from",
@@ -1349,9 +1481,9 @@
       "source_file": "server.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "src_app",
-      "confidence_score": 1.0
+      "target": "src_app"
     },
     {
       "relation": "imports_from",
@@ -1360,9 +1492,9 @@
       "source_file": "src/app.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "middleware_errorhandler",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler"
     },
     {
       "relation": "imports_from",
@@ -1371,9 +1503,9 @@
       "source_file": "src/app.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "middleware_notfound",
-      "confidence_score": 1.0
+      "target": "middleware_notfound"
     },
     {
       "relation": "contains",
@@ -1381,9 +1513,9 @@
       "source_file": "src/app.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "contains",
@@ -1391,9 +1523,9 @@
       "source_file": "src/app.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_cors",
-      "confidence_score": 1.0
+      "target": "src_app_cors"
     },
     {
       "relation": "contains",
@@ -1401,9 +1533,9 @@
       "source_file": "src/app.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_errorhandler",
-      "confidence_score": 1.0
+      "target": "src_app_errorhandler"
     },
     {
       "relation": "contains",
@@ -1411,9 +1543,9 @@
       "source_file": "src/app.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_express",
-      "confidence_score": 1.0
+      "target": "src_app_express"
     },
     {
       "relation": "contains",
@@ -1421,9 +1553,9 @@
       "source_file": "src/app.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_helmet",
-      "confidence_score": 1.0
+      "target": "src_app_helmet"
     },
     {
       "relation": "contains",
@@ -1431,9 +1563,9 @@
       "source_file": "src/app.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_morgan",
-      "confidence_score": 1.0
+      "target": "src_app_morgan"
     },
     {
       "relation": "contains",
@@ -1441,9 +1573,9 @@
       "source_file": "src/app.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_notfound",
-      "confidence_score": 1.0
+      "target": "src_app_notfound"
     },
     {
       "relation": "contains",
@@ -1451,9 +1583,9 @@
       "source_file": "src/config/db.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_db",
-      "target": "config_db_pool",
-      "confidence_score": 1.0
+      "target": "config_db_pool"
     },
     {
       "relation": "imports_from",
@@ -1462,9 +1594,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "config_db",
-      "confidence_score": 1.0
+      "target": "config_db"
     },
     {
       "relation": "imports_from",
@@ -1473,9 +1605,9 @@
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_queryhelpers",
-      "target": "config_db",
-      "confidence_score": 1.0
+      "target": "config_db"
     },
     {
       "relation": "imports_from",
@@ -1484,7 +1616,18 @@
       "source_file": "src/modules/expense-tracker/controller.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_controller",
+      "target": "lib_apperror"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/service.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expense_tracker_service",
       "target": "lib_apperror",
       "confidence_score": 1.0
     },
@@ -1494,9 +1637,9 @@
       "source_file": "src/lib/AppError.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_apperror",
-      "target": "lib_apperror_apperror",
-      "confidence_score": 1.0
+      "target": "lib_apperror_apperror"
     },
     {
       "relation": "method",
@@ -1504,9 +1647,9 @@
       "source_file": "src/lib/AppError.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_apperror_apperror",
-      "target": "lib_apperror_apperror_constructor",
-      "confidence_score": 1.0
+      "target": "lib_apperror_apperror_constructor"
     },
     {
       "relation": "imports_from",
@@ -1515,9 +1658,9 @@
       "source_file": "src/modules/expense-tracker/controller.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_controller",
-      "target": "lib_asynchandler",
-      "confidence_score": 1.0
+      "target": "lib_asynchandler"
     },
     {
       "relation": "contains",
@@ -1525,9 +1668,9 @@
       "source_file": "src/lib/asyncHandler.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_asynchandler",
-      "target": "lib_asynchandler_asynchandler",
-      "confidence_score": 1.0
+      "target": "lib_asynchandler_asynchandler"
     },
     {
       "relation": "contains",
@@ -1535,9 +1678,9 @@
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_create",
-      "confidence_score": 1.0
+      "target": "lib_queryhelpers_create"
     },
     {
       "relation": "contains",
@@ -1545,9 +1688,9 @@
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_deletebyid",
-      "confidence_score": 1.0
+      "target": "lib_queryhelpers_deletebyid"
     },
     {
       "relation": "contains",
@@ -1555,9 +1698,9 @@
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_findmany",
-      "confidence_score": 1.0
+      "target": "lib_queryhelpers_findmany"
     },
     {
       "relation": "contains",
@@ -1565,9 +1708,9 @@
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_getbyid",
-      "confidence_score": 1.0
+      "target": "lib_queryhelpers_getbyid"
     },
     {
       "relation": "contains",
@@ -1575,9 +1718,9 @@
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_pool",
-      "confidence_score": 1.0
+      "target": "lib_queryhelpers_pool"
     },
     {
       "relation": "contains",
@@ -1585,9 +1728,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "middleware_errorhandler_errorhandler",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_errorhandler"
     },
     {
       "relation": "contains",
@@ -1595,9 +1738,9 @@
       "source_file": "src/middleware/notFound.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_notfound",
-      "target": "middleware_notfound_notfound",
-      "confidence_score": 1.0
+      "target": "middleware_notfound_notfound"
     },
     {
       "relation": "contains",
@@ -1605,9 +1748,9 @@
       "source_file": "src/modules/expense-tracker/controller.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_controller",
-      "target": "expense_tracker_controller_apperror",
-      "confidence_score": 1.0
+      "target": "expense_tracker_controller_apperror"
     },
     {
       "relation": "contains",
@@ -1615,9 +1758,19 @@
       "source_file": "src/modules/expense-tracker/controller.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_controller",
-      "target": "expense_tracker_controller_asynchandler",
-      "confidence_score": 1.0
+      "target": "expense_tracker_controller_asynchandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/controller.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expense_tracker_controller",
+      "target": "expense_tracker_controller_q"
     },
     {
       "relation": "contains",
@@ -1626,7 +1779,7 @@
       "source_location": "L10",
       "weight": 1.0,
       "source": "expense_tracker_controller",
-      "target": "expense_tracker_controller_q",
+      "target": "expense_tracker_controller_service",
       "confidence_score": 1.0
     },
     {
@@ -1636,8 +1789,19 @@
       "source_file": "src/modules/expense-tracker/controller.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_controller",
-      "target": "expense_tracker_queries",
+      "target": "expense_tracker_queries"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/controller.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "expense_tracker_controller",
+      "target": "expense_tracker_service",
       "confidence_score": 1.0
     },
     {
@@ -1647,9 +1811,9 @@
       "source_file": "src/modules/expense-tracker/routes.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_routes",
-      "target": "expense_tracker_controller",
-      "confidence_score": 1.0
+      "target": "expense_tracker_controller"
     },
     {
       "relation": "contains",
@@ -1657,9 +1821,9 @@
       "source_file": "src/modules/expense-tracker/index.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_index",
-      "target": "expense_tracker_index_router",
-      "confidence_score": 1.0
+      "target": "expense_tracker_index_router"
     },
     {
       "relation": "imports_from",
@@ -1668,9 +1832,9 @@
       "source_file": "src/modules/expense-tracker/index.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_index",
-      "target": "expense_tracker_routes",
-      "confidence_score": 1.0
+      "target": "expense_tracker_routes"
     },
     {
       "relation": "contains",
@@ -1678,9 +1842,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_createcategory",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_createcategory"
     },
     {
       "relation": "contains",
@@ -1688,9 +1852,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_createexpense",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_createexpense"
     },
     {
       "relation": "contains",
@@ -1698,9 +1862,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_deletecategorybyid",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_deletecategorybyid"
     },
     {
       "relation": "contains",
@@ -1708,9 +1872,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_deleteexpensebyid",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_deleteexpensebyid"
     },
     {
       "relation": "contains",
@@ -1718,9 +1882,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getallcategories",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_getallcategories"
     },
     {
       "relation": "contains",
@@ -1728,9 +1892,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getcategorybyid",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_getcategorybyid"
     },
     {
       "relation": "contains",
@@ -1738,9 +1902,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getexpensebyid",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_getexpensebyid"
     },
     {
       "relation": "contains",
@@ -1748,9 +1912,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getexpenses",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_getexpenses"
     },
     {
       "relation": "contains",
@@ -1758,9 +1922,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L154",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getexpensesummary",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_getexpensesummary"
     },
     {
       "relation": "contains",
@@ -1768,9 +1932,9 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_pool",
-      "confidence_score": 1.0
+      "target": "expense_tracker_queries_pool"
     },
     {
       "relation": "contains",
@@ -1778,8 +1942,19 @@
       "source_file": "src/modules/expense-tracker/queries.js",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_updateexpense",
+      "target": "expense_tracker_queries_updateexpense"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/service.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expense_tracker_service",
+      "target": "expense_tracker_queries",
       "confidence_score": 1.0
     },
     {
@@ -1788,9 +1963,9 @@
       "source_file": "src/modules/expense-tracker/routes.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_routes",
-      "target": "expense_tracker_routes_ctrl",
-      "confidence_score": 1.0
+      "target": "expense_tracker_routes_ctrl"
     },
     {
       "relation": "contains",
@@ -1798,8 +1973,28 @@
       "source_file": "src/modules/expense-tracker/routes.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_routes",
-      "target": "expense_tracker_routes_router",
+      "target": "expense_tracker_routes_router"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/service.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expense_tracker_service",
+      "target": "expense_tracker_service_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/service.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expense_tracker_service",
+      "target": "expense_tracker_service_q",
       "confidence_score": 1.0
     },
     {
@@ -1808,9 +2003,9 @@
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude",
-      "target": "claude_claude_graphify",
-      "confidence_score": 1.0
+      "target": "claude_claude_graphify"
     },
     {
       "relation": "contains",
@@ -1818,9 +2013,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill",
-      "target": "graphify_skill_graphify",
-      "confidence_score": 1.0
+      "target": "graphify_skill_graphify"
     },
     {
       "relation": "contains",
@@ -1828,9 +2023,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L947",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_cluster_only",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_cluster_only"
     },
     {
       "relation": "contains",
@@ -1838,9 +2033,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_git_commit_hook",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_git_commit_hook"
     },
     {
       "relation": "contains",
@@ -1848,9 +2043,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1063",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_add",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_graphify_add"
     },
     {
       "relation": "contains",
@@ -1858,9 +2053,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1045",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_explain",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_graphify_explain"
     },
     {
       "relation": "contains",
@@ -1868,9 +2063,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1027",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_path",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_graphify_path"
     },
     {
       "relation": "contains",
@@ -1878,9 +2073,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L959",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_query",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_graphify_query"
     },
     {
       "relation": "contains",
@@ -1888,9 +2083,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -1898,9 +2093,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L786",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_update_incremental_re_extraction",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_update_incremental_re_extraction"
     },
     {
       "relation": "contains",
@@ -1908,9 +2103,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1097",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_watch",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_watch"
     },
     {
       "relation": "contains",
@@ -1918,9 +2113,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1150",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_honesty_rules",
-      "confidence_score": 1.0
+      "target": "graphify_skill_honesty_rules"
     },
     {
       "relation": "contains",
@@ -1928,9 +2123,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L768",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_interpreter_guard_for_subcommands",
-      "confidence_score": 1.0
+      "target": "graphify_skill_interpreter_guard_for_subcommands"
     },
     {
       "relation": "contains",
@@ -1938,9 +2133,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_usage",
-      "confidence_score": 1.0
+      "target": "graphify_skill_usage"
     },
     {
       "relation": "contains",
@@ -1948,9 +2143,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_graphify_is_for",
-      "confidence_score": 1.0
+      "target": "graphify_skill_what_graphify_is_for"
     },
     {
       "relation": "contains",
@@ -1958,9 +2153,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_you_must_do_when_invoked",
-      "confidence_score": 1.0
+      "target": "graphify_skill_what_you_must_do_when_invoked"
     },
     {
       "relation": "contains",
@@ -1968,9 +2163,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
     },
     {
       "relation": "contains",
@@ -1978,9 +2173,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_1_ensure_graphify_is_installed",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_1_ensure_graphify_is_installed"
     },
     {
       "relation": "contains",
@@ -1988,9 +2183,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
     },
     {
       "relation": "contains",
@@ -1998,9 +2193,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_detect_files",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_2_detect_files"
     },
     {
       "relation": "contains",
@@ -2008,9 +2203,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L227",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_3_extract_entities_and_relationships",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_3_extract_entities_and_relationships"
     },
     {
       "relation": "contains",
@@ -2018,9 +2213,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L512",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
     },
     {
       "relation": "contains",
@@ -2028,9 +2223,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L564",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_5_label_communities",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_5_label_communities"
     },
     {
       "relation": "contains",
@@ -2038,9 +2233,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L604",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
     },
     {
       "relation": "contains",
@@ -2048,9 +2243,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L624",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_6b_wiki_only_if_wiki_flag",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_6b_wiki_only_if_wiki_flag"
     },
     {
       "relation": "contains",
@@ -2058,9 +2253,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L634",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
     },
     {
       "relation": "contains",
@@ -2068,9 +2263,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L650",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_7b_svg_export_only_if_svg_flag"
     },
     {
       "relation": "contains",
@@ -2078,9 +2273,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L656",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag"
     },
     {
       "relation": "contains",
@@ -2088,9 +2283,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L662",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag"
     },
     {
       "relation": "contains",
@@ -2098,9 +2293,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L682",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000"
     },
     {
       "relation": "contains",
@@ -2108,9 +2303,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L694",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
     },
     {
       "relation": "contains",
@@ -2118,9 +2313,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L244",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_a_structural_extraction_for_code_files",
-      "confidence_score": 1.0
+      "target": "graphify_skill_part_a_structural_extraction_for_code_files"
     },
     {
       "relation": "contains",
@@ -2128,9 +2323,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L270",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "confidence_score": 1.0
+      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
     },
     {
       "relation": "contains",
@@ -2138,9 +2333,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L478",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "confidence_score": 1.0
+      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
     },
     {
       "relation": "contains",
@@ -2148,9 +2343,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L968",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_query",
-      "target": "graphify_skill_step_0_constrained_query_expansion_required_before_traversal",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_0_constrained_query_expansion_required_before_traversal"
     },
     {
       "relation": "contains",
@@ -2158,9 +2353,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1006",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_query",
-      "target": "graphify_skill_step_1_traversal",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_1_traversal"
     },
     {
       "relation": "contains",
@@ -2168,9 +2363,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_graphify",
-      "confidence_score": 1.0
+      "target": "claude_graphify"
     },
     {
       "relation": "contains",
@@ -2178,9 +2373,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_workspaceos_be",
-      "confidence_score": 1.0
+      "target": "readme_workspaceos_be"
     },
     {
       "relation": "contains",
@@ -2188,9 +2383,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme",
-      "target": "expense_tracker_readme_expense_tracker_module",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_expense_tracker_module"
     },
     {
       "relation": "contains",
@@ -2198,9 +2393,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
-      "target": "expense_tracker_readme_data_access_style",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_data_access_style"
     },
     {
       "relation": "contains",
@@ -2208,9 +2403,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
-      "target": "expense_tracker_readme_endpoints",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_endpoints"
     },
     {
       "relation": "contains",
@@ -2218,9 +2413,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
-      "target": "expense_tracker_readme_example_request_bodies",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_example_request_bodies"
     },
     {
       "relation": "contains",
@@ -2228,9 +2423,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
-      "target": "expense_tracker_readme_query_filters_get_api_expenses",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_query_filters_get_api_expenses"
     },
     {
       "relation": "contains",
@@ -2238,9 +2433,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
-      "target": "expense_tracker_readme_tables",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_tables"
     },
     {
       "relation": "contains",
@@ -2248,9 +2443,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_example_request_bodies",
-      "target": "expense_tracker_readme_create_category",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_create_category"
     },
     {
       "relation": "contains",
@@ -2258,11 +2453,11 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_example_request_bodies",
-      "target": "expense_tracker_readme_create_expense",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_create_expense"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "962edd7e1abac1897d30e1d177f9df8844ef13bc"
+  "built_at_commit": "446ec555e3d9e314254d42ee0fab8d04f9b39b99"
 }
