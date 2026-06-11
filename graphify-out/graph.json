@@ -430,7 +430,7 @@
       "label": "pool",
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L13",
+      "source_location": "L18",
       "id": "lib_queryhelpers_pool",
       "community": 7,
       "norm_label": "pool"
@@ -439,7 +439,7 @@
       "label": "getById()",
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L21",
+      "source_location": "L26",
       "id": "lib_queryhelpers_getbyid",
       "community": 7,
       "norm_label": "getbyid()"
@@ -448,7 +448,7 @@
       "label": "findMany()",
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L36",
+      "source_location": "L41",
       "id": "lib_queryhelpers_findmany",
       "community": 7,
       "norm_label": "findmany()"
@@ -457,7 +457,7 @@
       "label": "create()",
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L52",
+      "source_location": "L57",
       "id": "lib_queryhelpers_create",
       "community": 7,
       "norm_label": "create()"
@@ -466,7 +466,7 @@
       "label": "deleteById()",
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L69",
+      "source_location": "L74",
       "id": "lib_queryhelpers_deletebyid",
       "community": 7,
       "norm_label": "deletebyid()"
@@ -510,38 +510,254 @@
     {
       "label": "controller.js",
       "file_type": "code",
-      "source_file": "src/modules/expense-tracker/controller.js",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L1",
-      "id": "expense_tracker_controller",
+      "id": "expenses_controller",
       "community": 3,
       "norm_label": "controller.js"
     },
     {
       "label": "asyncHandler",
       "file_type": "code",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L8",
-      "id": "expense_tracker_controller_asynchandler",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "id": "expenses_controller_asynchandler",
       "community": 3,
       "norm_label": "asynchandler"
     },
     {
       "label": "AppError",
       "file_type": "code",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L9",
-      "id": "expense_tracker_controller_apperror",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
+      "id": "expenses_controller_apperror",
       "community": 3,
       "norm_label": "apperror"
     },
     {
       "label": "service",
       "file_type": "code",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L10",
-      "id": "expense_tracker_controller_service",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "id": "expenses_controller_service",
       "community": 3,
       "norm_label": "service"
+    },
+    {
+      "label": "queries.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "id": "expenses_queries",
+      "community": 5,
+      "norm_label": "queries.js"
+    },
+    {
+      "label": "pool",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "id": "expenses_queries_pool",
+      "community": 5,
+      "norm_label": "pool"
+    },
+    {
+      "label": "getTagsForExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L10",
+      "id": "expenses_queries_gettagsforexpense",
+      "community": 5,
+      "norm_label": "gettagsforexpense()"
+    },
+    {
+      "label": "attachTagToExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L22",
+      "id": "expenses_queries_attachtagtoexpense",
+      "community": 5,
+      "norm_label": "attachtagtoexpense()"
+    },
+    {
+      "label": "detachTagFromExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L33",
+      "id": "expenses_queries_detachtagfromexpense",
+      "community": 5,
+      "norm_label": "detachtagfromexpense()"
+    },
+    {
+      "label": "countExpenses()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L45",
+      "id": "expenses_queries_countexpenses",
+      "community": 5,
+      "norm_label": "countexpenses()"
+    },
+    {
+      "label": "buildExpenseFilterClause()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L59",
+      "id": "expenses_queries_buildexpensefilterclause",
+      "community": 5,
+      "norm_label": "buildexpensefilterclause()"
+    },
+    {
+      "label": "SORT_MAP",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L110",
+      "id": "expenses_queries_sort_map",
+      "community": 5,
+      "norm_label": "sort_map"
+    },
+    {
+      "label": "getExpenses()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L119",
+      "id": "expenses_queries_getexpenses",
+      "community": 5,
+      "norm_label": "getexpenses()"
+    },
+    {
+      "label": "getExpenseById()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L141",
+      "id": "expenses_queries_getexpensebyid",
+      "community": 5,
+      "norm_label": "getexpensebyid()"
+    },
+    {
+      "label": "createExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L156",
+      "id": "expenses_queries_createexpense",
+      "community": 5,
+      "norm_label": "createexpense()"
+    },
+    {
+      "label": "bulkCreateExpenses()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L175",
+      "id": "expenses_queries_bulkcreateexpenses",
+      "community": 5,
+      "norm_label": "bulkcreateexpenses()"
+    },
+    {
+      "label": "updateExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L206",
+      "id": "expenses_queries_updateexpense",
+      "community": 5,
+      "norm_label": "updateexpense()"
+    },
+    {
+      "label": "deleteExpenseById()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L233",
+      "id": "expenses_queries_deleteexpensebyid",
+      "community": 5,
+      "norm_label": "deleteexpensebyid()"
+    },
+    {
+      "label": "bulkDeleteExpenses()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L241",
+      "id": "expenses_queries_bulkdeleteexpenses",
+      "community": 5,
+      "norm_label": "bulkdeleteexpenses()"
+    },
+    {
+      "label": "findDuplicates()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L250",
+      "id": "expenses_queries_findduplicates",
+      "community": 5,
+      "norm_label": "findduplicates()"
+    },
+    {
+      "label": "routes.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L1",
+      "id": "expenses_routes",
+      "community": 3,
+      "norm_label": "routes.js"
+    },
+    {
+      "label": "{ Router }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L1",
+      "id": "expenses_routes_router",
+      "community": 3,
+      "norm_label": "{ router }"
+    },
+    {
+      "label": "ctrl",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "id": "expenses_routes_ctrl",
+      "community": 3,
+      "norm_label": "ctrl"
+    },
+    {
+      "label": "service.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "id": "expenses_service",
+      "community": 3,
+      "norm_label": "service.js"
+    },
+    {
+      "label": "q",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "id": "expenses_service_q",
+      "community": 3,
+      "norm_label": "q"
+    },
+    {
+      "label": "categoryQueries",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "id": "expenses_service_categoryqueries",
+      "community": 3,
+      "norm_label": "categoryqueries"
+    },
+    {
+      "label": "tagQueries",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L3",
+      "id": "expenses_service_tagqueries",
+      "community": 3,
+      "norm_label": "tagqueries"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L4",
+      "id": "expenses_service_apperror",
+      "community": 3,
+      "norm_label": "apperror"
     },
     {
       "label": "index.js",
@@ -553,175 +769,13 @@
       "norm_label": "index.js"
     },
     {
-      "label": "router",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/index.js",
-      "source_location": "L5",
-      "id": "expense_tracker_index_router",
-      "community": 13,
-      "norm_label": "router"
-    },
-    {
-      "label": "queries.js",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L1",
-      "id": "expense_tracker_queries",
-      "community": 5,
-      "norm_label": "queries.js"
-    },
-    {
-      "label": "pool",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L11",
-      "id": "expense_tracker_queries_pool",
-      "community": 5,
-      "norm_label": "pool"
-    },
-    {
-      "label": "getAllCategories()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L18",
-      "id": "expense_tracker_queries_getallcategories",
-      "community": 5,
-      "norm_label": "getallcategories()"
-    },
-    {
-      "label": "getCategoryById()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L25",
-      "id": "expense_tracker_queries_getcategorybyid",
-      "community": 5,
-      "norm_label": "getcategorybyid()"
-    },
-    {
-      "label": "createCategory()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L33",
-      "id": "expense_tracker_queries_createcategory",
-      "community": 5,
-      "norm_label": "createcategory()"
-    },
-    {
-      "label": "deleteCategoryById()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L43",
-      "id": "expense_tracker_queries_deletecategorybyid",
-      "community": 5,
-      "norm_label": "deletecategorybyid()"
-    },
-    {
-      "label": "getExpenses()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L57",
-      "id": "expense_tracker_queries_getexpenses",
-      "community": 5,
-      "norm_label": "getexpenses()"
-    },
-    {
-      "label": "getExpenseById()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L93",
-      "id": "expense_tracker_queries_getexpensebyid",
-      "community": 5,
-      "norm_label": "getexpensebyid()"
-    },
-    {
-      "label": "createExpense()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L108",
-      "id": "expense_tracker_queries_createexpense",
-      "community": 5,
-      "norm_label": "createexpense()"
-    },
-    {
-      "label": "updateExpense()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L118",
-      "id": "expense_tracker_queries_updateexpense",
-      "community": 5,
-      "norm_label": "updateexpense()"
-    },
-    {
-      "label": "deleteExpenseById()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L142",
-      "id": "expense_tracker_queries_deleteexpensebyid",
-      "community": 5,
-      "norm_label": "deleteexpensebyid()"
-    },
-    {
-      "label": "getExpenseSummary()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L154",
-      "id": "expense_tracker_queries_getexpensesummary",
-      "community": 5,
-      "norm_label": "getexpensesummary()"
-    },
-    {
-      "label": "routes.js",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/routes.js",
-      "source_location": "L1",
-      "id": "expense_tracker_routes",
-      "community": 13,
-      "norm_label": "routes.js"
-    },
-    {
       "label": "{ Router }",
       "file_type": "code",
-      "source_file": "src/modules/expense-tracker/routes.js",
-      "source_location": "L1",
-      "id": "expense_tracker_routes_router",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L7",
+      "id": "expense_tracker_index_router",
       "community": 13,
       "norm_label": "{ router }"
-    },
-    {
-      "label": "ctrl",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/routes.js",
-      "source_location": "L2",
-      "id": "expense_tracker_routes_ctrl",
-      "community": 13,
-      "norm_label": "ctrl"
-    },
-    {
-      "label": "service.js",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/service.js",
-      "source_location": "L1",
-      "id": "expense_tracker_service",
-      "community": 3,
-      "norm_label": "service.js"
-    },
-    {
-      "label": "q",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/service.js",
-      "source_location": "L1",
-      "id": "expense_tracker_service_q",
-      "community": 3,
-      "norm_label": "q"
-    },
-    {
-      "label": "AppError",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/service.js",
-      "source_location": "L2",
-      "id": "expense_tracker_service_apperror",
-      "community": 3,
-      "norm_label": "apperror"
     },
     {
       "label": "CLAUDE.md",
@@ -1132,25 +1186,97 @@
       "label": "Endpoints",
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
-      "source_location": "L12",
+      "source_location": "L15",
       "id": "expense_tracker_readme_endpoints",
-      "community": 6,
+      "community": 15,
       "norm_label": "endpoints"
+    },
+    {
+      "label": "Categories",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L17",
+      "id": "expense_tracker_readme_categories",
+      "community": 15,
+      "norm_label": "categories"
+    },
+    {
+      "label": "Payment Methods",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L25",
+      "id": "expense_tracker_readme_payment_methods",
+      "community": 15,
+      "norm_label": "payment methods"
+    },
+    {
+      "label": "Tags",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L33",
+      "id": "expense_tracker_readme_tags",
+      "community": 15,
+      "norm_label": "tags"
+    },
+    {
+      "label": "Expenses",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L41",
+      "id": "expense_tracker_readme_expenses",
+      "community": 15,
+      "norm_label": "expenses"
     },
     {
       "label": "Query Filters (`GET /api/expenses`)",
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
-      "source_location": "L26",
+      "source_location": "L57",
       "id": "expense_tracker_readme_query_filters_get_api_expenses",
       "community": 6,
       "norm_label": "query filters (`get /api/expenses`)"
     },
     {
+      "label": "Response Format",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L74",
+      "id": "expense_tracker_readme_response_format",
+      "community": 6,
+      "norm_label": "response format"
+    },
+    {
+      "label": "Paginated List (`GET /api/expenses`)",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L76",
+      "id": "expense_tracker_readme_paginated_list_get_api_expenses",
+      "community": 6,
+      "norm_label": "paginated list (`get /api/expenses`)"
+    },
+    {
+      "label": "Single Expense (includes tags)",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L90",
+      "id": "expense_tracker_readme_single_expense_includes_tags",
+      "community": 6,
+      "norm_label": "single expense (includes tags)"
+    },
+    {
+      "label": "Duplicate Warning",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L110",
+      "id": "expense_tracker_readme_duplicate_warning",
+      "community": 6,
+      "norm_label": "duplicate warning"
+    },
+    {
       "label": "Example Request Bodies",
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
-      "source_location": "L36",
+      "source_location": "L126",
       "id": "expense_tracker_readme_example_request_bodies",
       "community": 6,
       "norm_label": "example request bodies"
@@ -1159,37 +1285,73 @@
       "label": "Create Expense",
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
-      "source_location": "L38",
+      "source_location": "L128",
       "id": "expense_tracker_readme_create_expense",
       "community": 6,
       "norm_label": "create expense"
     },
     {
+      "label": "Bulk Create",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L141",
+      "id": "expense_tracker_readme_bulk_create",
+      "community": 6,
+      "norm_label": "bulk create"
+    },
+    {
+      "label": "Bulk Delete",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L151",
+      "id": "expense_tracker_readme_bulk_delete",
+      "community": 6,
+      "norm_label": "bulk delete"
+    },
+    {
+      "label": "Attach Tag",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L158",
+      "id": "expense_tracker_readme_attach_tag",
+      "community": 6,
+      "norm_label": "attach tag"
+    },
+    {
       "label": "Create Category",
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
-      "source_location": "L49",
+      "source_location": "L165",
       "id": "expense_tracker_readme_create_category",
       "community": 6,
       "norm_label": "create category"
     },
     {
+      "label": "Create Tag",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L174",
+      "id": "expense_tracker_readme_create_tag",
+      "community": 6,
+      "norm_label": "create tag"
+    },
+    {
+      "label": "Business Logic Rules",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L182",
+      "id": "expense_tracker_readme_business_logic_rules",
+      "community": 6,
+      "norm_label": "business logic rules"
+    },
+    {
       "label": "Data Access Style",
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
-      "source_location": "L58",
+      "source_location": "L194",
       "id": "expense_tracker_readme_data_access_style",
       "community": 6,
       "norm_label": "data access style"
-    },
-    {
-      "label": "q",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L10",
-      "community": 3,
-      "norm_label": "q",
-      "id": "expense_tracker_controller_q"
     }
   ],
   "links": [
@@ -1419,9 +1581,9 @@
       "source_file": "seed_expenses.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "seed_expenses",
-      "target": "seed_expenses_expenses",
-      "confidence_score": 1.0
+      "target": "seed_expenses_expenses"
     },
     {
       "relation": "contains",
@@ -1429,9 +1591,9 @@
       "source_file": "seed_expenses.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "seed_expenses",
-      "target": "seed_expenses_http",
-      "confidence_score": 1.0
+      "target": "seed_expenses_http"
     },
     {
       "relation": "contains",
@@ -1439,9 +1601,9 @@
       "source_file": "seed_expenses.js",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "seed_expenses",
-      "target": "seed_expenses_postexpense",
-      "confidence_score": 1.0
+      "target": "seed_expenses_postexpense"
     },
     {
       "relation": "contains",
@@ -1449,9 +1611,9 @@
       "source_file": "seed_expenses.js",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "seed_expenses",
-      "target": "seed_expenses_seed",
-      "confidence_score": 1.0
+      "target": "seed_expenses_seed"
     },
     {
       "relation": "calls",
@@ -1460,9 +1622,9 @@
       "source_file": "seed_expenses.js",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "seed_expenses_seed",
-      "target": "seed_expenses_postexpense",
-      "confidence_score": 1.0
+      "target": "seed_expenses_postexpense"
     },
     {
       "relation": "contains",
@@ -1591,12 +1753,12 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L11",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "config_db"
+      "source": "expenses_queries",
+      "target": "config_db",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1613,21 +1775,21 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L9",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_controller",
-      "target": "lib_apperror"
+      "source": "expenses_controller",
+      "target": "lib_apperror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/service.js",
-      "source_location": "L2",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L4",
       "weight": 1.0,
-      "source": "expense_tracker_service",
+      "source": "expenses_service",
       "target": "lib_apperror",
       "confidence_score": 1.0
     },
@@ -1655,12 +1817,12 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L8",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_controller",
-      "target": "lib_asynchandler"
+      "source": "expenses_controller",
+      "target": "lib_asynchandler",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1745,75 +1907,297 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_controller",
-      "target": "expense_tracker_controller_apperror"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_controller",
-      "target": "expense_tracker_controller_asynchandler"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_controller",
-      "target": "expense_tracker_controller_q"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "expense_tracker_controller",
-      "target": "expense_tracker_controller_service",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_controller",
-      "target": "expense_tracker_queries"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/controller.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "expense_tracker_controller",
-      "target": "expense_tracker_service",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/routes.js",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_routes",
-      "target": "expense_tracker_controller"
+      "source": "expenses_controller",
+      "target": "expenses_controller_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "expenses_controller_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "expenses_controller_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "expenses_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_controller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_attachtagtoexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_buildexpensefilterclause",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_bulkcreateexpenses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L241",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_bulkdeleteexpenses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_countexpenses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_createexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_deleteexpensebyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_detachtagfromexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L250",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_findduplicates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_getexpensebyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_getexpenses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_gettagsforexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_pool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_sort_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_updateexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_queries",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "expenses_queries_countexpenses",
+      "target": "expenses_queries_buildexpensefilterclause",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "expenses_queries_getexpenses",
+      "target": "expenses_queries_buildexpensefilterclause",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_routes_ctrl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_routes_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_categoryqueries",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_q",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_tagqueries",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1824,178 +2208,6 @@
       "confidence_score": 1.0,
       "source": "expense_tracker_index",
       "target": "expense_tracker_index_router"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/index.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_index",
-      "target": "expense_tracker_routes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_createcategory"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L108",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_createexpense"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_deletecategorybyid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L142",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_deleteexpensebyid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getallcategories"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getcategorybyid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L93",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getexpensebyid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L57",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getexpenses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L154",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_getexpensesummary"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_pool"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/queries.js",
-      "source_location": "L118",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_queries",
-      "target": "expense_tracker_queries_updateexpense"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/service.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "expense_tracker_service",
-      "target": "expense_tracker_queries",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/routes.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_routes",
-      "target": "expense_tracker_routes_ctrl"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/routes.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expense_tracker_routes",
-      "target": "expense_tracker_routes_router"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/service.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "expense_tracker_service",
-      "target": "expense_tracker_service_apperror",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/service.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "expense_tracker_service",
-      "target": "expense_tracker_service_q",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2391,6 +2603,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_expense_tracker_module",
+      "target": "expense_tracker_readme_business_logic_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L58",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2431,11 +2653,121 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_expense_tracker_module",
+      "target": "expense_tracker_readme_response_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
       "target": "expense_tracker_readme_tables"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_endpoints",
+      "target": "expense_tracker_readme_categories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_endpoints",
+      "target": "expense_tracker_readme_expenses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_endpoints",
+      "target": "expense_tracker_readme_payment_methods",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_endpoints",
+      "target": "expense_tracker_readme_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_response_format",
+      "target": "expense_tracker_readme_duplicate_warning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_response_format",
+      "target": "expense_tracker_readme_paginated_list_get_api_expenses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_response_format",
+      "target": "expense_tracker_readme_single_expense_includes_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_example_request_bodies",
+      "target": "expense_tracker_readme_attach_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_example_request_bodies",
+      "target": "expense_tracker_readme_bulk_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_example_request_bodies",
+      "target": "expense_tracker_readme_bulk_delete",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2456,8 +2788,18 @@
       "confidence_score": 1.0,
       "source": "expense_tracker_readme_example_request_bodies",
       "target": "expense_tracker_readme_create_expense"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "expense_tracker_readme_example_request_bodies",
+      "target": "expense_tracker_readme_create_tag",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "446ec555e3d9e314254d42ee0fab8d04f9b39b99"
+  "built_at_commit": "c637de05d3cb34115582b28c84eb7484dcd57f77"
 }

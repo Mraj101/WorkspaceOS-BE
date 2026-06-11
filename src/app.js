@@ -19,13 +19,13 @@ app.use(express.urlencoded({ extended: false }));
 
 // ─── Health Check ─────────────────────────────────────────────────────────────
 app.get('/health', (req, res) => {
-    res.json({ status: 'ok', timestamp: new Date().toISOString() });
+    res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
 // ─── Module Routes ────────────────────────────────────────────────────────────
 // Register each module's router here as you add them.
 // Pattern: app.use('/api/<resource>', require('./modules/<name>'));
-app.use('/api', require('./modules/expense-tracker'));
+app.use('/api/v1/expense_tracker', require('./modules/expense-tracker'));
 
 // ─── Error Handling (must be last) ───────────────────────────────────────────
 app.use(notFound);
