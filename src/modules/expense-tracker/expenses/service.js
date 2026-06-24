@@ -1,5 +1,5 @@
 const q = require('./queries');
-const AppError = require('../../../lib/AppError');
+const { ValidationError } = require('../../../errors');
 
 const MAX_EXPENSE_AMOUNT   = 10_000_000;
 const DUPLICATE_WINDOW_MIN = 5;
@@ -8,30 +8,33 @@ exports.createExpense = async (expenseData) => {
   const { title, amount, category_id, note, spent_at, payment_method, is_recurring } = expenseData;
 
   if (!title || typeof title !== 'string' || !title.trim()) {
-    throw new AppError('title is required', 400);
+    throw ValidationError.fromField('title', 'title is required');
   }
 
   if (amount === undefined || amount === null) {
-    throw new AppError('amount is required', 400);
+    throw ValidationError.fromField('amount', 'amount is required');
   }
   const parsedAmount = parseFloat(amount);
   if (isNaN(parsedAmount) || parsedAmount <= 0) {
-    throw new AppError('amount must be a positive number', 400);
+    throw ValidationError.fromField('amount', 'amount must be a positive number');
   }
   if (parsedAmount > MAX_EXPENSE_AMOUNT) {
-    throw new AppError(`amount cannot exceed ${MAX_EXPENSE_AMOUNT.toLocaleString()}`, 400);
+    throw ValidationError.fromField(
+      'amount',
+      `amount cannot exceed ${MAX_EXPENSE_AMOUNT.toLocaleString()}`
+    );
   }
 
   if (spent_at) {
     const spentDate = new Date(spent_at);
     if (isNaN(spentDate.getTime())) {
-      throw new AppError('spent_at must be a valid date (YYYY-MM-DD)', 400);
+      throw ValidationError.fromField('spent_at', 'spent_at must be a valid date (YYYY-MM-DD)');
     }
     const tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
     tomorrow.setHours(0, 0, 0, 0);
     if (spentDate >= tomorrow) {
-      throw new AppError('spent_at cannot be a future date', 400);
+      throw ValidationError.fromField('spent_at', 'spent_at cannot be a future date');
     }
   }
 

@@ -3,17 +3,21 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 
+const requestId = require('./middleware/requestId');
 const notFound = require('./middleware/notFound');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
 
-// ─── Security & Logging ──────────────────────────────────────────────────────
+// ─── Request Tracing ───────────────────────────────────────────────────────────
+app.use(requestId);
+
+// ─── Security & Logging ────────────────────────────────────────────────────────
 app.use(helmet());
 app.use(cors());
 app.use(morgan('dev'));
 
-// ─── Body Parsing ─────────────────────────────────────────────────────────────
+// ─── Body Parsing ──────────────────────────────────────────────────────────────
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
@@ -27,7 +31,7 @@ app.get('/health', (req, res) => {
 // Pattern: app.use('/api/<resource>', require('./modules/<name>'));
 app.use('/api/v1/expense_tracker', require('./modules/expense-tracker'));
 
-// ─── Error Handling (must be last) ───────────────────────────────────────────
+// ─── Error Handling (must be last) ─────────────────────────────────────────────
 app.use(notFound);
 app.use(errorHandler);
 

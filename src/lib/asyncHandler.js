@@ -9,7 +9,7 @@
  *
  * Without this, an unhandled async rejection would crash the process.
  */
-const asyncHandler = (fn) => (req, res, next) =>
-  Promise.resolve(fn(req, res, next)).catch(next);
+const asyncHandler = (receivedOGFunction) => (req, res, next) =>
+  Promise.resolve(receivedOGFunction(req, res, next)).catch(next);
 
 module.exports = asyncHandler;

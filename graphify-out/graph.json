@@ -144,7 +144,7 @@
       "source_file": "package.json",
       "source_location": "L14",
       "id": "package_dependencies",
-      "community": 8,
+      "community": 2,
       "norm_label": "dependencies"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "package.json",
       "source_location": "L15",
       "id": "package_dependencies_cors",
-      "community": 8,
+      "community": 2,
       "norm_label": "cors"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "package.json",
       "source_location": "L16",
       "id": "package_dependencies_dotenv",
-      "community": 8,
+      "community": 2,
       "norm_label": "dotenv"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "package.json",
       "source_location": "L17",
       "id": "package_dependencies_express",
-      "community": 8,
+      "community": 2,
       "norm_label": "express"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "package.json",
       "source_location": "L18",
       "id": "package_dependencies_helmet",
-      "community": 8,
+      "community": 2,
       "norm_label": "helmet"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "package.json",
       "source_location": "L19",
       "id": "package_dependencies_morgan",
-      "community": 8,
+      "community": 2,
       "norm_label": "morgan"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "package.json",
       "source_location": "L20",
       "id": "package_dependencies_pg",
-      "community": 8,
+      "community": 2,
       "norm_label": "pg"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "server.js",
       "source_location": "L1",
       "id": "server",
-      "community": 4,
+      "community": 15,
       "norm_label": "server.js"
     },
     {
@@ -279,8 +279,17 @@
       "source_file": "server.js",
       "source_location": "L3",
       "id": "server_app",
-      "community": 4,
+      "community": 15,
       "norm_label": "app"
+    },
+    {
+      "label": "{ logError }",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "id": "server_logerror",
+      "community": 15,
+      "norm_label": "{ logerror }"
     },
     {
       "label": "app.js",
@@ -328,10 +337,19 @@
       "norm_label": "morgan"
     },
     {
-      "label": "notFound",
+      "label": "requestId",
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L6",
+      "id": "src_app_requestid",
+      "community": 4,
+      "norm_label": "requestid"
+    },
+    {
+      "label": "notFound",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L7",
       "id": "src_app_notfound",
       "community": 4,
       "norm_label": "notfound"
@@ -340,7 +358,7 @@
       "label": "errorHandler",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L7",
+      "source_location": "L8",
       "id": "src_app_errorhandler",
       "community": 4,
       "norm_label": "errorhandler"
@@ -349,7 +367,7 @@
       "label": "app",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L9",
+      "source_location": "L10",
       "id": "src_app_app",
       "community": 4,
       "norm_label": "app"
@@ -375,29 +393,209 @@
     {
       "label": "AppError.js",
       "file_type": "code",
-      "source_file": "src/lib/AppError.js",
+      "source_file": "src/errors/AppError.js",
       "source_location": "L1",
-      "id": "lib_apperror",
-      "community": 3,
+      "id": "errors_apperror",
+      "community": 8,
       "norm_label": "apperror.js"
     },
     {
       "label": "AppError",
       "file_type": "code",
-      "source_file": "src/lib/AppError.js",
+      "source_file": "src/errors/AppError.js",
       "source_location": "L10",
-      "id": "lib_apperror_apperror",
-      "community": 3,
+      "id": "errors_apperror_apperror",
+      "community": 8,
       "norm_label": "apperror"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
-      "source_file": "src/lib/AppError.js",
+      "source_file": "src/errors/AppError.js",
       "source_location": "L11",
-      "id": "lib_apperror_apperror_constructor",
-      "community": 3,
+      "id": "errors_apperror_apperror_constructor",
+      "community": 8,
       "norm_label": ".constructor()"
+    },
+    {
+      "label": "httpErrors.js",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "id": "errors_httperrors",
+      "community": 8,
+      "norm_label": "httperrors.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "id": "errors_httperrors_apperror",
+      "community": 8,
+      "norm_label": "apperror"
+    },
+    {
+      "label": "NotFoundError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L3",
+      "id": "errors_httperrors_notfounderror",
+      "community": 8,
+      "norm_label": "notfounderror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L4",
+      "id": "errors_httperrors_notfounderror_constructor",
+      "community": 8,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "ValidationError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L13",
+      "id": "errors_httperrors_validationerror",
+      "community": 8,
+      "norm_label": "validationerror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L14",
+      "id": "errors_httperrors_validationerror_constructor",
+      "community": 8,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".fromField()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L18",
+      "id": "errors_httperrors_validationerror_fromfield",
+      "community": 8,
+      "norm_label": ".fromfield()"
+    },
+    {
+      "label": ".fromFields()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L22",
+      "id": "errors_httperrors_validationerror_fromfields",
+      "community": 8,
+      "norm_label": ".fromfields()"
+    },
+    {
+      "label": "ConflictError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L31",
+      "id": "errors_httperrors_conflicterror",
+      "community": 8,
+      "norm_label": "conflicterror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L32",
+      "id": "errors_httperrors_conflicterror_constructor",
+      "community": 8,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "UnauthorizedError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L37",
+      "id": "errors_httperrors_unauthorizederror",
+      "community": 8,
+      "norm_label": "unauthorizederror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L38",
+      "id": "errors_httperrors_unauthorizederror_constructor",
+      "community": 8,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "id": "errors_index",
+      "community": 8,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "id": "errors_index_apperror",
+      "community": 8,
+      "norm_label": "apperror"
+    },
+    {
+      "label": "mapPgError",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "id": "errors_index_mappgerror",
+      "community": 8,
+      "norm_label": "mappgerror"
+    },
+    {
+      "label": "{\n  NotFoundError,\n  ValidationError,\n  ConflictError,\n  UnauthorizedError,\n}",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "id": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "community": 8,
+      "norm_label": "{\n  notfounderror,\n  validationerror,\n  conflicterror,\n  unauthorizederror,\n}"
+    },
+    {
+      "label": "pgErrorMapper.js",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "id": "errors_pgerrormapper",
+      "community": 8,
+      "norm_label": "pgerrormapper.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "id": "errors_pgerrormapper_apperror",
+      "community": 8,
+      "norm_label": "apperror"
+    },
+    {
+      "label": "{ ConflictError }",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "id": "errors_pgerrormapper_conflicterror",
+      "community": 8,
+      "norm_label": "{ conflicterror }"
+    },
+    {
+      "label": "mapPgError()",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L8",
+      "id": "errors_pgerrormapper_mappgerror",
+      "community": 8,
+      "norm_label": "mappgerror()"
     },
     {
       "label": "asyncHandler.js",
@@ -477,16 +675,70 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L1",
       "id": "middleware_errorhandler",
-      "community": 4,
+      "community": 15,
       "norm_label": "errorhandler.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "id": "middleware_errorhandler_apperror",
+      "community": 15,
+      "norm_label": "apperror"
+    },
+    {
+      "label": "mapPgError",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "id": "middleware_errorhandler_mappgerror",
+      "community": 15,
+      "norm_label": "mappgerror"
+    },
+    {
+      "label": "{ logError }",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "id": "middleware_errorhandler_logerror",
+      "community": 15,
+      "norm_label": "{ logerror }"
+    },
+    {
+      "label": "isProduction()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L5",
+      "id": "middleware_errorhandler_isproduction",
+      "community": 15,
+      "norm_label": "isproduction()"
+    },
+    {
+      "label": "mapError()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L10",
+      "id": "middleware_errorhandler_maperror",
+      "community": 15,
+      "norm_label": "maperror()"
+    },
+    {
+      "label": "buildErrorResponse()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L35",
+      "id": "middleware_errorhandler_builderrorresponse",
+      "community": 15,
+      "norm_label": "builderrorresponse()"
     },
     {
       "label": "errorHandler()",
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
-      "source_location": "L10",
+      "source_location": "L77",
       "id": "middleware_errorhandler_errorhandler",
-      "community": 4,
+      "community": 15,
       "norm_label": "errorhandler()"
     },
     {
@@ -499,13 +751,49 @@
       "norm_label": "notfound.js"
     },
     {
+      "label": "{ NotFoundError }",
+      "file_type": "code",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "id": "middleware_notfound_notfounderror",
+      "community": 4,
+      "norm_label": "{ notfounderror }"
+    },
+    {
       "label": "notFound()",
       "file_type": "code",
       "source_file": "src/middleware/notFound.js",
-      "source_location": "L6",
+      "source_location": "L8",
       "id": "middleware_notfound_notfound",
       "community": 4,
       "norm_label": "notfound()"
+    },
+    {
+      "label": "requestId.js",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "id": "middleware_requestid",
+      "community": 4,
+      "norm_label": "requestid.js"
+    },
+    {
+      "label": "{ randomUUID }",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "id": "middleware_requestid_randomuuid",
+      "community": 4,
+      "norm_label": "{ randomuuid }"
+    },
+    {
+      "label": "requestId()",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L6",
+      "id": "middleware_requestid_requestid",
+      "community": 4,
+      "norm_label": "requestid()"
     },
     {
       "label": "controller.js",
@@ -526,19 +814,10 @@
       "norm_label": "asynchandler"
     },
     {
-      "label": "AppError",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/controller.js",
-      "source_location": "L2",
-      "id": "expenses_controller_apperror",
-      "community": 3,
-      "norm_label": "apperror"
-    },
-    {
       "label": "service",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
-      "source_location": "L3",
+      "source_location": "L2",
       "id": "expenses_controller_service",
       "community": 3,
       "norm_label": "service"
@@ -562,127 +841,19 @@
       "norm_label": "pool"
     },
     {
-      "label": "getTagsForExpense()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L10",
-      "id": "expenses_queries_gettagsforexpense",
-      "community": 5,
-      "norm_label": "gettagsforexpense()"
-    },
-    {
-      "label": "attachTagToExpense()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L22",
-      "id": "expenses_queries_attachtagtoexpense",
-      "community": 5,
-      "norm_label": "attachtagtoexpense()"
-    },
-    {
-      "label": "detachTagFromExpense()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L33",
-      "id": "expenses_queries_detachtagfromexpense",
-      "community": 5,
-      "norm_label": "detachtagfromexpense()"
-    },
-    {
-      "label": "countExpenses()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L45",
-      "id": "expenses_queries_countexpenses",
-      "community": 5,
-      "norm_label": "countexpenses()"
-    },
-    {
-      "label": "buildExpenseFilterClause()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L59",
-      "id": "expenses_queries_buildexpensefilterclause",
-      "community": 5,
-      "norm_label": "buildexpensefilterclause()"
-    },
-    {
-      "label": "SORT_MAP",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L110",
-      "id": "expenses_queries_sort_map",
-      "community": 5,
-      "norm_label": "sort_map"
-    },
-    {
-      "label": "getExpenses()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L119",
-      "id": "expenses_queries_getexpenses",
-      "community": 5,
-      "norm_label": "getexpenses()"
-    },
-    {
-      "label": "getExpenseById()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L141",
-      "id": "expenses_queries_getexpensebyid",
-      "community": 5,
-      "norm_label": "getexpensebyid()"
-    },
-    {
       "label": "createExpense()",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L156",
+      "source_location": "L5",
       "id": "expenses_queries_createexpense",
       "community": 5,
       "norm_label": "createexpense()"
     },
     {
-      "label": "bulkCreateExpenses()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L175",
-      "id": "expenses_queries_bulkcreateexpenses",
-      "community": 5,
-      "norm_label": "bulkcreateexpenses()"
-    },
-    {
-      "label": "updateExpense()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L206",
-      "id": "expenses_queries_updateexpense",
-      "community": 5,
-      "norm_label": "updateexpense()"
-    },
-    {
-      "label": "deleteExpenseById()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L233",
-      "id": "expenses_queries_deleteexpensebyid",
-      "community": 5,
-      "norm_label": "deleteexpensebyid()"
-    },
-    {
-      "label": "bulkDeleteExpenses()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L241",
-      "id": "expenses_queries_bulkdeleteexpenses",
-      "community": 5,
-      "norm_label": "bulkdeleteexpenses()"
-    },
-    {
       "label": "findDuplicates()",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L250",
+      "source_location": "L24",
       "id": "expenses_queries_findduplicates",
       "community": 5,
       "norm_label": "findduplicates()"
@@ -733,31 +904,13 @@
       "norm_label": "q"
     },
     {
-      "label": "categoryQueries",
+      "label": "{ ValidationError }",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L2",
-      "id": "expenses_service_categoryqueries",
+      "id": "expenses_service_validationerror",
       "community": 3,
-      "norm_label": "categoryqueries"
-    },
-    {
-      "label": "tagQueries",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/service.js",
-      "source_location": "L3",
-      "id": "expenses_service_tagqueries",
-      "community": 3,
-      "norm_label": "tagqueries"
-    },
-    {
-      "label": "AppError",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/service.js",
-      "source_location": "L4",
-      "id": "expenses_service_apperror",
-      "community": 3,
-      "norm_label": "apperror"
+      "norm_label": "{ validationerror }"
     },
     {
       "label": "index.js",
@@ -776,6 +929,24 @@
       "id": "expense_tracker_index_router",
       "community": 13,
       "norm_label": "{ router }"
+    },
+    {
+      "label": "logger.js",
+      "file_type": "code",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L1",
+      "id": "utils_logger",
+      "community": 15,
+      "norm_label": "logger.js"
+    },
+    {
+      "label": "logError()",
+      "file_type": "code",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L5",
+      "id": "utils_logger_logerror",
+      "community": 15,
+      "norm_label": "logerror()"
     },
     {
       "label": "CLAUDE.md",
@@ -1188,7 +1359,7 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L15",
       "id": "expense_tracker_readme_endpoints",
-      "community": 15,
+      "community": 6,
       "norm_label": "endpoints"
     },
     {
@@ -1197,7 +1368,7 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L17",
       "id": "expense_tracker_readme_categories",
-      "community": 15,
+      "community": 6,
       "norm_label": "categories"
     },
     {
@@ -1206,7 +1377,7 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L25",
       "id": "expense_tracker_readme_payment_methods",
-      "community": 15,
+      "community": 6,
       "norm_label": "payment methods"
     },
     {
@@ -1215,7 +1386,7 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L33",
       "id": "expense_tracker_readme_tags",
-      "community": 15,
+      "community": 6,
       "norm_label": "tags"
     },
     {
@@ -1224,7 +1395,7 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L41",
       "id": "expense_tracker_readme_expenses",
-      "community": 15,
+      "community": 6,
       "norm_label": "expenses"
     },
     {
@@ -1352,6 +1523,150 @@
       "id": "expense_tracker_readme_data_access_style",
       "community": 6,
       "norm_label": "data access style"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
+      "community": 3,
+      "norm_label": "apperror",
+      "id": "expenses_controller_apperror"
+    },
+    {
+      "label": "getTagsForExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L10",
+      "community": 5,
+      "norm_label": "gettagsforexpense()",
+      "id": "expenses_queries_gettagsforexpense"
+    },
+    {
+      "label": "attachTagToExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L22",
+      "community": 5,
+      "norm_label": "attachtagtoexpense()",
+      "id": "expenses_queries_attachtagtoexpense"
+    },
+    {
+      "label": "detachTagFromExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L33",
+      "community": 5,
+      "norm_label": "detachtagfromexpense()",
+      "id": "expenses_queries_detachtagfromexpense"
+    },
+    {
+      "label": "countExpenses()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L45",
+      "community": 5,
+      "norm_label": "countexpenses()",
+      "id": "expenses_queries_countexpenses"
+    },
+    {
+      "label": "buildExpenseFilterClause()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L59",
+      "community": 5,
+      "norm_label": "buildexpensefilterclause()",
+      "id": "expenses_queries_buildexpensefilterclause"
+    },
+    {
+      "label": "SORT_MAP",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L110",
+      "community": 5,
+      "norm_label": "sort_map",
+      "id": "expenses_queries_sort_map"
+    },
+    {
+      "label": "getExpenses()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L119",
+      "community": 5,
+      "norm_label": "getexpenses()",
+      "id": "expenses_queries_getexpenses"
+    },
+    {
+      "label": "getExpenseById()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L141",
+      "community": 5,
+      "norm_label": "getexpensebyid()",
+      "id": "expenses_queries_getexpensebyid"
+    },
+    {
+      "label": "bulkCreateExpenses()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L175",
+      "community": 5,
+      "norm_label": "bulkcreateexpenses()",
+      "id": "expenses_queries_bulkcreateexpenses"
+    },
+    {
+      "label": "updateExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L206",
+      "community": 5,
+      "norm_label": "updateexpense()",
+      "id": "expenses_queries_updateexpense"
+    },
+    {
+      "label": "deleteExpenseById()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L233",
+      "community": 5,
+      "norm_label": "deleteexpensebyid()",
+      "id": "expenses_queries_deleteexpensebyid"
+    },
+    {
+      "label": "bulkDeleteExpenses()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L241",
+      "community": 5,
+      "norm_label": "bulkdeleteexpenses()",
+      "id": "expenses_queries_bulkdeleteexpenses"
+    },
+    {
+      "label": "categoryQueries",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "community": 3,
+      "norm_label": "categoryqueries",
+      "id": "expenses_service_categoryqueries"
+    },
+    {
+      "label": "tagQueries",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L3",
+      "community": 3,
+      "norm_label": "tagqueries",
+      "id": "expenses_service_tagqueries"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L4",
+      "community": 3,
+      "norm_label": "apperror",
+      "id": "expenses_service_apperror"
     }
   ],
   "links": [
@@ -1637,6 +1952,16 @@
       "target": "server_app"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server",
+      "target": "server_logerror",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1646,6 +1971,28 @@
       "confidence_score": 1.0,
       "source": "server",
       "target": "src_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server",
+      "target": "utils_logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server",
+      "target": "utils_logger_logerror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1668,6 +2015,17 @@
       "confidence_score": 1.0,
       "source": "src_app",
       "target": "middleware_notfound"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "middleware_requestid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1742,6 +2100,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_requestid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/config/db.js",
       "source_location": "L4",
       "weight": 1.0,
@@ -1756,9 +2124,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "config_db",
-      "confidence_score": 1.0
+      "target": "config_db"
     },
     {
       "relation": "imports_from",
@@ -1772,14 +2140,295 @@
       "target": "config_db"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "errors_apperror",
+      "target": "errors_apperror_apperror",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "errors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "errors_apperror_apperror",
+      "target": "errors_apperror_apperror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_conflicterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_notfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_unauthorizederror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_validationerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "expenses_controller",
-      "target": "lib_apperror",
+      "source": "errors_pgerrormapper",
+      "target": "errors_httperrors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "errors_httperrors_notfounderror",
+      "target": "errors_httperrors_notfounderror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors_notfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_fromfield",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_fromfields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors_validationerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "errors_httperrors_conflicterror",
+      "target": "errors_httperrors_conflicterror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors_conflicterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_httperrors_conflicterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "errors_httperrors_unauthorizederror",
+      "target": "errors_httperrors_unauthorizederror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors_unauthorizederror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_index_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_index_mappgerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_pgerrormapper",
       "confidence_score": 1.0
     },
     {
@@ -1787,31 +2436,63 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/expenses/service.js",
-      "source_location": "L4",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "expenses_service",
-      "target": "lib_apperror",
+      "target": "errors_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_notfound",
+      "target": "errors_index",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/lib/AppError.js",
-      "source_location": "L10",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lib_apperror",
-      "target": "lib_apperror_apperror"
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_apperror",
+      "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/lib/AppError.js",
-      "source_location": "L11",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lib_apperror_apperror",
-      "target": "lib_apperror_apperror_constructor"
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_conflicterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_mappgerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "errors_pgerrormapper",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1820,9 +2501,9 @@
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_controller",
-      "target": "lib_asynchandler",
-      "confidence_score": 1.0
+      "target": "lib_asynchandler"
     },
     {
       "relation": "contains",
@@ -1888,11 +2569,148 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_builderrorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
       "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "middleware_errorhandler",
       "target": "middleware_errorhandler_errorhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_isproduction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_logerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_maperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_mappgerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "utils_logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "utils_logger_logerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_maperror",
+      "target": "middleware_errorhandler_mappgerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_builderrorresponse",
+      "target": "middleware_errorhandler_isproduction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_maperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_builderrorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "utils_logger_logerror"
     },
     {
       "relation": "contains",
@@ -1907,12 +2725,42 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_notfound",
+      "target": "middleware_notfound_notfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_requestid",
+      "target": "middleware_requestid_randomuuid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "middleware_requestid",
+      "target": "middleware_requestid_requestid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_controller",
-      "target": "expenses_controller_apperror",
-      "confidence_score": 1.0
+      "target": "expenses_controller_apperror"
     },
     {
       "relation": "contains",
@@ -1920,9 +2768,9 @@
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_controller",
-      "target": "expenses_controller_asynchandler",
-      "confidence_score": 1.0
+      "target": "expenses_controller_asynchandler"
     },
     {
       "relation": "contains",
@@ -1930,9 +2778,9 @@
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_controller",
-      "target": "expenses_controller_service",
-      "confidence_score": 1.0
+      "target": "expenses_controller_service"
     },
     {
       "relation": "imports_from",
@@ -1941,9 +2789,9 @@
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_controller",
-      "target": "expenses_service",
-      "confidence_score": 1.0
+      "target": "expenses_service"
     },
     {
       "relation": "imports_from",
@@ -1952,9 +2800,9 @@
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_routes",
-      "target": "expenses_controller",
-      "confidence_score": 1.0
+      "target": "expenses_controller"
     },
     {
       "relation": "contains",
@@ -1962,9 +2810,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_attachtagtoexpense",
-      "confidence_score": 1.0
+      "target": "expenses_queries_attachtagtoexpense"
     },
     {
       "relation": "contains",
@@ -1972,9 +2820,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_buildexpensefilterclause",
-      "confidence_score": 1.0
+      "target": "expenses_queries_buildexpensefilterclause"
     },
     {
       "relation": "contains",
@@ -1982,9 +2830,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L175",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_bulkcreateexpenses",
-      "confidence_score": 1.0
+      "target": "expenses_queries_bulkcreateexpenses"
     },
     {
       "relation": "contains",
@@ -1992,9 +2840,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L241",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_bulkdeleteexpenses",
-      "confidence_score": 1.0
+      "target": "expenses_queries_bulkdeleteexpenses"
     },
     {
       "relation": "contains",
@@ -2002,9 +2850,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_countexpenses",
-      "confidence_score": 1.0
+      "target": "expenses_queries_countexpenses"
     },
     {
       "relation": "contains",
@@ -2012,9 +2860,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L156",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_createexpense",
-      "confidence_score": 1.0
+      "target": "expenses_queries_createexpense"
     },
     {
       "relation": "contains",
@@ -2022,9 +2870,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L233",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_deleteexpensebyid",
-      "confidence_score": 1.0
+      "target": "expenses_queries_deleteexpensebyid"
     },
     {
       "relation": "contains",
@@ -2032,9 +2880,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_detachtagfromexpense",
-      "confidence_score": 1.0
+      "target": "expenses_queries_detachtagfromexpense"
     },
     {
       "relation": "contains",
@@ -2042,9 +2890,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L250",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_findduplicates",
-      "confidence_score": 1.0
+      "target": "expenses_queries_findduplicates"
     },
     {
       "relation": "contains",
@@ -2052,9 +2900,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_getexpensebyid",
-      "confidence_score": 1.0
+      "target": "expenses_queries_getexpensebyid"
     },
     {
       "relation": "contains",
@@ -2062,9 +2910,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_getexpenses",
-      "confidence_score": 1.0
+      "target": "expenses_queries_getexpenses"
     },
     {
       "relation": "contains",
@@ -2072,9 +2920,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_gettagsforexpense",
-      "confidence_score": 1.0
+      "target": "expenses_queries_gettagsforexpense"
     },
     {
       "relation": "contains",
@@ -2082,9 +2930,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_pool",
-      "confidence_score": 1.0
+      "target": "expenses_queries_pool"
     },
     {
       "relation": "contains",
@@ -2092,9 +2940,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_sort_map",
-      "confidence_score": 1.0
+      "target": "expenses_queries_sort_map"
     },
     {
       "relation": "contains",
@@ -2102,9 +2950,9 @@
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L206",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_queries",
-      "target": "expenses_queries_updateexpense",
-      "confidence_score": 1.0
+      "target": "expenses_queries_updateexpense"
     },
     {
       "relation": "imports_from",
@@ -2113,31 +2961,9 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_service",
-      "target": "expenses_queries",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "expenses_queries_countexpenses",
-      "target": "expenses_queries_buildexpensefilterclause",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L121",
-      "weight": 1.0,
-      "source": "expenses_queries_getexpenses",
-      "target": "expenses_queries_buildexpensefilterclause",
-      "confidence_score": 1.0
+      "target": "expenses_queries"
     },
     {
       "relation": "contains",
@@ -2145,9 +2971,9 @@
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_routes",
-      "target": "expenses_routes_ctrl",
-      "confidence_score": 1.0
+      "target": "expenses_routes_ctrl"
     },
     {
       "relation": "contains",
@@ -2155,9 +2981,9 @@
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_routes",
-      "target": "expenses_routes_router",
-      "confidence_score": 1.0
+      "target": "expenses_routes_router"
     },
     {
       "relation": "contains",
@@ -2165,9 +2991,9 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_service",
-      "target": "expenses_service_apperror",
-      "confidence_score": 1.0
+      "target": "expenses_service_apperror"
     },
     {
       "relation": "contains",
@@ -2175,9 +3001,9 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_service",
-      "target": "expenses_service_categoryqueries",
-      "confidence_score": 1.0
+      "target": "expenses_service_categoryqueries"
     },
     {
       "relation": "contains",
@@ -2185,9 +3011,9 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_service",
-      "target": "expenses_service_q",
-      "confidence_score": 1.0
+      "target": "expenses_service_q"
     },
     {
       "relation": "contains",
@@ -2195,8 +3021,18 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_service",
-      "target": "expenses_service_tagqueries",
+      "target": "expenses_service_tagqueries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_validationerror",
       "confidence_score": 1.0
     },
     {
@@ -2208,6 +3044,16 @@
       "confidence_score": 1.0,
       "source": "expense_tracker_index",
       "target": "expense_tracker_index_router"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "utils_logger",
+      "target": "utils_logger_logerror",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2605,9 +3451,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
-      "target": "expense_tracker_readme_business_logic_rules",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_business_logic_rules"
     },
     {
       "relation": "contains",
@@ -2655,9 +3501,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
-      "target": "expense_tracker_readme_response_format",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_response_format"
     },
     {
       "relation": "contains",
@@ -2675,9 +3521,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_endpoints",
-      "target": "expense_tracker_readme_categories",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_categories"
     },
     {
       "relation": "contains",
@@ -2685,9 +3531,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_endpoints",
-      "target": "expense_tracker_readme_expenses",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_expenses"
     },
     {
       "relation": "contains",
@@ -2695,9 +3541,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_endpoints",
-      "target": "expense_tracker_readme_payment_methods",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_payment_methods"
     },
     {
       "relation": "contains",
@@ -2705,9 +3551,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_endpoints",
-      "target": "expense_tracker_readme_tags",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_tags"
     },
     {
       "relation": "contains",
@@ -2715,9 +3561,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_response_format",
-      "target": "expense_tracker_readme_duplicate_warning",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_duplicate_warning"
     },
     {
       "relation": "contains",
@@ -2725,9 +3571,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_response_format",
-      "target": "expense_tracker_readme_paginated_list_get_api_expenses",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_paginated_list_get_api_expenses"
     },
     {
       "relation": "contains",
@@ -2735,9 +3581,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_response_format",
-      "target": "expense_tracker_readme_single_expense_includes_tags",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_single_expense_includes_tags"
     },
     {
       "relation": "contains",
@@ -2745,9 +3591,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_example_request_bodies",
-      "target": "expense_tracker_readme_attach_tag",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_attach_tag"
     },
     {
       "relation": "contains",
@@ -2755,9 +3601,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_example_request_bodies",
-      "target": "expense_tracker_readme_bulk_create",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_bulk_create"
     },
     {
       "relation": "contains",
@@ -2765,9 +3611,9 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_example_request_bodies",
-      "target": "expense_tracker_readme_bulk_delete",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_bulk_delete"
     },
     {
       "relation": "contains",
@@ -2795,11 +3641,33 @@
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L174",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expense_tracker_readme_example_request_bodies",
-      "target": "expense_tracker_readme_create_tag",
-      "confidence_score": 1.0
+      "target": "expense_tracker_readme_create_tag"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_queries_countexpenses",
+      "target": "expenses_queries_buildexpensefilterclause"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_queries_getexpenses",
+      "target": "expenses_queries_buildexpensefilterclause"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c637de05d3cb34115582b28c84eb7484dcd57f77"
+  "built_at_commit": "ef2fdc7bd7f16d85e0a08fd096aa041fcd3f61c3"
 }
