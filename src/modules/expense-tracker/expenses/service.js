@@ -1,19 +1,12 @@
 const q = require('./queries');
 const { ValidationError } = require('../../../errors');
 
-const MAX_EXPENSE_AMOUNT   = 10_000_000;
+const MAX_EXPENSE_AMOUNT = 10_000_000;
 const DUPLICATE_WINDOW_MIN = 5;
 
 exports.createExpense = async (expenseData) => {
   const { title, amount, category_id, note, spent_at, payment_method, is_recurring } = expenseData;
 
-  if (!title || typeof title !== 'string' || !title.trim()) {
-    throw ValidationError.fromField('title', 'title is required');
-  }
-
-  if (amount === undefined || amount === null) {
-    throw ValidationError.fromField('amount', 'amount is required');
-  }
   const parsedAmount = parseFloat(amount);
   if (isNaN(parsedAmount) || parsedAmount <= 0) {
     throw ValidationError.fromField('amount', 'amount must be a positive number');
