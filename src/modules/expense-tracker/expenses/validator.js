@@ -1,4 +1,4 @@
-const validateRequired = require('../../../middleware/validateRequired');
+const validateSchema = require('../../../middleware/validateRequired');
 
 /**
  * Validation rules for the Expense module.
@@ -6,7 +6,10 @@ const validateRequired = require('../../../middleware/validateRequired');
  * incredibly easy to swap out with Joi or Zod in the future.
  */
 module.exports = {
-  createExpense: validateRequired(['title', 'amount']),
+  createExpense: validateSchema({
+    title: 'string',
+    amount: 'number'
+  }),
   // We can add more here as we build them out:
-  // updateExpense: validateRequired(['title']), 
+  // updateExpense: validateSchema({ title: 'string' }), 
 };

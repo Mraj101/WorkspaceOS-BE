@@ -796,6 +796,33 @@
       "norm_label": "requestid()"
     },
     {
+      "label": "validateRequired.js",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "id": "middleware_validaterequired",
+      "community": 16,
+      "norm_label": "validaterequired.js"
+    },
+    {
+      "label": "{ ValidationError }",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "id": "middleware_validaterequired_validationerror",
+      "community": 16,
+      "norm_label": "{ validationerror }"
+    },
+    {
+      "label": "validateSchema()",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L8",
+      "id": "middleware_validaterequired_validateschema",
+      "community": 16,
+      "norm_label": "validateschema()"
+    },
+    {
       "label": "controller.js",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
@@ -864,7 +891,7 @@
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L1",
       "id": "expenses_routes",
-      "community": 3,
+      "community": 16,
       "norm_label": "routes.js"
     },
     {
@@ -873,7 +900,7 @@
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L1",
       "id": "expenses_routes_router",
-      "community": 3,
+      "community": 16,
       "norm_label": "{ router }"
     },
     {
@@ -882,8 +909,17 @@
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L2",
       "id": "expenses_routes_ctrl",
-      "community": 3,
+      "community": 16,
       "norm_label": "ctrl"
+    },
+    {
+      "label": "validate",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "id": "expenses_routes_validate",
+      "community": 16,
+      "norm_label": "validate"
     },
     {
       "label": "service.js",
@@ -911,6 +947,24 @@
       "id": "expenses_service_validationerror",
       "community": 3,
       "norm_label": "{ validationerror }"
+    },
+    {
+      "label": "validator.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "id": "expenses_validator",
+      "community": 16,
+      "norm_label": "validator.js"
+    },
+    {
+      "label": "validateSchema",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "id": "expenses_validator_validateschema",
+      "community": 16,
+      "norm_label": "validateschema"
     },
     {
       "label": "index.js",
@@ -1525,6 +1579,24 @@
       "norm_label": "data access style"
     },
     {
+      "label": "validateRequired()",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L7",
+      "community": 16,
+      "norm_label": "validaterequired()",
+      "id": "middleware_validaterequired_validaterequired"
+    },
+    {
+      "label": "validateRequired",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "validaterequired",
+      "id": "expenses_validator_validaterequired"
+    },
+    {
       "label": "AppError",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
@@ -1957,9 +2029,9 @@
       "source_file": "server.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_logerror",
-      "confidence_score": 1.0
+      "target": "server_logerror"
     },
     {
       "relation": "imports_from",
@@ -1979,9 +2051,9 @@
       "source_file": "server.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "utils_logger",
-      "confidence_score": 1.0
+      "target": "utils_logger"
     },
     {
       "relation": "imports",
@@ -1990,9 +2062,9 @@
       "source_file": "server.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server",
-      "target": "utils_logger_logerror",
-      "confidence_score": 1.0
+      "target": "utils_logger_logerror"
     },
     {
       "relation": "imports_from",
@@ -2023,9 +2095,9 @@
       "source_file": "src/app.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "middleware_requestid",
-      "confidence_score": 1.0
+      "target": "middleware_requestid"
     },
     {
       "relation": "contains",
@@ -2103,9 +2175,9 @@
       "source_file": "src/app.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_requestid",
-      "confidence_score": 1.0
+      "target": "src_app_requestid"
     },
     {
       "relation": "contains",
@@ -2145,9 +2217,9 @@
       "source_file": "src/errors/AppError.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_apperror",
-      "target": "errors_apperror_apperror",
-      "confidence_score": 1.0
+      "target": "errors_apperror_apperror"
     },
     {
       "relation": "imports_from",
@@ -2156,9 +2228,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors",
-      "target": "errors_apperror",
-      "confidence_score": 1.0
+      "target": "errors_apperror"
     },
     {
       "relation": "imports_from",
@@ -2167,9 +2239,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_apperror",
-      "confidence_score": 1.0
+      "target": "errors_apperror"
     },
     {
       "relation": "imports_from",
@@ -2178,9 +2250,9 @@
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_pgerrormapper",
-      "target": "errors_apperror",
-      "confidence_score": 1.0
+      "target": "errors_apperror"
     },
     {
       "relation": "imports_from",
@@ -2189,9 +2261,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "errors_apperror",
-      "confidence_score": 1.0
+      "target": "errors_apperror"
     },
     {
       "relation": "method",
@@ -2199,9 +2271,9 @@
       "source_file": "src/errors/AppError.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_apperror_apperror",
-      "target": "errors_apperror_apperror_constructor",
-      "confidence_score": 1.0
+      "target": "errors_apperror_apperror_constructor"
     },
     {
       "relation": "contains",
@@ -2209,9 +2281,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors",
-      "target": "errors_httperrors_apperror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_apperror"
     },
     {
       "relation": "contains",
@@ -2219,9 +2291,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors",
-      "target": "errors_httperrors_conflicterror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_conflicterror"
     },
     {
       "relation": "contains",
@@ -2229,9 +2301,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors",
-      "target": "errors_httperrors_notfounderror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_notfounderror"
     },
     {
       "relation": "contains",
@@ -2239,9 +2311,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors",
-      "target": "errors_httperrors_unauthorizederror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_unauthorizederror"
     },
     {
       "relation": "contains",
@@ -2249,9 +2321,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors",
-      "target": "errors_httperrors_validationerror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_validationerror"
     },
     {
       "relation": "imports_from",
@@ -2260,9 +2332,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_httperrors",
-      "confidence_score": 1.0
+      "target": "errors_httperrors"
     },
     {
       "relation": "imports_from",
@@ -2271,9 +2343,9 @@
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_pgerrormapper",
-      "target": "errors_httperrors",
-      "confidence_score": 1.0
+      "target": "errors_httperrors"
     },
     {
       "relation": "method",
@@ -2281,9 +2353,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors_notfounderror",
-      "target": "errors_httperrors_notfounderror_constructor",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_notfounderror_constructor"
     },
     {
       "relation": "imports",
@@ -2292,9 +2364,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_httperrors_notfounderror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_notfounderror"
     },
     {
       "relation": "method",
@@ -2302,9 +2374,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors_validationerror",
-      "target": "errors_httperrors_validationerror_constructor",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_validationerror_constructor"
     },
     {
       "relation": "method",
@@ -2312,9 +2384,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors_validationerror",
-      "target": "errors_httperrors_validationerror_fromfield",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_validationerror_fromfield"
     },
     {
       "relation": "method",
@@ -2322,9 +2394,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors_validationerror",
-      "target": "errors_httperrors_validationerror_fromfields",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_validationerror_fromfields"
     },
     {
       "relation": "imports",
@@ -2333,9 +2405,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_httperrors_validationerror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_validationerror"
     },
     {
       "relation": "method",
@@ -2343,9 +2415,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors_conflicterror",
-      "target": "errors_httperrors_conflicterror_constructor",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_conflicterror_constructor"
     },
     {
       "relation": "imports",
@@ -2354,9 +2426,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_httperrors_conflicterror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_conflicterror"
     },
     {
       "relation": "imports",
@@ -2365,9 +2437,9 @@
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_pgerrormapper",
-      "target": "errors_httperrors_conflicterror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_conflicterror"
     },
     {
       "relation": "method",
@@ -2375,9 +2447,9 @@
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_httperrors_unauthorizederror",
-      "target": "errors_httperrors_unauthorizederror_constructor",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_unauthorizederror_constructor"
     },
     {
       "relation": "imports",
@@ -2386,9 +2458,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_httperrors_unauthorizederror",
-      "confidence_score": 1.0
+      "target": "errors_httperrors_unauthorizederror"
     },
     {
       "relation": "contains",
@@ -2396,9 +2468,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_index_apperror",
-      "confidence_score": 1.0
+      "target": "errors_index_apperror"
     },
     {
       "relation": "contains",
@@ -2406,9 +2478,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_index_mappgerror",
-      "confidence_score": 1.0
+      "target": "errors_index_mappgerror"
     },
     {
       "relation": "contains",
@@ -2416,9 +2488,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
-      "confidence_score": 1.0
+      "target": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror"
     },
     {
       "relation": "imports_from",
@@ -2427,9 +2499,9 @@
       "source_file": "src/errors/index.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_index",
-      "target": "errors_pgerrormapper",
-      "confidence_score": 1.0
+      "target": "errors_pgerrormapper"
     },
     {
       "relation": "imports_from",
@@ -2438,9 +2510,9 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_service",
-      "target": "errors_index",
-      "confidence_score": 1.0
+      "target": "errors_index"
     },
     {
       "relation": "imports_from",
@@ -2449,9 +2521,20 @@
       "source_file": "src/middleware/notFound.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_notfound",
-      "target": "errors_index",
-      "confidence_score": 1.0
+      "target": "errors_index"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "middleware_validaterequired",
+      "target": "errors_index"
     },
     {
       "relation": "contains",
@@ -2459,9 +2542,9 @@
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_pgerrormapper",
-      "target": "errors_pgerrormapper_apperror",
-      "confidence_score": 1.0
+      "target": "errors_pgerrormapper_apperror"
     },
     {
       "relation": "contains",
@@ -2469,9 +2552,9 @@
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_pgerrormapper",
-      "target": "errors_pgerrormapper_conflicterror",
-      "confidence_score": 1.0
+      "target": "errors_pgerrormapper_conflicterror"
     },
     {
       "relation": "contains",
@@ -2479,9 +2562,9 @@
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "errors_pgerrormapper",
-      "target": "errors_pgerrormapper_mappgerror",
-      "confidence_score": 1.0
+      "target": "errors_pgerrormapper_mappgerror"
     },
     {
       "relation": "imports_from",
@@ -2490,9 +2573,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "errors_pgerrormapper",
-      "confidence_score": 1.0
+      "target": "errors_pgerrormapper"
     },
     {
       "relation": "imports_from",
@@ -2571,9 +2654,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "middleware_errorhandler_apperror",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_apperror"
     },
     {
       "relation": "contains",
@@ -2581,9 +2664,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "middleware_errorhandler_builderrorresponse",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_builderrorresponse"
     },
     {
       "relation": "contains",
@@ -2601,9 +2684,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "middleware_errorhandler_isproduction",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_isproduction"
     },
     {
       "relation": "contains",
@@ -2611,9 +2694,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "middleware_errorhandler_logerror",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_logerror"
     },
     {
       "relation": "contains",
@@ -2621,9 +2704,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "middleware_errorhandler_maperror",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_maperror"
     },
     {
       "relation": "contains",
@@ -2631,9 +2714,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "middleware_errorhandler_mappgerror",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_mappgerror"
     },
     {
       "relation": "imports_from",
@@ -2642,9 +2725,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "utils_logger",
-      "confidence_score": 1.0
+      "target": "utils_logger"
     },
     {
       "relation": "imports",
@@ -2653,9 +2736,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "utils_logger_logerror",
-      "confidence_score": 1.0
+      "target": "utils_logger_logerror"
     },
     {
       "relation": "calls",
@@ -2664,9 +2747,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler_maperror",
-      "target": "middleware_errorhandler_mappgerror",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_mappgerror"
     },
     {
       "relation": "calls",
@@ -2675,9 +2758,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler_builderrorresponse",
-      "target": "middleware_errorhandler_isproduction",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_isproduction"
     },
     {
       "relation": "calls",
@@ -2686,9 +2769,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler_errorhandler",
-      "target": "middleware_errorhandler_maperror",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_maperror"
     },
     {
       "relation": "calls",
@@ -2697,9 +2780,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler_errorhandler",
-      "target": "middleware_errorhandler_builderrorresponse",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_builderrorresponse"
     },
     {
       "relation": "calls",
@@ -2728,9 +2811,9 @@
       "source_file": "src/middleware/notFound.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_notfound",
-      "target": "middleware_notfound_notfounderror",
-      "confidence_score": 1.0
+      "target": "middleware_notfound_notfounderror"
     },
     {
       "relation": "contains",
@@ -2738,9 +2821,9 @@
       "source_file": "src/middleware/requestId.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_requestid",
-      "target": "middleware_requestid_randomuuid",
-      "confidence_score": 1.0
+      "target": "middleware_requestid_randomuuid"
     },
     {
       "relation": "contains",
@@ -2748,9 +2831,50 @@
       "source_file": "src/middleware/requestId.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_requestid",
-      "target": "middleware_requestid_requestid",
+      "target": "middleware_requestid_requestid"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_validator",
+      "target": "middleware_validaterequired"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "middleware_validaterequired",
+      "target": "middleware_validaterequired_validaterequired"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "middleware_validaterequired",
+      "target": "middleware_validaterequired_validateschema",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "middleware_validaterequired",
+      "target": "middleware_validaterequired_validationerror"
     },
     {
       "relation": "contains",
@@ -2988,6 +3112,27 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_routes_validate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_validator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L4",
       "weight": 1.0,
@@ -3031,8 +3176,28 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_service",
-      "target": "expenses_service_validationerror",
+      "target": "expenses_service_validationerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_validator",
+      "target": "expenses_validator_validaterequired"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_validator",
+      "target": "expenses_validator_validateschema",
       "confidence_score": 1.0
     },
     {
@@ -3051,9 +3216,9 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_logger",
-      "target": "utils_logger_logerror",
-      "confidence_score": 1.0
+      "target": "utils_logger_logerror"
     },
     {
       "relation": "contains",
@@ -3669,5 +3834,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ef2fdc7bd7f16d85e0a08fd096aa041fcd3f61c3"
+  "built_at_commit": "b79070213e111f34a2f887b435dd8d058be662fc"
 }

@@ -1,27 +1,36 @@
 const { ValidationError } = require('../errors');
 
 /**
- * Middleware to validate that required fields are present in the request body.
- * @param {string[]} fields - Array of required field names.
+ * Middleware to validate that required fields are present and match expected types.
+ * @param {Object} schema - Key-value pair of field names and their expected JavaScript types.
+ *                          Example: { title: 'string', amount: 'number' }
  */
-const validateRequired = (fields) => {
+const validateSchema = (schema) => {
   return (req, res, next) => {
-    const missingFields = {};
+    const errors = {};
 
-    for (const field of fields) {
+    for (const [field, expectedType] of Object.entries(schema)) {
       const value = req.body[field];
-      // Check if value is missing, null, or an empty string
+      
+      // 1. Check if value is missing, null, or an empty string
       if (value === undefined || value === null || (typeof value === 'string' && value.trim() === '')) {
-        missingFields[field] = `${field} is required`;
+        errors[field] = `${field} is required`;
+        continue; // Skip type check if it's missing
+      }
+
+      // 2. Check if the type matches what was defined
+      if (typeof value !== expectedType) {
+        errors[field] = `${field} must be of type ${expectedType}, but got ${typeof value}`;
       }
     }
 
-    if (Object.keys(missingFields).length > 0) {
-      return next(ValidationError.fromFields(missingFields));
+    if (Object.keys(errors).length > 0) {
+      return next(ValidationError.fromFields(errors));
     }
 
     next();
   };
 };
 
-module.exports = validateRequired;
+module.exports = validateSchema;
+

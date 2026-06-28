@@ -1,16 +1,16 @@
-# Graph Report - WorkSpace-BE  (2026-06-23)
+# Graph Report - WorkSpace-BE  (2026-06-28)
 
 ## Corpus Check
-- 28 files · ~10,938 words
+- 30 files · ~11,146 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 185 nodes · 196 edges · 16 communities (10 shown, 6 thin omitted)
+- 193 nodes · 205 edges · 17 communities (11 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ef2fdc7b`
+- Built from commit: `b7907021`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -31,6 +31,7 @@
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `What You Must Do When Invoked` - 16 edges
@@ -51,7 +52,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (16 total, 6 thin omitted)
+## Communities (17 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.11
@@ -66,8 +67,8 @@ Cohesion: 0.10
 Nodes (20): author, dependencies, cors, dotenv, express, helmet, morgan, pg (+12 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.13
-Nodes (10): AppError, asyncHandler, service, ctrl, { Router }, AppError, categoryQueries, q (+2 more)
+Cohesion: 0.17
+Nodes (8): AppError, asyncHandler, service, AppError, categoryQueries, q, tagQueries, { ValidationError }
 
 ### Community 4 - "Community 4"
 Cohesion: 0.13
@@ -93,8 +94,12 @@ Nodes (4): expenses, http, postExpense(), seed()
 Cohesion: 0.24
 Nodes (10): AppError, buildErrorResponse(), errorHandler(), isProduction(), { logError }, mapError(), mapPgError, app (+2 more)
 
+### Community 16 - "Community 16"
+Cohesion: 0.18
+Nodes (6): ctrl, { Router }, validate, validateRequired, validateSchema, { ValidationError }
+
 ## Knowledge Gaps
-- **106 isolated node(s):** `PreToolUse`, `name`, `version`, `main`, `dev` (+101 more)
+- **110 isolated node(s):** `PreToolUse`, `name`, `version`, `main`, `dev` (+105 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -102,16 +107,16 @@ Nodes (10): AppError, buildErrorResponse(), errorHandler(), isProduction(), { lo
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `What You Must Do When Invoked` connect `Community 0` to `Community 1`?**
-  _High betweenness centrality (0.027) - this node is a cross-community bridge._
-- **Why does `/graphify` connect `Community 1` to `Community 0`?**
   _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **Why does `/graphify` connect `Community 1` to `Community 0`?**
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
 - **What connects `PreToolUse`, `name`, `version` to the rest of the system?**
-  _106 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _110 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
+- **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

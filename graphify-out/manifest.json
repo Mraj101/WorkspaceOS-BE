@@ -100,13 +100,13 @@
     "semantic_hash": ""
   },
   "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/expenses/routes.js": {
-    "mtime": 1781173650.884274,
-    "ast_hash": "405a3ca68c1715484f33819e303019ae",
+    "mtime": 1782629626.044049,
+    "ast_hash": "3ad8626ada84cf288373fa565050433f",
     "semantic_hash": ""
   },
   "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/expenses/service.js": {
-    "mtime": 1782192461.8275793,
-    "ast_hash": "b35cca7e71880acacfbdbb9be1eb3433",
+    "mtime": 1782629481.5405114,
+    "ast_hash": "c4b399dfc44639a096e30b6eae8f2b2b",
     "semantic_hash": ""
   },
   "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/errors/AppError.js": {
@@ -137,6 +137,16 @@
   "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/utils/logger.js": {
     "mtime": 1782192452.7277672,
     "ast_hash": "36ac7f0c91e46bd5f22d27a11cf94c55",
+    "semantic_hash": ""
+  },
+  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/middleware/validateRequired.js": {
+    "mtime": 1782630016.9415936,
+    "ast_hash": "3ae7ab67f999ac4bb3764a40333c178f",
+    "semantic_hash": ""
+  },
+  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/expenses/validator.js": {
+    "mtime": 1782630018.9466102,
+    "ast_hash": "ea8a424dea0b87906de9c0269646d24d",
     "semantic_hash": ""
   }
 }
