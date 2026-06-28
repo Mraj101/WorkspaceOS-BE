@@ -32,36 +32,25 @@ const mapError = (err) => {
   });
 };
 
-const buildErrorResponse = (err, req) => {
+const buildExtras = (err, req) => {
   const statusCode = err.statusCode || 500;
-  const isOperational = err.isOperational !== false;
-
-  const message =
-    !isOperational && isProduction()
-      ? 'Internal Server Error'
-      : err.message || 'Internal Server Error';
-
-  const body = {
-    status: 'error',
-    error: {
-      code: err.code || (statusCode >= 500 ? 'INTERNAL_ERROR' : 'ERROR'),
-      message,
-    },
+  const extras = {
+    code: err.code || (statusCode >= 500 ? 'INTERNAL_ERROR' : 'ERROR'),
   };
 
   if (req.id) {
-    body.requestId = req.id;
+    extras.requestId = req.id;
   }
 
   if (Array.isArray(err.details) && err.details.length > 0) {
-    body.error.details = err.details;
+    extras.details = err.details;
   }
 
   if (!isProduction() && err.stack) {
-    body.stack = err.stack;
+    extras.stack = err.stack;
   }
 
-  return { statusCode, body };
+  return extras;
 };
 
 /**
@@ -76,13 +65,22 @@ const buildErrorResponse = (err, req) => {
  */
 const errorHandler = (err, req, res, next) => {
   const normalized = mapError(err);
-  const { statusCode, body } = buildErrorResponse(normalized, req);
+  const statusCode = normalized.statusCode || 500;
+  const isOperational = normalized.isOperational !== false;
+  
+  const message =
+    !isOperational && isProduction()
+      ? 'Internal Server Error'
+      : normalized.message || 'Internal Server Error';
+
+  const extras = buildExtras(normalized, req);
 
   if (!normalized.isOperational || statusCode >= 500) {
     logError(normalized, req);
   }
 
-  res.status(statusCode).json(body);
+  const { sendError } = require('../lib/response');
+  sendError(res, statusCode, message, extras);
 };
 
 module.exports = errorHandler;

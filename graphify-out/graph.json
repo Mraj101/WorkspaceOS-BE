@@ -598,6 +598,87 @@
       "norm_label": "mappgerror()"
     },
     {
+      "label": "BaseEntity.js",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "id": "lib_baseentity",
+      "community": 7,
+      "norm_label": "baseentity.js"
+    },
+    {
+      "label": "pool",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "id": "lib_baseentity_pool",
+      "community": 7,
+      "norm_label": "pool"
+    },
+    {
+      "label": "BaseEntity",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L8",
+      "id": "lib_baseentity_baseentity",
+      "community": 7,
+      "norm_label": "baseentity"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L9",
+      "id": "lib_baseentity_baseentity_constructor",
+      "community": 7,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".findById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L13",
+      "id": "lib_baseentity_baseentity_findbyid",
+      "community": 7,
+      "norm_label": ".findbyid()"
+    },
+    {
+      "label": ".findMany()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L21",
+      "id": "lib_baseentity_baseentity_findmany",
+      "community": 7,
+      "norm_label": ".findmany()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L31",
+      "id": "lib_baseentity_baseentity_create",
+      "community": 7,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".updateById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L57",
+      "id": "lib_baseentity_baseentity_updatebyid",
+      "community": 7,
+      "norm_label": ".updatebyid()"
+    },
+    {
+      "label": ".deleteById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L84",
+      "id": "lib_baseentity_baseentity_deletebyid",
+      "community": 7,
+      "norm_label": ".deletebyid()"
+    },
+    {
       "label": "asyncHandler.js",
       "file_type": "code",
       "source_file": "src/lib/asyncHandler.js",
@@ -655,7 +736,7 @@
       "label": "create()",
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L57",
+      "source_location": "L58",
       "id": "lib_queryhelpers_create",
       "community": 7,
       "norm_label": "create()"
@@ -664,10 +745,37 @@
       "label": "deleteById()",
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L74",
+      "source_location": "L75",
       "id": "lib_queryhelpers_deletebyid",
       "community": 7,
       "norm_label": "deletebyid()"
+    },
+    {
+      "label": "response.js",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L1",
+      "id": "lib_response",
+      "community": 3,
+      "norm_label": "response.js"
+    },
+    {
+      "label": "sendSuccess()",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L6",
+      "id": "lib_response_sendsuccess",
+      "community": 3,
+      "norm_label": "sendsuccess()"
+    },
+    {
+      "label": "sendError()",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L15",
+      "id": "lib_response_senderror",
+      "community": 3,
+      "norm_label": "senderror()"
     },
     {
       "label": "errorHandler.js",
@@ -724,19 +832,19 @@
       "norm_label": "maperror()"
     },
     {
-      "label": "buildErrorResponse()",
+      "label": "buildExtras()",
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L35",
-      "id": "middleware_errorhandler_builderrorresponse",
+      "id": "middleware_errorhandler_buildextras",
       "community": 15,
-      "norm_label": "builderrorresponse()"
+      "norm_label": "buildextras()"
     },
     {
       "label": "errorHandler()",
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
-      "source_location": "L77",
+      "source_location": "L66",
       "id": "middleware_errorhandler_errorhandler",
       "community": 15,
       "norm_label": "errorhandler()"
@@ -850,6 +958,15 @@
       "norm_label": "service"
     },
     {
+      "label": "{ sendSuccess }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "id": "expenses_controller_sendsuccess",
+      "community": 3,
+      "norm_label": "{ sendsuccess }"
+    },
+    {
       "label": "queries.js",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
@@ -868,10 +985,28 @@
       "norm_label": "pool"
     },
     {
+      "label": "BaseEntity",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "id": "expenses_queries_baseentity",
+      "community": 5,
+      "norm_label": "baseentity"
+    },
+    {
+      "label": "expensesEntity",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L6",
+      "id": "expenses_queries_expensesentity",
+      "community": 5,
+      "norm_label": "expensesentity"
+    },
+    {
       "label": "createExpense()",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L5",
+      "source_location": "L8",
       "id": "expenses_queries_createexpense",
       "community": 5,
       "norm_label": "createexpense()"
@@ -880,7 +1015,7 @@
       "label": "findDuplicates()",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L24",
+      "source_location": "L21",
       "id": "expenses_queries_findduplicates",
       "community": 5,
       "norm_label": "findduplicates()"
@@ -1579,6 +1714,15 @@
       "norm_label": "data access style"
     },
     {
+      "label": "buildErrorResponse()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L35",
+      "community": 15,
+      "norm_label": "builderrorresponse()",
+      "id": "middleware_errorhandler_builderrorresponse"
+    },
+    {
       "label": "validateRequired()",
       "file_type": "code",
       "source_file": "src/middleware/validateRequired.js",
@@ -2204,6 +2348,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity",
+      "target": "config_db"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L13",
       "weight": 1.0,
@@ -2581,6 +2736,108 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_queries",
+      "target": "lib_baseentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity",
+      "target": "lib_baseentity_baseentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity",
+      "target": "lib_baseentity_pool"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_create"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_deletebyid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_findbyid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_findmany"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_updatebyid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_baseentity_baseentity_updatebyid",
+      "target": "lib_baseentity_baseentity_findbyid"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -2649,6 +2906,59 @@
       "target": "lib_queryhelpers_pool"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "lib_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/response.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "lib_response",
+      "target": "lib_response_senderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/response.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "lib_response",
+      "target": "lib_response_sendsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "lib_response_sendsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "lib_response_senderror"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/middleware/errorHandler.js",
@@ -2667,6 +2977,16 @@
       "confidence_score": 1.0,
       "source": "middleware_errorhandler",
       "target": "middleware_errorhandler_builderrorresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_buildextras",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2767,11 +3087,44 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_buildextras",
+      "target": "middleware_errorhandler_isproduction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_isproduction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
       "source_location": "L78",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "middleware_errorhandler_errorhandler",
       "target": "middleware_errorhandler_maperror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_buildextras",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -2862,9 +3215,9 @@
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_validaterequired",
-      "target": "middleware_validaterequired_validateschema",
-      "confidence_score": 1.0
+      "target": "middleware_validaterequired_validateschema"
     },
     {
       "relation": "contains",
@@ -2895,6 +3248,16 @@
       "confidence_score": 1.0,
       "source": "expenses_controller",
       "target": "expenses_controller_asynchandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "expenses_controller_sendsuccess",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2937,6 +3300,16 @@
       "confidence_score": 1.0,
       "source": "expenses_queries",
       "target": "expenses_queries_attachtagtoexpense"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_baseentity"
     },
     {
       "relation": "contains",
@@ -3007,6 +3380,16 @@
       "confidence_score": 1.0,
       "source": "expenses_queries",
       "target": "expenses_queries_detachtagfromexpense"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_expensesentity"
     },
     {
       "relation": "contains",
@@ -3196,9 +3579,9 @@
       "source_file": "src/modules/expense-tracker/expenses/validator.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_validator",
-      "target": "expenses_validator_validateschema",
-      "confidence_score": 1.0
+      "target": "expenses_validator_validateschema"
     },
     {
       "relation": "contains",
@@ -3834,5 +4217,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b79070213e111f34a2f887b435dd8d058be662fc"
+  "built_at_commit": "d4fc6f86c70ea3745942d5ad7366b7e7fe4aae56"
 }

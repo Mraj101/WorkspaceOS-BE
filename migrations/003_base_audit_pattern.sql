@@ -21,13 +21,13 @@ CREATE OR REPLACE PROCEDURE apply_base_entity(target_table text)
 LANGUAGE plpgsql
 AS $$
 BEGIN
-  -- created_at
   EXECUTE format('ALTER TABLE %I ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ DEFAULT NOW()', target_table);
+  EXECUTE format('ALTER TABLE %I ALTER COLUMN created_at SET DEFAULT NOW()', target_table);
   EXECUTE format('UPDATE %I SET created_at = NOW() WHERE created_at IS NULL', target_table);
   EXECUTE format('ALTER TABLE %I ALTER COLUMN created_at SET NOT NULL', target_table);
   
-  -- updated_at
   EXECUTE format('ALTER TABLE %I ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ DEFAULT NOW()', target_table);
+  EXECUTE format('ALTER TABLE %I ALTER COLUMN updated_at SET DEFAULT NOW()', target_table);
   EXECUTE format('UPDATE %I SET updated_at = NOW() WHERE updated_at IS NULL', target_table);
   EXECUTE format('ALTER TABLE %I ALTER COLUMN updated_at SET NOT NULL', target_table);
   
