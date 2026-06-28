@@ -1,24 +1,21 @@
 const pool = require('../../../config/db');
 
-const EXPENSES_TABLE = 'expense_tracker_expenses';
+const BaseEntity = require('../../../lib/BaseEntity');
 
-const createExpense = async ({ title, amount, category_id, note, spent_at, payment_method, is_recurring }) => {
-  const { rows } = await pool.query(
-    `INSERT INTO ${EXPENSES_TABLE}
-       (title, amount, category_id, note, spent_at, payment_method, is_recurring)
-     VALUES ($1, $2, $3, $4, $5, $6, $7)
-     RETURNING *`,
-    [
-      title,
-      amount,
-      category_id ?? null,
-      note ?? null,
-      spent_at ?? new Date(),
-      payment_method ?? 'cash',
-      is_recurring ?? false,
-    ]
-  );
-  return rows[0];
+const EXPENSES_TABLE = 'expense_tracker_expenses';
+const expensesEntity = new BaseEntity(EXPENSES_TABLE);
+
+const createExpense = async (data) => {
+  // We can pass data directly; BaseEntity strips audit fields internally
+  return await expensesEntity.create({
+    title: data.title,
+    amount: data.amount,
+    category_id: data.category_id ?? null,
+    note: data.note ?? null,
+    spent_at: data.spent_at ?? new Date(),
+    payment_method: data.payment_method ?? 'cash',
+    is_recurring: data.is_recurring ?? false,
+  });
 };
 
 const findDuplicates = async ({ title, amount, spent_at, withinMinutes = 5 }) => {
@@ -29,6 +26,7 @@ const findDuplicates = async ({ title, amount, spent_at, withinMinutes = 5 }) =>
        AND amount = $2
        AND spent_at = $3
        AND created_at >= NOW() - INTERVAL '1 minute' * $4
+       AND deleted_at IS NULL
      ORDER BY created_at DESC
      LIMIT 5`,
     [title, amount, spent_at ?? new Date(), withinMinutes]

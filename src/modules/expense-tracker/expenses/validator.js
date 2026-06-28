@@ -8,7 +8,12 @@ const validateSchema = require('../../../middleware/validateRequired');
 module.exports = {
   createExpense: validateSchema({
     title: 'string',
-    amount: 'number'
+    amount: 'number',
+    category_id: 'number?',
+    note: 'string?',
+    spent_at: 'string?',
+    payment_method: 'string?',
+    is_recurring: 'boolean?'
   }),
   // We can add more here as we build them out:
   // updateExpense: validateSchema({ title: 'string' }), 

@@ -25,7 +25,7 @@ const pool = require('../config/db');
  */
 const getById = async (table, id) => {
   const { rows } = await pool.query(
-    `SELECT * FROM ${table} WHERE id = $1`,
+    `SELECT * FROM ${table} WHERE id = $1 AND deleted_at IS NULL`,
     [id]
   );
   return rows[0] ?? null;
@@ -39,7 +39,8 @@ const getById = async (table, id) => {
  * @returns {Array}
  */
 const findMany = async (table, whereClause = '', params = []) => {
-  const where = whereClause ? ` WHERE ${whereClause}` : '';
+  const baseWhere = 'deleted_at IS NULL';
+  const where = whereClause ? ` WHERE ${baseWhere} AND (${whereClause})` : ` WHERE ${baseWhere}`;
   const { rows } = await pool.query(
     `SELECT * FROM ${table}${where} ORDER BY id DESC`,
     params
@@ -73,7 +74,7 @@ const create = async (table, columns, values) => {
  */
 const deleteById = async (table, id) => {
   const { rows } = await pool.query(
-    `DELETE FROM ${table} WHERE id = $1 RETURNING *`,
+    `UPDATE ${table} SET deleted_at = NOW() WHERE id = $1 RETURNING *`,
     [id]
   );
   return rows[0] ?? null;

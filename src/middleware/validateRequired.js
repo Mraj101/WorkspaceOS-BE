@@ -12,15 +12,20 @@ const validateSchema = (schema) => {
     for (const [field, expectedType] of Object.entries(schema)) {
       const value = req.body[field];
       
+      const isOptional = expectedType.endsWith('?');
+      const baseType = isOptional ? expectedType.slice(0, -1) : expectedType;
+
       // 1. Check if value is missing, null, or an empty string
       if (value === undefined || value === null || (typeof value === 'string' && value.trim() === '')) {
-        errors[field] = `${field} is required`;
+        if (!isOptional) {
+          errors[field] = `${field} is required`;
+        }
         continue; // Skip type check if it's missing
       }
 
       // 2. Check if the type matches what was defined
-      if (typeof value !== expectedType) {
-        errors[field] = `${field} must be of type ${expectedType}, but got ${typeof value}`;
+      if (typeof value !== baseType) {
+        errors[field] = `${field} must be of type ${baseType}, but got ${typeof value}`;
       }
     }
 
