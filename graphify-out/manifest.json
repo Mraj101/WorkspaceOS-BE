@@ -1,172 +1,172 @@
 {
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/.claude/settings.json": {
+  ".claude/settings.json": {
     "mtime": 1780291955.9587421,
     "ast_hash": "87f0d903477984d0587a02f8fe185263",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/migrations/001_expense_tracker_init.sql": {
+  "migrations/001_expense_tracker_init.sql": {
     "mtime": 1780290378.1863654,
     "ast_hash": "2f2b8ec753a8509146efae511ba31a92",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/package.json": {
+  "package.json": {
     "mtime": 1780290389.3704596,
     "ast_hash": "5e868915b5743dc282938a106508d675",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/server.js": {
+  "server.js": {
     "mtime": 1782192459.5826159,
     "ast_hash": "ee937192b1563965922d6b6cc945f389",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/app.js": {
+  "src/app.js": {
     "mtime": 1782192458.4892516,
     "ast_hash": "3623e60416053614b94dbebec3a12fb8",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/config/db.js": {
+  "src/config/db.js": {
     "mtime": 1780290698.215563,
     "ast_hash": "aa5168e769d9dc7118f3a305912cdc07",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/lib/asyncHandler.js": {
+  "src/lib/asyncHandler.js": {
     "mtime": 1782208557.088939,
     "ast_hash": "a0fee32955187bb9e5293dcd9b631157",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/lib/queryHelpers.js": {
+  "src/lib/queryHelpers.js": {
     "mtime": 1782660083.9901466,
     "ast_hash": "5db57d9f11a0a29437eb99e18c37cdf6",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/middleware/errorHandler.js": {
+  "src/middleware/errorHandler.js": {
     "mtime": 1782663813.9134681,
     "ast_hash": "fdf2efcffe31ac907c5fa49ff7dcb78c",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/middleware/notFound.js": {
+  "src/middleware/notFound.js": {
     "mtime": 1782192457.4567125,
     "ast_hash": "6970262a0f6bc18d659a154acadbdc53",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/index.js": {
+  "src/modules/expense-tracker/index.js": {
     "mtime": 1781168752.6195495,
     "ast_hash": "b4fefe67eea03d85cfaaca4f635c0d40",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/.claude/CLAUDE.md": {
+  ".claude/CLAUDE.md": {
     "mtime": 1780291955.9583032,
     "ast_hash": "db73b0edd7ffbc61ceac177130730865",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/.claude/skills/graphify/SKILL.md": {
+  ".claude/skills/graphify/SKILL.md": {
     "mtime": 1780291955.9580781,
     "ast_hash": "5ae00786ea53e4d944ab70abe11eedd1",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/CLAUDE.md": {
+  "CLAUDE.md": {
     "mtime": 1780291955.9585574,
     "ast_hash": "82efb97a359f5c7290bf2513d14686be",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/README.md": {
+  "README.md": {
     "mtime": 1776870576.4482098,
     "ast_hash": "05d93307bd06b6976130536aacb3a449",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/README.md": {
+  "src/modules/expense-tracker/README.md": {
     "mtime": 1780546321.7553048,
     "ast_hash": "651898023424347a62a8adbde9d260af",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/seed_expenses.js": {
+  "seed_expenses.js": {
     "mtime": 1780293847.2670202,
     "ast_hash": "38ac1c8feb8e594efc1e5eebbee82651",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/migrations/002_expense_tracker_enhance.sql": {
+  "migrations/002_expense_tracker_enhance.sql": {
     "mtime": 1780545999.3099246,
     "ast_hash": "13727a4720e7e2368883fff29bc26cf1",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/expenses/controller.js": {
+  "src/modules/expense-tracker/expenses/controller.js": {
     "mtime": 1782663815.9184806,
     "ast_hash": "ff391aa17a360eb6afb761ad403d552e",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/expenses/queries.js": {
+  "src/modules/expense-tracker/expenses/queries.js": {
     "mtime": 1782660185.055545,
     "ast_hash": "37cc95dc556932535a09e911f4eaadf0",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/expenses/routes.js": {
+  "src/modules/expense-tracker/expenses/routes.js": {
     "mtime": 1782629626.044049,
     "ast_hash": "3ad8626ada84cf288373fa565050433f",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/expenses/service.js": {
+  "src/modules/expense-tracker/expenses/service.js": {
     "mtime": 1782629481.5405114,
     "ast_hash": "c4b399dfc44639a096e30b6eae8f2b2b",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/errors/AppError.js": {
+  "src/errors/AppError.js": {
     "mtime": 1782192452.729042,
     "ast_hash": "e7047a387101242d17dfb73eace71b18",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/errors/httpErrors.js": {
+  "src/errors/httpErrors.js": {
     "mtime": 1782192452.729042,
     "ast_hash": "560750823fa0a767dc66e5626fea59c6",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/errors/index.js": {
+  "src/errors/index.js": {
     "mtime": 1782192452.7277672,
     "ast_hash": "cfc16420e625ad3adc019ffb2de63861",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/errors/pgErrorMapper.js": {
+  "src/errors/pgErrorMapper.js": {
     "mtime": 1782192452.729042,
     "ast_hash": "9ef877537f40a43485726dcd51a4f708",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/middleware/requestId.js": {
+  "src/middleware/requestId.js": {
     "mtime": 1782192452.7277672,
     "ast_hash": "d780fd2ad3866f4d345057240e567fbc",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/utils/logger.js": {
+  "src/utils/logger.js": {
     "mtime": 1782192452.7277672,
     "ast_hash": "36ac7f0c91e46bd5f22d27a11cf94c55",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/middleware/validateRequired.js": {
+  "src/middleware/validateRequired.js": {
     "mtime": 1782661113.0238528,
     "ast_hash": "497cc08c318a027915146e1d38ed9eb5",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/expenses/validator.js": {
+  "src/modules/expense-tracker/expenses/validator.js": {
     "mtime": 1782661121.6338956,
     "ast_hash": "d071ee0fc084e76efde9f731ab11a822",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/migrations/003_base_audit_pattern.sql": {
+  "migrations/003_base_audit_pattern.sql": {
     "mtime": 1782662707.3495476,
     "ast_hash": "b513d84931df90887f355c49d907cead",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/lib/BaseEntity.js": {
+  "src/lib/BaseEntity.js": {
     "mtime": 1782660172.5794947,
     "ast_hash": "215599c386d723d206ca2a88d83d2be5",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/lib/response.js": {
+  "src/lib/response.js": {
     "mtime": 1782663800.512384,
     "ast_hash": "d212d0018ccf16d659dbda7347cb8e24",
     "semantic_hash": ""
   },
-  "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md": {
-    "mtime": 1782664645.6028028,
-    "ast_hash": "9c84e36be061ec30e1371da1c1b2da5a",
+  "backend_architecture_walkthrough.md": {
+    "mtime": 1782667054.983487,
+    "ast_hash": "2a6ebfca173d07aab494f1e48bb7be23",
     "semantic_hash": ""
   }
 }

@@ -1,16 +1,16 @@
-# Graph Report - WorkSpace-BE  (2026-06-28)
+# Graph Report - WorkSpace-BE  (2026-06-29)
 
 ## Corpus Check
-- 34 files · ~12,802 words
+- 34 files · ~13,971 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 222 nodes · 240 edges · 18 communities (13 shown, 5 thin omitted)
+- 228 nodes · 246 edges · 19 communities (12 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f929cc5c`
+- Built from commit: `4bc5fc7e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,6 +33,7 @@
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `What You Must Do When Invoked` - 16 edges
@@ -40,11 +41,11 @@
 3. `Expense Tracker Module` - 8 edges
 4. `BaseEntity` - 7 edges
 5. `errorHandler()` - 7 edges
-6. `Example Request Bodies` - 7 edges
-7. `ValidationError` - 5 edges
-8. `Backend Architecture & Data Flow Walkthrough` - 5 edges
-9. `2. The HTTP Request Journey (The Expense Tracker)` - 5 edges
-10. `Endpoints` - 5 edges
+6. `4. How the Database & Migrations Work` - 7 edges
+7. `Example Request Bodies` - 7 edges
+8. `ValidationError` - 5 edges
+9. `Backend Architecture & Data Flow Walkthrough` - 5 edges
+10. `2. The HTTP Request Journey (The Expense Tracker)` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `errorHandler()` --calls--> `sendError()`  [INFERRED]
@@ -55,7 +56,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (18 total, 5 thin omitted)
+## Communities (19 total, 7 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.11
@@ -70,7 +71,7 @@ Cohesion: 0.10
 Nodes (20): author, dependencies, cors, dotenv, express, helmet, morgan, pg (+12 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.13
+Cohesion: 0.12
 Nodes (11): AppError, asyncHandler, { sendSuccess }, service, AppError, categoryQueries, q, tagQueries (+3 more)
 
 ### Community 4 - "Community 4"
@@ -78,16 +79,12 @@ Cohesion: 0.13
 Nodes (10): { NotFoundError }, { randomUUID }, app, cors, errorHandler, express, helmet, morgan (+2 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.12
-Nodes (7): BaseEntity, buildExpenseFilterClause(), countExpenses(), expensesEntity, getExpenses(), pool, SORT_MAP
+Cohesion: 0.10
+Nodes (9): { Pool }, BaseEntity, buildExpenseFilterClause(), countExpenses(), expensesEntity, getExpenses(), pool, SORT_MAP (+1 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.09
 Nodes (21): Attach Tag, Bulk Create, Bulk Delete, Business Logic Rules, Categories, Create Category, Create Expense, Create Tag (+13 more)
-
-### Community 7 - "Community 7"
-Cohesion: 0.12
-Nodes (4): { Pool }, BaseEntity, pool, pool
 
 ### Community 8 - "Community 8"
 Cohesion: 0.12
@@ -106,28 +103,28 @@ Cohesion: 0.18
 Nodes (6): ctrl, { Router }, validate, validateRequired, validateSchema, { ValidationError }
 
 ### Community 17 - "Community 17"
-Cohesion: 0.15
-Nodes (12): 1. The Entry Point (`server.js` & `src/app.js`), 2. The HTTP Request Journey (The Expense Tracker), 3. How Responses and Errors are Handled, 4. How the Database & Migrations Work, Backend Architecture & Data Flow Walkthrough, Errors, Soft Deletes, Step 1: The Route & Validator (`routes.js` & `validator.js`) (+4 more)
+Cohesion: 0.11
+Nodes (17): 1. The Entry Point (`server.js` & `src/app.js`), 2. The HTTP Request Journey (The Expense Tracker), 3. How Responses and Errors are Handled, 4. How the Database & Migrations Work, Backend Architecture & Data Flow Walkthrough, Errors, How Migrations Work in Practice, Migration `001` — The Foundation (`001_expense_tracker_init.sql`) (+9 more)
 
 ## Knowledge Gaps
-- **122 isolated node(s):** `PreToolUse`, `name`, `version`, `main`, `dev` (+117 more)
+- **127 isolated node(s):** `name`, `version`, `main`, `dev`, `start` (+122 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `BaseEntity` connect `Community 7` to `Community 5`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
 - **Why does `What You Must Do When Invoked` connect `Community 0` to `Community 1`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `/graphify` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `PreToolUse`, `name`, `version` to the rest of the system?**
-  _122 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **What connects `name`, `version`, `main` to the rest of the system?**
+  _127 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

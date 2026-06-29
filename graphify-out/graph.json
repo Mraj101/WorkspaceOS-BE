@@ -4,37 +4,11 @@
   "graph": {},
   "nodes": [
     {
-      "label": "settings.json",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L1",
-      "id": "claude_settings",
-      "community": 9,
-      "norm_label": "settings.json"
-    },
-    {
-      "label": "hooks",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L2",
-      "id": "claude_settings_hooks",
-      "community": 9,
-      "norm_label": "hooks"
-    },
-    {
-      "label": "PreToolUse",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L3",
-      "id": "claude_settings_hooks_pretooluse",
-      "community": 9,
-      "norm_label": "pretooluse"
-    },
-    {
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "package",
       "community": 2,
       "norm_label": "package.json"
@@ -44,6 +18,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "package_name",
       "community": 2,
       "norm_label": "name"
@@ -53,6 +28,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "package_version",
       "community": 2,
       "norm_label": "version"
@@ -62,6 +38,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
+      "_origin": "ast",
       "id": "package_main",
       "community": 2,
       "norm_label": "main"
@@ -71,6 +48,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "package_scripts",
       "community": 2,
       "norm_label": "scripts"
@@ -80,6 +58,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "package_scripts_dev",
       "community": 2,
       "norm_label": "dev"
@@ -89,6 +68,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "package_scripts_start",
       "community": 2,
       "norm_label": "start"
@@ -98,6 +78,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "package_scripts_test",
       "community": 2,
       "norm_label": "test"
@@ -107,6 +88,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "package_keywords",
       "community": 2,
       "norm_label": "keywords"
@@ -116,6 +98,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L11",
+      "_origin": "ast",
       "id": "package_author",
       "community": 2,
       "norm_label": "author"
@@ -125,6 +108,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L12",
+      "_origin": "ast",
       "id": "package_license",
       "community": 2,
       "norm_label": "license"
@@ -134,6 +118,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L13",
+      "_origin": "ast",
       "id": "package_description",
       "community": 2,
       "norm_label": "description"
@@ -143,6 +128,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L14",
+      "_origin": "ast",
       "id": "package_dependencies",
       "community": 2,
       "norm_label": "dependencies"
@@ -152,6 +138,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L15",
+      "_origin": "ast",
       "id": "package_dependencies_cors",
       "community": 2,
       "norm_label": "cors"
@@ -161,6 +148,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L16",
+      "_origin": "ast",
       "id": "package_dependencies_dotenv",
       "community": 2,
       "norm_label": "dotenv"
@@ -170,6 +158,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L17",
+      "_origin": "ast",
       "id": "package_dependencies_express",
       "community": 2,
       "norm_label": "express"
@@ -179,6 +168,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L18",
+      "_origin": "ast",
       "id": "package_dependencies_helmet",
       "community": 2,
       "norm_label": "helmet"
@@ -188,6 +178,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L19",
+      "_origin": "ast",
       "id": "package_dependencies_morgan",
       "community": 2,
       "norm_label": "morgan"
@@ -197,6 +188,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L20",
+      "_origin": "ast",
       "id": "package_dependencies_pg",
       "community": 2,
       "norm_label": "pg"
@@ -206,6 +198,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L22",
+      "_origin": "ast",
       "id": "package_devdependencies",
       "community": 2,
       "norm_label": "devdependencies"
@@ -215,6 +208,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L23",
+      "_origin": "ast",
       "id": "package_devdependencies_nodemon",
       "community": 2,
       "norm_label": "nodemon"
@@ -224,6 +218,7 @@
       "file_type": "code",
       "source_file": "seed_expenses.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "seed_expenses",
       "community": 14,
       "norm_label": "seed_expenses.js"
@@ -233,6 +228,7 @@
       "file_type": "code",
       "source_file": "seed_expenses.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "seed_expenses_http",
       "community": 14,
       "norm_label": "http"
@@ -242,6 +238,7 @@
       "file_type": "code",
       "source_file": "seed_expenses.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "seed_expenses_expenses",
       "community": 14,
       "norm_label": "expenses"
@@ -251,6 +248,7 @@
       "file_type": "code",
       "source_file": "seed_expenses.js",
       "source_location": "L27",
+      "_origin": "ast",
       "id": "seed_expenses_postexpense",
       "community": 14,
       "norm_label": "postexpense()"
@@ -260,6 +258,7 @@
       "file_type": "code",
       "source_file": "seed_expenses.js",
       "source_location": "L66",
+      "_origin": "ast",
       "id": "seed_expenses_seed",
       "community": 14,
       "norm_label": "seed()"
@@ -269,6 +268,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "server",
       "community": 15,
       "norm_label": "server.js"
@@ -278,6 +278,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "server_app",
       "community": 15,
       "norm_label": "app"
@@ -287,6 +288,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L4",
+      "_origin": "ast",
       "id": "server_logerror",
       "community": 15,
       "norm_label": "{ logerror }"
@@ -296,6 +298,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "src_app",
       "community": 4,
       "norm_label": "app.js"
@@ -305,6 +308,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "src_app_express",
       "community": 4,
       "norm_label": "express"
@@ -314,6 +318,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "src_app_cors",
       "community": 4,
       "norm_label": "cors"
@@ -323,6 +328,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "src_app_helmet",
       "community": 4,
       "norm_label": "helmet"
@@ -332,6 +338,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L4",
+      "_origin": "ast",
       "id": "src_app_morgan",
       "community": 4,
       "norm_label": "morgan"
@@ -341,6 +348,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "src_app_requestid",
       "community": 4,
       "norm_label": "requestid"
@@ -350,6 +358,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "src_app_notfound",
       "community": 4,
       "norm_label": "notfound"
@@ -359,6 +368,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "src_app_errorhandler",
       "community": 4,
       "norm_label": "errorhandler"
@@ -368,6 +378,7 @@
       "file_type": "code",
       "source_file": "src/app.js",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "src_app_app",
       "community": 4,
       "norm_label": "app"
@@ -377,8 +388,9 @@
       "file_type": "code",
       "source_file": "src/config/db.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "config_db",
-      "community": 7,
+      "community": 5,
       "norm_label": "db.js"
     },
     {
@@ -386,8 +398,9 @@
       "file_type": "code",
       "source_file": "src/config/db.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "config_db_pool",
-      "community": 7,
+      "community": 5,
       "norm_label": "{ pool }"
     },
     {
@@ -395,6 +408,7 @@
       "file_type": "code",
       "source_file": "src/errors/AppError.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "errors_apperror",
       "community": 8,
       "norm_label": "apperror.js"
@@ -404,6 +418,7 @@
       "file_type": "code",
       "source_file": "src/errors/AppError.js",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "errors_apperror_apperror",
       "community": 8,
       "norm_label": "apperror"
@@ -413,6 +428,7 @@
       "file_type": "code",
       "source_file": "src/errors/AppError.js",
       "source_location": "L11",
+      "_origin": "ast",
       "id": "errors_apperror_apperror_constructor",
       "community": 8,
       "norm_label": ".constructor()"
@@ -422,6 +438,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "errors_httperrors",
       "community": 8,
       "norm_label": "httperrors.js"
@@ -431,6 +448,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "errors_httperrors_apperror",
       "community": 8,
       "norm_label": "apperror"
@@ -440,6 +458,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "errors_httperrors_notfounderror",
       "community": 8,
       "norm_label": "notfounderror"
@@ -449,6 +468,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L4",
+      "_origin": "ast",
       "id": "errors_httperrors_notfounderror_constructor",
       "community": 8,
       "norm_label": ".constructor()"
@@ -458,6 +478,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L13",
+      "_origin": "ast",
       "id": "errors_httperrors_validationerror",
       "community": 8,
       "norm_label": "validationerror"
@@ -467,6 +488,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L14",
+      "_origin": "ast",
       "id": "errors_httperrors_validationerror_constructor",
       "community": 8,
       "norm_label": ".constructor()"
@@ -476,6 +498,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L18",
+      "_origin": "ast",
       "id": "errors_httperrors_validationerror_fromfield",
       "community": 8,
       "norm_label": ".fromfield()"
@@ -485,6 +508,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L22",
+      "_origin": "ast",
       "id": "errors_httperrors_validationerror_fromfields",
       "community": 8,
       "norm_label": ".fromfields()"
@@ -494,6 +518,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L31",
+      "_origin": "ast",
       "id": "errors_httperrors_conflicterror",
       "community": 8,
       "norm_label": "conflicterror"
@@ -503,6 +528,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L32",
+      "_origin": "ast",
       "id": "errors_httperrors_conflicterror_constructor",
       "community": 8,
       "norm_label": ".constructor()"
@@ -512,6 +538,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L37",
+      "_origin": "ast",
       "id": "errors_httperrors_unauthorizederror",
       "community": 8,
       "norm_label": "unauthorizederror"
@@ -521,6 +548,7 @@
       "file_type": "code",
       "source_file": "src/errors/httpErrors.js",
       "source_location": "L38",
+      "_origin": "ast",
       "id": "errors_httperrors_unauthorizederror_constructor",
       "community": 8,
       "norm_label": ".constructor()"
@@ -530,6 +558,7 @@
       "file_type": "code",
       "source_file": "src/errors/index.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "errors_index",
       "community": 8,
       "norm_label": "index.js"
@@ -539,6 +568,7 @@
       "file_type": "code",
       "source_file": "src/errors/index.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "errors_index_apperror",
       "community": 8,
       "norm_label": "apperror"
@@ -548,6 +578,7 @@
       "file_type": "code",
       "source_file": "src/errors/index.js",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "errors_index_mappgerror",
       "community": 8,
       "norm_label": "mappgerror"
@@ -557,6 +588,7 @@
       "file_type": "code",
       "source_file": "src/errors/index.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
       "community": 8,
       "norm_label": "{\n  notfounderror,\n  validationerror,\n  conflicterror,\n  unauthorizederror,\n}"
@@ -566,6 +598,7 @@
       "file_type": "code",
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "errors_pgerrormapper",
       "community": 8,
       "norm_label": "pgerrormapper.js"
@@ -575,6 +608,7 @@
       "file_type": "code",
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "errors_pgerrormapper_apperror",
       "community": 8,
       "norm_label": "apperror"
@@ -584,6 +618,7 @@
       "file_type": "code",
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "errors_pgerrormapper_conflicterror",
       "community": 8,
       "norm_label": "{ conflicterror }"
@@ -593,6 +628,7 @@
       "file_type": "code",
       "source_file": "src/errors/pgErrorMapper.js",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "errors_pgerrormapper_mappgerror",
       "community": 8,
       "norm_label": "mappgerror()"
@@ -602,8 +638,9 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "lib_baseentity",
-      "community": 7,
+      "community": 5,
       "norm_label": "baseentity.js"
     },
     {
@@ -611,8 +648,9 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "lib_baseentity_pool",
-      "community": 7,
+      "community": 5,
       "norm_label": "pool"
     },
     {
@@ -620,6 +658,7 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "lib_baseentity_baseentity",
       "community": 7,
       "norm_label": "baseentity"
@@ -629,6 +668,7 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L9",
+      "_origin": "ast",
       "id": "lib_baseentity_baseentity_constructor",
       "community": 7,
       "norm_label": ".constructor()"
@@ -638,6 +678,7 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L13",
+      "_origin": "ast",
       "id": "lib_baseentity_baseentity_findbyid",
       "community": 7,
       "norm_label": ".findbyid()"
@@ -647,6 +688,7 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L21",
+      "_origin": "ast",
       "id": "lib_baseentity_baseentity_findmany",
       "community": 7,
       "norm_label": ".findmany()"
@@ -656,6 +698,7 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L31",
+      "_origin": "ast",
       "id": "lib_baseentity_baseentity_create",
       "community": 7,
       "norm_label": ".create()"
@@ -665,6 +708,7 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L57",
+      "_origin": "ast",
       "id": "lib_baseentity_baseentity_updatebyid",
       "community": 7,
       "norm_label": ".updatebyid()"
@@ -674,6 +718,7 @@
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L84",
+      "_origin": "ast",
       "id": "lib_baseentity_baseentity_deletebyid",
       "community": 7,
       "norm_label": ".deletebyid()"
@@ -683,6 +728,7 @@
       "file_type": "code",
       "source_file": "src/lib/asyncHandler.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "lib_asynchandler",
       "community": 3,
       "norm_label": "asynchandler.js"
@@ -692,6 +738,7 @@
       "file_type": "code",
       "source_file": "src/lib/asyncHandler.js",
       "source_location": "L12",
+      "_origin": "ast",
       "id": "lib_asynchandler_asynchandler",
       "community": 3,
       "norm_label": "asynchandler()"
@@ -701,8 +748,9 @@
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "lib_queryhelpers",
-      "community": 7,
+      "community": 18,
       "norm_label": "queryhelpers.js"
     },
     {
@@ -710,8 +758,9 @@
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L18",
+      "_origin": "ast",
       "id": "lib_queryhelpers_pool",
-      "community": 7,
+      "community": 18,
       "norm_label": "pool"
     },
     {
@@ -719,8 +768,9 @@
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L26",
+      "_origin": "ast",
       "id": "lib_queryhelpers_getbyid",
-      "community": 7,
+      "community": 18,
       "norm_label": "getbyid()"
     },
     {
@@ -728,8 +778,9 @@
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L41",
+      "_origin": "ast",
       "id": "lib_queryhelpers_findmany",
-      "community": 7,
+      "community": 18,
       "norm_label": "findmany()"
     },
     {
@@ -737,8 +788,9 @@
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L58",
+      "_origin": "ast",
       "id": "lib_queryhelpers_create",
-      "community": 7,
+      "community": 18,
       "norm_label": "create()"
     },
     {
@@ -746,8 +798,9 @@
       "file_type": "code",
       "source_file": "src/lib/queryHelpers.js",
       "source_location": "L75",
+      "_origin": "ast",
       "id": "lib_queryhelpers_deletebyid",
-      "community": 7,
+      "community": 18,
       "norm_label": "deletebyid()"
     },
     {
@@ -755,6 +808,7 @@
       "file_type": "code",
       "source_file": "src/lib/response.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "lib_response",
       "community": 3,
       "norm_label": "response.js"
@@ -764,6 +818,7 @@
       "file_type": "code",
       "source_file": "src/lib/response.js",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "lib_response_sendsuccess",
       "community": 3,
       "norm_label": "sendsuccess()"
@@ -773,6 +828,7 @@
       "file_type": "code",
       "source_file": "src/lib/response.js",
       "source_location": "L15",
+      "_origin": "ast",
       "id": "lib_response_senderror",
       "community": 3,
       "norm_label": "senderror()"
@@ -782,6 +838,7 @@
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "middleware_errorhandler",
       "community": 15,
       "norm_label": "errorhandler.js"
@@ -791,6 +848,7 @@
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "middleware_errorhandler_apperror",
       "community": 15,
       "norm_label": "apperror"
@@ -800,6 +858,7 @@
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "middleware_errorhandler_mappgerror",
       "community": 15,
       "norm_label": "mappgerror"
@@ -809,6 +868,7 @@
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "middleware_errorhandler_logerror",
       "community": 15,
       "norm_label": "{ logerror }"
@@ -818,6 +878,7 @@
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "middleware_errorhandler_isproduction",
       "community": 15,
       "norm_label": "isproduction()"
@@ -827,6 +888,7 @@
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "middleware_errorhandler_maperror",
       "community": 15,
       "norm_label": "maperror()"
@@ -836,6 +898,7 @@
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L35",
+      "_origin": "ast",
       "id": "middleware_errorhandler_buildextras",
       "community": 15,
       "norm_label": "buildextras()"
@@ -845,6 +908,7 @@
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L66",
+      "_origin": "ast",
       "id": "middleware_errorhandler_errorhandler",
       "community": 15,
       "norm_label": "errorhandler()"
@@ -854,6 +918,7 @@
       "file_type": "code",
       "source_file": "src/middleware/notFound.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "middleware_notfound",
       "community": 4,
       "norm_label": "notfound.js"
@@ -863,6 +928,7 @@
       "file_type": "code",
       "source_file": "src/middleware/notFound.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "middleware_notfound_notfounderror",
       "community": 4,
       "norm_label": "{ notfounderror }"
@@ -872,6 +938,7 @@
       "file_type": "code",
       "source_file": "src/middleware/notFound.js",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "middleware_notfound_notfound",
       "community": 4,
       "norm_label": "notfound()"
@@ -881,6 +948,7 @@
       "file_type": "code",
       "source_file": "src/middleware/requestId.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "middleware_requestid",
       "community": 4,
       "norm_label": "requestid.js"
@@ -890,6 +958,7 @@
       "file_type": "code",
       "source_file": "src/middleware/requestId.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "middleware_requestid_randomuuid",
       "community": 4,
       "norm_label": "{ randomuuid }"
@@ -899,6 +968,7 @@
       "file_type": "code",
       "source_file": "src/middleware/requestId.js",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "middleware_requestid_requestid",
       "community": 4,
       "norm_label": "requestid()"
@@ -908,6 +978,7 @@
       "file_type": "code",
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "middleware_validaterequired",
       "community": 16,
       "norm_label": "validaterequired.js"
@@ -917,6 +988,7 @@
       "file_type": "code",
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "middleware_validaterequired_validationerror",
       "community": 16,
       "norm_label": "{ validationerror }"
@@ -926,6 +998,7 @@
       "file_type": "code",
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "middleware_validaterequired_validateschema",
       "community": 16,
       "norm_label": "validateschema()"
@@ -935,6 +1008,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_controller",
       "community": 3,
       "norm_label": "controller.js"
@@ -944,6 +1018,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_controller_asynchandler",
       "community": 3,
       "norm_label": "asynchandler"
@@ -953,6 +1028,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "expenses_controller_service",
       "community": 3,
       "norm_label": "service"
@@ -962,6 +1038,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "expenses_controller_sendsuccess",
       "community": 3,
       "norm_label": "{ sendsuccess }"
@@ -971,6 +1048,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_queries",
       "community": 5,
       "norm_label": "queries.js"
@@ -980,6 +1058,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_queries_pool",
       "community": 5,
       "norm_label": "pool"
@@ -989,6 +1068,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "expenses_queries_baseentity",
       "community": 5,
       "norm_label": "baseentity"
@@ -998,6 +1078,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "expenses_queries_expensesentity",
       "community": 5,
       "norm_label": "expensesentity"
@@ -1007,6 +1088,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "expenses_queries_createexpense",
       "community": 5,
       "norm_label": "createexpense()"
@@ -1016,6 +1098,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L21",
+      "_origin": "ast",
       "id": "expenses_queries_findduplicates",
       "community": 5,
       "norm_label": "findduplicates()"
@@ -1025,6 +1108,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_routes",
       "community": 16,
       "norm_label": "routes.js"
@@ -1034,6 +1118,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_routes_router",
       "community": 16,
       "norm_label": "{ router }"
@@ -1043,6 +1128,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "expenses_routes_ctrl",
       "community": 16,
       "norm_label": "ctrl"
@@ -1052,6 +1138,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "expenses_routes_validate",
       "community": 16,
       "norm_label": "validate"
@@ -1061,6 +1148,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_service",
       "community": 3,
       "norm_label": "service.js"
@@ -1070,6 +1158,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_service_q",
       "community": 3,
       "norm_label": "q"
@@ -1079,15 +1168,27 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "expenses_service_validationerror",
       "community": 3,
       "norm_label": "{ validationerror }"
+    },
+    {
+      "label": "createExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "expenses_service_createexpense",
+      "community": 3,
+      "norm_label": "createexpense()"
     },
     {
       "label": "validator.js",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/validator.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_validator",
       "community": 16,
       "norm_label": "validator.js"
@@ -1097,6 +1198,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/validator.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expenses_validator_validateschema",
       "community": 16,
       "norm_label": "validateschema"
@@ -1106,6 +1208,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/index.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expense_tracker_index",
       "community": 13,
       "norm_label": "index.js"
@@ -1115,6 +1218,7 @@
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/index.js",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "expense_tracker_index_router",
       "community": 13,
       "norm_label": "{ router }"
@@ -1124,6 +1228,7 @@
       "file_type": "code",
       "source_file": "src/utils/logger.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "utils_logger",
       "community": 15,
       "norm_label": "logger.js"
@@ -1133,6 +1238,7 @@
       "file_type": "code",
       "source_file": "src/utils/logger.js",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "utils_logger_logerror",
       "community": 15,
       "norm_label": "logerror()"
@@ -1142,6 +1248,7 @@
       "file_type": "document",
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_claude",
       "community": 10,
       "norm_label": "claude.md"
@@ -1151,6 +1258,7 @@
       "file_type": "document",
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_claude_graphify",
       "community": 10,
       "norm_label": "graphify"
@@ -1160,6 +1268,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "graphify_skill",
       "community": 1,
       "norm_label": "skill.md"
@@ -1169,6 +1278,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "graphify_skill_graphify",
       "community": 1,
       "norm_label": "/graphify"
@@ -1178,6 +1288,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L11",
+      "_origin": "ast",
       "id": "graphify_skill_usage",
       "community": 1,
       "norm_label": "usage"
@@ -1187,6 +1298,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L44",
+      "_origin": "ast",
       "id": "graphify_skill_what_graphify_is_for",
       "community": 1,
       "norm_label": "what graphify is for"
@@ -1196,6 +1308,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L48",
+      "_origin": "ast",
       "id": "graphify_skill_what_you_must_do_when_invoked",
       "community": 0,
       "norm_label": "what you must do when invoked"
@@ -1205,6 +1318,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L60",
+      "_origin": "ast",
       "id": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
       "community": 0,
       "norm_label": "step 0 - clone github repo(s) (only if a github url was given)"
@@ -1214,6 +1328,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L103",
+      "_origin": "ast",
       "id": "graphify_skill_step_1_ensure_graphify_is_installed",
       "community": 0,
       "norm_label": "step 1 - ensure graphify is installed"
@@ -1223,6 +1338,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L145",
+      "_origin": "ast",
       "id": "graphify_skill_step_2_detect_files",
       "community": 0,
       "norm_label": "step 2 - detect files"
@@ -1232,6 +1348,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L182",
+      "_origin": "ast",
       "id": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
       "community": 0,
       "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)"
@@ -1241,6 +1358,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L227",
+      "_origin": "ast",
       "id": "graphify_skill_step_3_extract_entities_and_relationships",
       "community": 0,
       "norm_label": "step 3 - extract entities and relationships"
@@ -1250,6 +1368,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L244",
+      "_origin": "ast",
       "id": "graphify_skill_part_a_structural_extraction_for_code_files",
       "community": 0,
       "norm_label": "part a - structural extraction for code files"
@@ -1259,6 +1378,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L270",
+      "_origin": "ast",
       "id": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
       "community": 0,
       "norm_label": "part b - semantic extraction (parallel subagents)"
@@ -1268,6 +1388,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L478",
+      "_origin": "ast",
       "id": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
       "community": 0,
       "norm_label": "part c - merge ast + semantic into final extraction"
@@ -1277,6 +1398,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L512",
+      "_origin": "ast",
       "id": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
       "community": 0,
       "norm_label": "step 4 - build graph, cluster, analyze, generate outputs"
@@ -1286,6 +1408,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L564",
+      "_origin": "ast",
       "id": "graphify_skill_step_5_label_communities",
       "community": 0,
       "norm_label": "step 5 - label communities"
@@ -1295,6 +1418,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L604",
+      "_origin": "ast",
       "id": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
       "community": 0,
       "norm_label": "step 6 - generate obsidian vault (opt-in) + html"
@@ -1304,6 +1428,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L624",
+      "_origin": "ast",
       "id": "graphify_skill_step_6b_wiki_only_if_wiki_flag",
       "community": 0,
       "norm_label": "step 6b - wiki (only if --wiki flag)"
@@ -1313,6 +1438,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L634",
+      "_origin": "ast",
       "id": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
       "community": 0,
       "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)"
@@ -1322,6 +1448,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L650",
+      "_origin": "ast",
       "id": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
       "community": 0,
       "norm_label": "step 7b - svg export (only if --svg flag)"
@@ -1331,6 +1458,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L656",
+      "_origin": "ast",
       "id": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
       "community": 0,
       "norm_label": "step 7c - graphml export (only if --graphml flag)"
@@ -1340,6 +1468,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L662",
+      "_origin": "ast",
       "id": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
       "community": 0,
       "norm_label": "step 7d - mcp server (only if --mcp flag)"
@@ -1349,6 +1478,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L682",
+      "_origin": "ast",
       "id": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
       "community": 0,
       "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)"
@@ -1358,6 +1488,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L694",
+      "_origin": "ast",
       "id": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
       "community": 0,
       "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report"
@@ -1367,6 +1498,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L768",
+      "_origin": "ast",
       "id": "graphify_skill_interpreter_guard_for_subcommands",
       "community": 1,
       "norm_label": "interpreter guard for subcommands"
@@ -1376,6 +1508,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L786",
+      "_origin": "ast",
       "id": "graphify_skill_for_update_incremental_re_extraction",
       "community": 1,
       "norm_label": "for --update (incremental re-extraction)"
@@ -1385,6 +1518,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L947",
+      "_origin": "ast",
       "id": "graphify_skill_for_cluster_only",
       "community": 1,
       "norm_label": "for --cluster-only"
@@ -1394,6 +1528,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L959",
+      "_origin": "ast",
       "id": "graphify_skill_for_graphify_query",
       "community": 1,
       "norm_label": "for /graphify query"
@@ -1403,6 +1538,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L968",
+      "_origin": "ast",
       "id": "graphify_skill_step_0_constrained_query_expansion_required_before_traversal",
       "community": 1,
       "norm_label": "step 0 \u2014 constrained query expansion (required before traversal)"
@@ -1412,6 +1548,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1006",
+      "_origin": "ast",
       "id": "graphify_skill_step_1_traversal",
       "community": 1,
       "norm_label": "step 1 \u2014 traversal"
@@ -1421,6 +1558,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1027",
+      "_origin": "ast",
       "id": "graphify_skill_for_graphify_path",
       "community": 1,
       "norm_label": "for /graphify path"
@@ -1430,6 +1568,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1045",
+      "_origin": "ast",
       "id": "graphify_skill_for_graphify_explain",
       "community": 1,
       "norm_label": "for /graphify explain"
@@ -1439,6 +1578,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1063",
+      "_origin": "ast",
       "id": "graphify_skill_for_graphify_add",
       "community": 1,
       "norm_label": "for /graphify add"
@@ -1448,6 +1588,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1097",
+      "_origin": "ast",
       "id": "graphify_skill_for_watch",
       "community": 1,
       "norm_label": "for --watch"
@@ -1457,6 +1598,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1118",
+      "_origin": "ast",
       "id": "graphify_skill_for_git_commit_hook",
       "community": 1,
       "norm_label": "for git commit hook"
@@ -1466,6 +1608,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1134",
+      "_origin": "ast",
       "id": "graphify_skill_for_native_claude_md_integration",
       "community": 1,
       "norm_label": "for native claude.md integration"
@@ -1475,6 +1618,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1150",
+      "_origin": "ast",
       "id": "graphify_skill_honesty_rules",
       "community": 1,
       "norm_label": "honesty rules"
@@ -1484,6 +1628,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude",
       "community": 11,
       "norm_label": "claude.md"
@@ -1493,6 +1638,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_graphify",
       "community": 11,
       "norm_label": "graphify"
@@ -1502,6 +1648,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "readme",
       "community": 12,
       "norm_label": "readme.md"
@@ -1511,6 +1658,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "readme_workspaceos_be",
       "community": 12,
       "norm_label": "workspaceos-be"
@@ -1520,6 +1668,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough",
       "community": 17,
       "norm_label": "backend_architecture_walkthrough.md"
@@ -1529,6 +1678,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
       "community": 17,
       "norm_label": "backend architecture & data flow walkthrough"
@@ -1538,6 +1688,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_1_the_entry_point_server_js_src_app_js",
       "community": 17,
       "norm_label": "1. the entry point (`server.js` & `src/app.js`)"
@@ -1547,6 +1698,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L17",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
       "community": 17,
       "norm_label": "2. the http request journey (the expense tracker)"
@@ -1556,6 +1708,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L20",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_step_1_the_route_validator_routes_js_validator_js",
       "community": 17,
       "norm_label": "step 1: the route & validator (`routes.js` & `validator.js`)"
@@ -1565,6 +1718,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L30",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_step_2_the_controller_controller_js",
       "community": 17,
       "norm_label": "step 2: the controller (`controller.js`)"
@@ -1574,6 +1728,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L35",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_step_3_the_service_layer_service_js",
       "community": 17,
       "norm_label": "step 3: the service layer (`service.js`)"
@@ -1583,6 +1738,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L41",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_step_4_the_query_layer_baseentity_queries_js_baseentity_js",
       "community": 17,
       "norm_label": "step 4: the query layer & baseentity (`queries.js` & `baseentity.js`)"
@@ -1592,6 +1748,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L49",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
       "community": 17,
       "norm_label": "3. how responses and errors are handled"
@@ -1601,6 +1758,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L51",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_success",
       "community": 17,
       "norm_label": "success"
@@ -1610,6 +1768,7 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L55",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_errors",
       "community": 17,
       "norm_label": "errors"
@@ -1619,15 +1778,67 @@
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L64",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
       "community": 17,
       "norm_label": "4. how the database & migrations work"
     },
     {
-      "label": "Soft Deletes",
+      "label": "The Story Behind Migrations \u2014 Why They Exist",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "backend_architecture_walkthrough_the_story_behind_migrations_why_they_exist",
+      "community": 17,
+      "norm_label": "the story behind migrations \u2014 why they exist"
+    },
+    {
+      "label": "How Migrations Work in Practice",
       "file_type": "document",
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L74",
+      "_origin": "ast",
+      "id": "backend_architecture_walkthrough_how_migrations_work_in_practice",
+      "community": 17,
+      "norm_label": "how migrations work in practice"
+    },
+    {
+      "label": "Migration `001` \u2014 The Foundation (`001_expense_tracker_init.sql`)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "backend_architecture_walkthrough_migration_001_the_foundation_001_expense_tracker_init_sql",
+      "community": 17,
+      "norm_label": "migration `001` \u2014 the foundation (`001_expense_tracker_init.sql`)"
+    },
+    {
+      "label": "Migration `002` \u2014 The Enhancement (`002_expense_tracker_enhance.sql`)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "backend_architecture_walkthrough_migration_002_the_enhancement_002_expense_tracker_enhance_sql",
+      "community": 17,
+      "norm_label": "migration `002` \u2014 the enhancement (`002_expense_tracker_enhance.sql`)"
+    },
+    {
+      "label": "Migration `003` \u2014 The Base Audit Pattern (`003_base_audit_pattern.sql`)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L114",
+      "_origin": "ast",
+      "id": "backend_architecture_walkthrough_migration_003_the_base_audit_pattern_003_base_audit_pattern_sql",
+      "community": 17,
+      "norm_label": "migration `003` \u2014 the base audit pattern (`003_base_audit_pattern.sql`)"
+    },
+    {
+      "label": "Soft Deletes",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L157",
+      "_origin": "ast",
       "id": "backend_architecture_walkthrough_soft_deletes",
       "community": 17,
       "norm_label": "soft deletes"
@@ -1637,6 +1848,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expense_tracker_readme",
       "community": 6,
       "norm_label": "readme.md"
@@ -1646,6 +1858,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "expense_tracker_readme_expense_tracker_module",
       "community": 6,
       "norm_label": "expense tracker module"
@@ -1655,6 +1868,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "expense_tracker_readme_tables",
       "community": 6,
       "norm_label": "tables"
@@ -1664,6 +1878,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L15",
+      "_origin": "ast",
       "id": "expense_tracker_readme_endpoints",
       "community": 6,
       "norm_label": "endpoints"
@@ -1673,6 +1888,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L17",
+      "_origin": "ast",
       "id": "expense_tracker_readme_categories",
       "community": 6,
       "norm_label": "categories"
@@ -1682,6 +1898,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L25",
+      "_origin": "ast",
       "id": "expense_tracker_readme_payment_methods",
       "community": 6,
       "norm_label": "payment methods"
@@ -1691,6 +1908,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L33",
+      "_origin": "ast",
       "id": "expense_tracker_readme_tags",
       "community": 6,
       "norm_label": "tags"
@@ -1700,6 +1918,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L41",
+      "_origin": "ast",
       "id": "expense_tracker_readme_expenses",
       "community": 6,
       "norm_label": "expenses"
@@ -1709,6 +1928,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L57",
+      "_origin": "ast",
       "id": "expense_tracker_readme_query_filters_get_api_expenses",
       "community": 6,
       "norm_label": "query filters (`get /api/expenses`)"
@@ -1718,6 +1938,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L74",
+      "_origin": "ast",
       "id": "expense_tracker_readme_response_format",
       "community": 6,
       "norm_label": "response format"
@@ -1727,6 +1948,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L76",
+      "_origin": "ast",
       "id": "expense_tracker_readme_paginated_list_get_api_expenses",
       "community": 6,
       "norm_label": "paginated list (`get /api/expenses`)"
@@ -1736,6 +1958,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L90",
+      "_origin": "ast",
       "id": "expense_tracker_readme_single_expense_includes_tags",
       "community": 6,
       "norm_label": "single expense (includes tags)"
@@ -1745,6 +1968,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L110",
+      "_origin": "ast",
       "id": "expense_tracker_readme_duplicate_warning",
       "community": 6,
       "norm_label": "duplicate warning"
@@ -1754,6 +1978,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L126",
+      "_origin": "ast",
       "id": "expense_tracker_readme_example_request_bodies",
       "community": 6,
       "norm_label": "example request bodies"
@@ -1763,6 +1988,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L128",
+      "_origin": "ast",
       "id": "expense_tracker_readme_create_expense",
       "community": 6,
       "norm_label": "create expense"
@@ -1772,6 +1998,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L141",
+      "_origin": "ast",
       "id": "expense_tracker_readme_bulk_create",
       "community": 6,
       "norm_label": "bulk create"
@@ -1781,6 +2008,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L151",
+      "_origin": "ast",
       "id": "expense_tracker_readme_bulk_delete",
       "community": 6,
       "norm_label": "bulk delete"
@@ -1790,6 +2018,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L158",
+      "_origin": "ast",
       "id": "expense_tracker_readme_attach_tag",
       "community": 6,
       "norm_label": "attach tag"
@@ -1799,6 +2028,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L165",
+      "_origin": "ast",
       "id": "expense_tracker_readme_create_category",
       "community": 6,
       "norm_label": "create category"
@@ -1808,6 +2038,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L174",
+      "_origin": "ast",
       "id": "expense_tracker_readme_create_tag",
       "community": 6,
       "norm_label": "create tag"
@@ -1817,6 +2048,7 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L182",
+      "_origin": "ast",
       "id": "expense_tracker_readme_business_logic_rules",
       "community": 6,
       "norm_label": "business logic rules"
@@ -1826,9 +2058,37 @@
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L194",
+      "_origin": "ast",
       "id": "expense_tracker_readme_data_access_style",
       "community": 6,
       "norm_label": "data access style"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "settings.json",
+      "id": "claude_settings"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "community": 9,
+      "norm_label": "hooks",
+      "id": "claude_settings_hooks"
+    },
+    {
+      "label": "PreToolUse",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "community": 9,
+      "norm_label": "pretooluse",
+      "id": "claude_settings_hooks_pretooluse"
     },
     {
       "label": "buildErrorResponse()",
@@ -2003,26 +2263,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_settings",
-      "target": "claude_settings_hooks"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_settings_hooks",
-      "target": "claude_settings_hooks_pretooluse"
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -3654,6 +3894,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_createexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L1",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4106,9 +4356,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough",
-      "target": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough"
     },
     {
       "relation": "contains",
@@ -4116,9 +4366,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
-      "target": "backend_architecture_walkthrough_1_the_entry_point_server_js_src_app_js",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_1_the_entry_point_server_js_src_app_js"
     },
     {
       "relation": "contains",
@@ -4126,9 +4376,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
-      "target": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker"
     },
     {
       "relation": "contains",
@@ -4136,9 +4386,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
-      "target": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled"
     },
     {
       "relation": "contains",
@@ -4146,9 +4396,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
-      "target": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_4_how_the_database_migrations_work"
     },
     {
       "relation": "contains",
@@ -4156,9 +4406,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
-      "target": "backend_architecture_walkthrough_step_1_the_route_validator_routes_js_validator_js",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_step_1_the_route_validator_routes_js_validator_js"
     },
     {
       "relation": "contains",
@@ -4166,9 +4416,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
-      "target": "backend_architecture_walkthrough_step_2_the_controller_controller_js",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_step_2_the_controller_controller_js"
     },
     {
       "relation": "contains",
@@ -4176,9 +4426,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
-      "target": "backend_architecture_walkthrough_step_3_the_service_layer_service_js",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_step_3_the_service_layer_service_js"
     },
     {
       "relation": "contains",
@@ -4186,9 +4436,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
-      "target": "backend_architecture_walkthrough_step_4_the_query_layer_baseentity_queries_js_baseentity_js",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_step_4_the_query_layer_baseentity_queries_js_baseentity_js"
     },
     {
       "relation": "contains",
@@ -4196,9 +4446,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
-      "target": "backend_architecture_walkthrough_errors",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_errors"
     },
     {
       "relation": "contains",
@@ -4206,9 +4456,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
-      "target": "backend_architecture_walkthrough_success",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_success"
     },
     {
       "relation": "contains",
@@ -4217,7 +4467,57 @@
       "source_location": "L74",
       "weight": 1.0,
       "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
-      "target": "backend_architecture_walkthrough_soft_deletes",
+      "target": "backend_architecture_walkthrough_how_migrations_work_in_practice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "target": "backend_architecture_walkthrough_migration_001_the_foundation_001_expense_tracker_init_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "target": "backend_architecture_walkthrough_migration_002_the_enhancement_002_expense_tracker_enhance_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "target": "backend_architecture_walkthrough_migration_003_the_base_audit_pattern_003_base_audit_pattern_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "target": "backend_architecture_walkthrough_soft_deletes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "target": "backend_architecture_walkthrough_the_story_behind_migrations_why_they_exist",
       "confidence_score": 1.0
     },
     {
@@ -4431,6 +4731,26 @@
       "target": "expense_tracker_readme_create_tag"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings",
+      "target": "claude_settings_hooks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_pretooluse"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -4454,5 +4774,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f929cc5c5cb40d73411ac465a6c37b7b78ecb99a"
+  "built_at_commit": "4bc5fc7e0148a2fbbf6d5268da72f1a0d86ae0d6"
 }
