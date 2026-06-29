@@ -1,16 +1,16 @@
 # Graph Report - WorkSpace-BE  (2026-06-28)
 
 ## Corpus Check
-- 33 files · ~11,976 words
+- 34 files · ~12,802 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 209 nodes · 228 edges · 17 communities (12 shown, 5 thin omitted)
+- 222 nodes · 240 edges · 18 communities (13 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d4fc6f86`
+- Built from commit: `f929cc5c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,6 +32,7 @@
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `What You Must Do When Invoked` - 16 edges
@@ -41,9 +42,9 @@
 5. `errorHandler()` - 7 edges
 6. `Example Request Bodies` - 7 edges
 7. `ValidationError` - 5 edges
-8. `Endpoints` - 5 edges
-9. `scripts` - 4 edges
-10. `ConflictError` - 4 edges
+8. `Backend Architecture & Data Flow Walkthrough` - 5 edges
+9. `2. The HTTP Request Journey (The Expense Tracker)` - 5 edges
+10. `Endpoints` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `errorHandler()` --calls--> `sendError()`  [INFERRED]
@@ -54,7 +55,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (17 total, 5 thin omitted)
+## Communities (18 total, 5 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.11
@@ -104,8 +105,12 @@ Nodes (11): AppError, buildErrorResponse(), buildExtras(), errorHandler(), isPro
 Cohesion: 0.18
 Nodes (6): ctrl, { Router }, validate, validateRequired, validateSchema, { ValidationError }
 
+### Community 17 - "Community 17"
+Cohesion: 0.15
+Nodes (12): 1. The Entry Point (`server.js` & `src/app.js`), 2. The HTTP Request Journey (The Expense Tracker), 3. How Responses and Errors are Handled, 4. How the Database & Migrations Work, Backend Architecture & Data Flow Walkthrough, Errors, Soft Deletes, Step 1: The Route & Validator (`routes.js` & `validator.js`) (+4 more)
+
 ## Knowledge Gaps
-- **114 isolated node(s):** `PreToolUse`, `name`, `version`, `main`, `dev` (+109 more)
+- **122 isolated node(s):** `PreToolUse`, `name`, `version`, `main`, `dev` (+117 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -113,11 +118,11 @@ Nodes (6): ctrl, { Router }, validate, validateRequired, validateSchema, { Valid
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `What You Must Do When Invoked` connect `Community 0` to `Community 1`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Why does `/graphify` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **What connects `PreToolUse`, `name`, `version` to the rest of the system?**
-  _114 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _122 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

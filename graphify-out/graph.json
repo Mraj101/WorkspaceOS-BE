@@ -1516,6 +1516,123 @@
       "norm_label": "workspaceos-be"
     },
     {
+      "label": "backend_architecture_walkthrough.md",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L1",
+      "id": "backend_architecture_walkthrough",
+      "community": 17,
+      "norm_label": "backend_architecture_walkthrough.md"
+    },
+    {
+      "label": "Backend Architecture & Data Flow Walkthrough",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L1",
+      "id": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
+      "community": 17,
+      "norm_label": "backend architecture & data flow walkthrough"
+    },
+    {
+      "label": "1. The Entry Point (`server.js` & `src/app.js`)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L7",
+      "id": "backend_architecture_walkthrough_1_the_entry_point_server_js_src_app_js",
+      "community": 17,
+      "norm_label": "1. the entry point (`server.js` & `src/app.js`)"
+    },
+    {
+      "label": "2. The HTTP Request Journey (The Expense Tracker)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L17",
+      "id": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
+      "community": 17,
+      "norm_label": "2. the http request journey (the expense tracker)"
+    },
+    {
+      "label": "Step 1: The Route & Validator (`routes.js` & `validator.js`)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L20",
+      "id": "backend_architecture_walkthrough_step_1_the_route_validator_routes_js_validator_js",
+      "community": 17,
+      "norm_label": "step 1: the route & validator (`routes.js` & `validator.js`)"
+    },
+    {
+      "label": "Step 2: The Controller (`controller.js`)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L30",
+      "id": "backend_architecture_walkthrough_step_2_the_controller_controller_js",
+      "community": 17,
+      "norm_label": "step 2: the controller (`controller.js`)"
+    },
+    {
+      "label": "Step 3: The Service Layer (`service.js`)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L35",
+      "id": "backend_architecture_walkthrough_step_3_the_service_layer_service_js",
+      "community": 17,
+      "norm_label": "step 3: the service layer (`service.js`)"
+    },
+    {
+      "label": "Step 4: The Query Layer & BaseEntity (`queries.js` & `BaseEntity.js`)",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L41",
+      "id": "backend_architecture_walkthrough_step_4_the_query_layer_baseentity_queries_js_baseentity_js",
+      "community": 17,
+      "norm_label": "step 4: the query layer & baseentity (`queries.js` & `baseentity.js`)"
+    },
+    {
+      "label": "3. How Responses and Errors are Handled",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L49",
+      "id": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
+      "community": 17,
+      "norm_label": "3. how responses and errors are handled"
+    },
+    {
+      "label": "Success",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L51",
+      "id": "backend_architecture_walkthrough_success",
+      "community": 17,
+      "norm_label": "success"
+    },
+    {
+      "label": "Errors",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L55",
+      "id": "backend_architecture_walkthrough_errors",
+      "community": 17,
+      "norm_label": "errors"
+    },
+    {
+      "label": "4. How the Database & Migrations Work",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L64",
+      "id": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "community": 17,
+      "norm_label": "4. how the database & migrations work"
+    },
+    {
+      "label": "Soft Deletes",
+      "file_type": "document",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L74",
+      "id": "backend_architecture_walkthrough_soft_deletes",
+      "community": 17,
+      "norm_label": "soft deletes"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "src/modules/expense-tracker/README.md",
@@ -2912,9 +3029,9 @@
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_controller",
-      "target": "lib_response",
-      "confidence_score": 1.0
+      "target": "lib_response"
     },
     {
       "relation": "contains",
@@ -2922,9 +3039,9 @@
       "source_file": "src/lib/response.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_response",
-      "target": "lib_response_senderror",
-      "confidence_score": 1.0
+      "target": "lib_response_senderror"
     },
     {
       "relation": "contains",
@@ -2932,9 +3049,9 @@
       "source_file": "src/lib/response.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_response",
-      "target": "lib_response_sendsuccess",
-      "confidence_score": 1.0
+      "target": "lib_response_sendsuccess"
     },
     {
       "relation": "imports",
@@ -2943,9 +3060,9 @@
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_controller",
-      "target": "lib_response_sendsuccess",
-      "confidence_score": 1.0
+      "target": "lib_response_sendsuccess"
     },
     {
       "relation": "calls",
@@ -2984,9 +3101,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler",
-      "target": "middleware_errorhandler_buildextras",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_buildextras"
     },
     {
       "relation": "contains",
@@ -3089,9 +3206,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler_buildextras",
-      "target": "middleware_errorhandler_isproduction",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_isproduction"
     },
     {
       "relation": "calls",
@@ -3100,9 +3217,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler_errorhandler",
-      "target": "middleware_errorhandler_isproduction",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_isproduction"
     },
     {
       "relation": "calls",
@@ -3122,9 +3239,9 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_errorhandler_errorhandler",
-      "target": "middleware_errorhandler_buildextras",
-      "confidence_score": 1.0
+      "target": "middleware_errorhandler_buildextras"
     },
     {
       "relation": "calls",
@@ -3255,9 +3372,9 @@
       "source_file": "src/modules/expense-tracker/expenses/controller.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_controller",
-      "target": "expenses_controller_sendsuccess",
-      "confidence_score": 1.0
+      "target": "expenses_controller_sendsuccess"
     },
     {
       "relation": "contains",
@@ -3986,6 +4103,126 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough",
+      "target": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
+      "target": "backend_architecture_walkthrough_1_the_entry_point_server_js_src_app_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
+      "target": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
+      "target": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_backend_architecture_data_flow_walkthrough",
+      "target": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
+      "target": "backend_architecture_walkthrough_step_1_the_route_validator_routes_js_validator_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
+      "target": "backend_architecture_walkthrough_step_2_the_controller_controller_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
+      "target": "backend_architecture_walkthrough_step_3_the_service_layer_service_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
+      "target": "backend_architecture_walkthrough_step_4_the_query_layer_baseentity_queries_js_baseentity_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
+      "target": "backend_architecture_walkthrough_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
+      "target": "backend_architecture_walkthrough_success",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "target": "backend_architecture_walkthrough_soft_deletes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -4217,5 +4454,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d4fc6f86c70ea3745942d5ad7366b7e7fe4aae56"
+  "built_at_commit": "f929cc5c5cb40d73411ac465a6c37b7b78ecb99a"
 }
