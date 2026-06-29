@@ -2,11 +2,22 @@ const pool = require('../config/db');
 
 /**
  * BaseEntity - A generic data access class that handles common CRUD operations.
- * It automatically manages soft deletes and ensures audit fields (created_at, 
+ * It automatically manages soft deletes and ensures audit fields (created_at,
  * updated_at, deleted_at) are handled internally and never manually inserted.
+ *
+ * Table names are interpolated directly into SQL (PostgreSQL doesn't support
+ * parameterized identifiers). The constructor enforces that tableName is a
+ * valid PostgreSQL identifier — lowercase letters, digits, and underscores only —
+ * so every method is safe by construction regardless of how the class is used.
  */
 class BaseEntity {
   constructor(tableName) {
+    if (!/^[a-z][a-z0-9_]*$/.test(tableName)) {
+      throw new Error(
+        `BaseEntity: invalid table name "${tableName}". ` +
+        'Must be lowercase letters, digits, and underscores only (no spaces, no uppercase, no special chars).'
+      );
+    }
     this.tableName = tableName;
   }
 

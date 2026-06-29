@@ -1,6 +1,7 @@
 const AppError = require('../errors/AppError');
 const mapPgError = require('../errors/pgErrorMapper');
 const { logError } = require('../utils/logger');
+const { sendError } = require('../lib/response');
 
 const isProduction = () => process.env.NODE_ENV === 'production';
 
@@ -67,7 +68,7 @@ const errorHandler = (err, req, res, next) => {
   const normalized = mapError(err);
   const statusCode = normalized.statusCode || 500;
   const isOperational = normalized.isOperational !== false;
-  
+
   const message =
     !isOperational && isProduction()
       ? 'Internal Server Error'
@@ -79,7 +80,7 @@ const errorHandler = (err, req, res, next) => {
     logError(normalized, req);
   }
 
-  const { sendError } = require('../lib/response');
+
   sendError(res, statusCode, message, extras);
 };
 
