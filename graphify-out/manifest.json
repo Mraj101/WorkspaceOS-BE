@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1780290389.3704596,
-    "ast_hash": "5e868915b5743dc282938a106508d675",
+    "mtime": 1782716017.3149638,
+    "ast_hash": "f1f227e63f423158adde7aee39bc89cf",
     "semantic_hash": ""
   },
   "server.js": {
@@ -34,14 +34,9 @@
     "ast_hash": "a0fee32955187bb9e5293dcd9b631157",
     "semantic_hash": ""
   },
-  "src/lib/queryHelpers.js": {
-    "mtime": 1782660083.9901466,
-    "ast_hash": "5db57d9f11a0a29437eb99e18c37cdf6",
-    "semantic_hash": ""
-  },
   "src/middleware/errorHandler.js": {
-    "mtime": 1782663813.9134681,
-    "ast_hash": "fdf2efcffe31ac907c5fa49ff7dcb78c",
+    "mtime": 1782706859.3859584,
+    "ast_hash": "a8ff8fbb54d9b72141ed0cf67c7f8517",
     "semantic_hash": ""
   },
   "src/middleware/notFound.js": {
@@ -77,11 +72,6 @@
   "src/modules/expense-tracker/README.md": {
     "mtime": 1780546321.7553048,
     "ast_hash": "651898023424347a62a8adbde9d260af",
-    "semantic_hash": ""
-  },
-  "seed_expenses.js": {
-    "mtime": 1780293847.2670202,
-    "ast_hash": "38ac1c8feb8e594efc1e5eebbee82651",
     "semantic_hash": ""
   },
   "migrations/002_expense_tracker_enhance.sql": {
@@ -155,8 +145,8 @@
     "semantic_hash": ""
   },
   "src/lib/BaseEntity.js": {
-    "mtime": 1782660172.5794947,
-    "ast_hash": "215599c386d723d206ca2a88d83d2be5",
+    "mtime": 1782715968.7696915,
+    "ast_hash": "be6f8d1913f93450f271595e54931f6b",
     "semantic_hash": ""
   },
   "src/lib/response.js": {
@@ -167,6 +157,11 @@
   "backend_architecture_walkthrough.md": {
     "mtime": 1782667054.983487,
     "ast_hash": "2a6ebfca173d07aab494f1e48bb7be23",
+    "semantic_hash": ""
+  },
+  "migrations/000_schema_migrations.sql": {
+    "mtime": 1782715985.246783,
+    "ast_hash": "c64306cb55e7570d5f7574439502d5cd",
     "semantic_hash": ""
   }
 }

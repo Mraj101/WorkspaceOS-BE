@@ -74,10 +74,20 @@
       "norm_label": "start"
     },
     {
-      "label": "test",
+      "label": "migrate",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_migrate",
+      "community": 2,
+      "norm_label": "migrate"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "package_scripts_test",
       "community": 2,
@@ -87,7 +97,7 @@
       "label": "keywords",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "package_keywords",
       "community": 2,
@@ -97,7 +107,7 @@
       "label": "author",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L11",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "package_author",
       "community": 2,
@@ -107,7 +117,7 @@
       "label": "license",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "package_license",
       "community": 2,
@@ -117,7 +127,7 @@
       "label": "description",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L13",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "package_description",
       "community": 2,
@@ -127,7 +137,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L14",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "package_dependencies",
       "community": 2,
@@ -137,7 +147,7 @@
       "label": "cors",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L15",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "package_dependencies_cors",
       "community": 2,
@@ -147,7 +157,7 @@
       "label": "dotenv",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L16",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "package_dependencies_dotenv",
       "community": 2,
@@ -157,7 +167,7 @@
       "label": "express",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L17",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "package_dependencies_express",
       "community": 2,
@@ -167,7 +177,7 @@
       "label": "helmet",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L18",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "package_dependencies_helmet",
       "community": 2,
@@ -177,7 +187,7 @@
       "label": "morgan",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L19",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "package_dependencies_morgan",
       "community": 2,
@@ -187,7 +197,7 @@
       "label": "pg",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L20",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "package_dependencies_pg",
       "community": 2,
@@ -197,7 +207,7 @@
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L22",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "package_devdependencies",
       "community": 2,
@@ -207,61 +217,11 @@
       "label": "nodemon",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "package_devdependencies_nodemon",
       "community": 2,
       "norm_label": "nodemon"
-    },
-    {
-      "label": "seed_expenses.js",
-      "file_type": "code",
-      "source_file": "seed_expenses.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "seed_expenses",
-      "community": 14,
-      "norm_label": "seed_expenses.js"
-    },
-    {
-      "label": "http",
-      "file_type": "code",
-      "source_file": "seed_expenses.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "seed_expenses_http",
-      "community": 14,
-      "norm_label": "http"
-    },
-    {
-      "label": "expenses",
-      "file_type": "code",
-      "source_file": "seed_expenses.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "seed_expenses_expenses",
-      "community": 14,
-      "norm_label": "expenses"
-    },
-    {
-      "label": "postExpense()",
-      "file_type": "code",
-      "source_file": "seed_expenses.js",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "seed_expenses_postexpense",
-      "community": 14,
-      "norm_label": "postexpense()"
-    },
-    {
-      "label": "seed()",
-      "file_type": "code",
-      "source_file": "seed_expenses.js",
-      "source_location": "L66",
-      "_origin": "ast",
-      "id": "seed_expenses_seed",
-      "community": 14,
-      "norm_label": "seed()"
     },
     {
       "label": "server.js",
@@ -657,7 +617,7 @@
       "label": "BaseEntity",
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
-      "source_location": "L8",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "lib_baseentity_baseentity",
       "community": 7,
@@ -667,7 +627,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
-      "source_location": "L9",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "lib_baseentity_baseentity_constructor",
       "community": 7,
@@ -677,7 +637,7 @@
       "label": ".findById()",
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
-      "source_location": "L13",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "lib_baseentity_baseentity_findbyid",
       "community": 7,
@@ -687,7 +647,7 @@
       "label": ".findMany()",
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
-      "source_location": "L21",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "lib_baseentity_baseentity_findmany",
       "community": 7,
@@ -697,7 +657,7 @@
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
-      "source_location": "L31",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "lib_baseentity_baseentity_create",
       "community": 7,
@@ -707,7 +667,7 @@
       "label": ".updateById()",
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
-      "source_location": "L57",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "lib_baseentity_baseentity_updatebyid",
       "community": 7,
@@ -717,7 +677,7 @@
       "label": ".deleteById()",
       "file_type": "code",
       "source_file": "src/lib/BaseEntity.js",
-      "source_location": "L84",
+      "source_location": "L95",
       "_origin": "ast",
       "id": "lib_baseentity_baseentity_deletebyid",
       "community": 7,
@@ -742,66 +702,6 @@
       "id": "lib_asynchandler_asynchandler",
       "community": 3,
       "norm_label": "asynchandler()"
-    },
-    {
-      "label": "queryHelpers.js",
-      "file_type": "code",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "lib_queryhelpers",
-      "community": 18,
-      "norm_label": "queryhelpers.js"
-    },
-    {
-      "label": "pool",
-      "file_type": "code",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "lib_queryhelpers_pool",
-      "community": 18,
-      "norm_label": "pool"
-    },
-    {
-      "label": "getById()",
-      "file_type": "code",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "lib_queryhelpers_getbyid",
-      "community": 18,
-      "norm_label": "getbyid()"
-    },
-    {
-      "label": "findMany()",
-      "file_type": "code",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L41",
-      "_origin": "ast",
-      "id": "lib_queryhelpers_findmany",
-      "community": 18,
-      "norm_label": "findmany()"
-    },
-    {
-      "label": "create()",
-      "file_type": "code",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L58",
-      "_origin": "ast",
-      "id": "lib_queryhelpers_create",
-      "community": 18,
-      "norm_label": "create()"
-    },
-    {
-      "label": "deleteById()",
-      "file_type": "code",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L75",
-      "_origin": "ast",
-      "id": "lib_queryhelpers_deletebyid",
-      "community": 18,
-      "norm_label": "deletebyid()"
     },
     {
       "label": "response.js",
@@ -830,7 +730,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "lib_response_senderror",
-      "community": 3,
+      "community": 15,
       "norm_label": "senderror()"
     },
     {
@@ -874,10 +774,20 @@
       "norm_label": "{ logerror }"
     },
     {
+      "label": "{ sendError }",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_senderror",
+      "community": 15,
+      "norm_label": "{ senderror }"
+    },
+    {
       "label": "isProduction()",
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
-      "source_location": "L5",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "middleware_errorhandler_isproduction",
       "community": 15,
@@ -887,7 +797,7 @@
       "label": "mapError()",
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "middleware_errorhandler_maperror",
       "community": 15,
@@ -897,7 +807,7 @@
       "label": "buildExtras()",
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
-      "source_location": "L35",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "middleware_errorhandler_buildextras",
       "community": 15,
@@ -907,7 +817,7 @@
       "label": "errorHandler()",
       "file_type": "code",
       "source_file": "src/middleware/errorHandler.js",
-      "source_location": "L66",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "middleware_errorhandler_errorhandler",
       "community": 15,
@@ -2377,6 +2287,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_migrate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2462,57 +2382,6 @@
       "confidence_score": 1.0,
       "source": "package_devdependencies",
       "target": "package_devdependencies_nodemon"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "seed_expenses.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "seed_expenses",
-      "target": "seed_expenses_expenses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "seed_expenses.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "seed_expenses",
-      "target": "seed_expenses_http"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "seed_expenses.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "seed_expenses",
-      "target": "seed_expenses_postexpense"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "seed_expenses.js",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "seed_expenses",
-      "target": "seed_expenses_seed"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "seed_expenses.js",
-      "source_location": "L70",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "seed_expenses_seed",
-      "target": "seed_expenses_postexpense"
     },
     {
       "relation": "contains",
@@ -2710,17 +2579,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "lib_baseentity",
-      "target": "config_db"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lib_queryhelpers",
       "target": "config_db"
     },
     {
@@ -3213,56 +3071,6 @@
       "target": "lib_asynchandler_asynchandler"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_create"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_deletebyid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_findmany"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_getbyid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/queryHelpers.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lib_queryhelpers",
-      "target": "lib_queryhelpers_pool"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3294,6 +3102,17 @@
       "target": "lib_response_sendsuccess"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "lib_response",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3303,6 +3122,17 @@
       "confidence_score": 1.0,
       "source": "expenses_controller",
       "target": "lib_response_sendsuccess"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "lib_response_senderror",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -3394,6 +3224,16 @@
       "confidence_score": 1.0,
       "source": "middleware_errorhandler",
       "target": "middleware_errorhandler_mappgerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_senderror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3896,9 +3736,9 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expenses_service",
-      "target": "expenses_service_createexpense",
-      "confidence_score": 1.0
+      "target": "expenses_service_createexpense"
     },
     {
       "relation": "contains",
@@ -4466,9 +4306,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
-      "target": "backend_architecture_walkthrough_how_migrations_work_in_practice",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_how_migrations_work_in_practice"
     },
     {
       "relation": "contains",
@@ -4476,9 +4316,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
-      "target": "backend_architecture_walkthrough_migration_001_the_foundation_001_expense_tracker_init_sql",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_migration_001_the_foundation_001_expense_tracker_init_sql"
     },
     {
       "relation": "contains",
@@ -4486,9 +4326,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
-      "target": "backend_architecture_walkthrough_migration_002_the_enhancement_002_expense_tracker_enhance_sql",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_migration_002_the_enhancement_002_expense_tracker_enhance_sql"
     },
     {
       "relation": "contains",
@@ -4496,9 +4336,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
-      "target": "backend_architecture_walkthrough_migration_003_the_base_audit_pattern_003_base_audit_pattern_sql",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_migration_003_the_base_audit_pattern_003_base_audit_pattern_sql"
     },
     {
       "relation": "contains",
@@ -4516,9 +4356,9 @@
       "source_file": "backend_architecture_walkthrough.md",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
-      "target": "backend_architecture_walkthrough_the_story_behind_migrations_why_they_exist",
-      "confidence_score": 1.0
+      "target": "backend_architecture_walkthrough_the_story_behind_migrations_why_they_exist"
     },
     {
       "relation": "contains",
@@ -4774,5 +4614,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4bc5fc7e0148a2fbbf6d5268da72f1a0d86ae0d6"
+  "built_at_commit": "94f70d643463a3f86a01443a178a5dbc2fe7bb59"
 }

@@ -1,16 +1,16 @@
 # Graph Report - WorkSpace-BE  (2026-06-29)
 
 ## Corpus Check
-- 34 files · ~13,971 words
+- 33 files · ~13,543 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 228 nodes · 246 edges · 19 communities (12 shown, 7 thin omitted)
+- 219 nodes · 239 edges · 17 communities (11 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4bc5fc7e`
+- Built from commit: `94f70d64`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,11 +29,9 @@
 - [[_COMMUNITY_Community 11|Community 11]]
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
-- [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
-- [[_COMMUNITY_Community 18|Community 18]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `What You Must Do When Invoked` - 16 edges
@@ -43,9 +41,9 @@
 5. `errorHandler()` - 7 edges
 6. `4. How the Database & Migrations Work` - 7 edges
 7. `Example Request Bodies` - 7 edges
-8. `ValidationError` - 5 edges
-9. `Backend Architecture & Data Flow Walkthrough` - 5 edges
-10. `2. The HTTP Request Journey (The Expense Tracker)` - 5 edges
+8. `scripts` - 5 edges
+9. `ValidationError` - 5 edges
+10. `Backend Architecture & Data Flow Walkthrough` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `errorHandler()` --calls--> `sendError()`  [INFERRED]
@@ -56,7 +54,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (19 total, 7 thin omitted)
+## Communities (17 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.11
@@ -67,12 +65,12 @@ Cohesion: 0.12
 Nodes (16): For --cluster-only, For git commit hook, For /graphify add, For /graphify explain, For /graphify path, For /graphify query, For native CLAUDE.md integration, For --update (incremental re-extraction) (+8 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.10
-Nodes (20): author, dependencies, cors, dotenv, express, helmet, morgan, pg (+12 more)
+Cohesion: 0.09
+Nodes (21): author, dependencies, cors, dotenv, express, helmet, morgan, pg (+13 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.12
-Nodes (11): AppError, asyncHandler, { sendSuccess }, service, AppError, categoryQueries, q, tagQueries (+3 more)
+Cohesion: 0.13
+Nodes (10): AppError, asyncHandler, { sendSuccess }, service, AppError, categoryQueries, q, tagQueries (+2 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.13
@@ -90,13 +88,9 @@ Nodes (21): Attach Tag, Bulk Create, Bulk Delete, Business Logic Rules, Categori
 Cohesion: 0.12
 Nodes (11): AppError, AppError, ConflictError, NotFoundError, UnauthorizedError, ValidationError, AppError, mapPgError (+3 more)
 
-### Community 14 - "Community 14"
-Cohesion: 0.50
-Nodes (4): expenses, http, postExpense(), seed()
-
 ### Community 15 - "Community 15"
-Cohesion: 0.25
-Nodes (11): AppError, buildErrorResponse(), buildExtras(), errorHandler(), isProduction(), { logError }, mapError(), mapPgError (+3 more)
+Cohesion: 0.22
+Nodes (13): sendError(), AppError, buildErrorResponse(), buildExtras(), errorHandler(), isProduction(), { logError }, mapError() (+5 more)
 
 ### Community 16 - "Community 16"
 Cohesion: 0.18
@@ -107,24 +101,24 @@ Cohesion: 0.11
 Nodes (17): 1. The Entry Point (`server.js` & `src/app.js`), 2. The HTTP Request Journey (The Expense Tracker), 3. How Responses and Errors are Handled, 4. How the Database & Migrations Work, Backend Architecture & Data Flow Walkthrough, Errors, How Migrations Work in Practice, Migration `001` — The Foundation (`001_expense_tracker_init.sql`) (+9 more)
 
 ## Knowledge Gaps
-- **127 isolated node(s):** `name`, `version`, `main`, `dev`, `start` (+122 more)
+- **126 isolated node(s):** `name`, `version`, `main`, `dev`, `start` (+121 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `BaseEntity` connect `Community 7` to `Community 5`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
 - **Why does `What You Must Do When Invoked` connect `Community 0` to `Community 1`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Why does `/graphify` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `main` to the rest of the system?**
-  _127 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _126 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
