@@ -1,0 +1,2424 @@
+{
+  "nodes": [
+    {
+      "id": "package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_main",
+      "label": "main",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_start",
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_migrate",
+      "label": "migrate",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_test",
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_keywords",
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_author",
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_license",
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_cors",
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_dotenv",
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_express",
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_helmet",
+      "label": "helmet",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_morgan",
+      "label": "morgan",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_pg",
+      "label": "pg",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies_nodemon",
+      "label": "nodemon",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "server",
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "server_app",
+      "label": "app",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "server_logerror",
+      "label": "{ logError }",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app",
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_express",
+      "label": "express",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_cors",
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_helmet",
+      "label": "helmet",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_morgan",
+      "label": "morgan",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_requestid",
+      "label": "requestId",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_notfound",
+      "label": "notFound",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_errorhandler",
+      "label": "errorHandler",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_app",
+      "label": "app",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_db",
+      "label": "db.js",
+      "file_type": "code",
+      "source_file": "src/config/db.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_db_pool",
+      "label": "{ Pool }",
+      "file_type": "code",
+      "source_file": "src/config/db.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_apperror",
+      "label": "AppError.js",
+      "file_type": "code",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_apperror_apperror",
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_apperror_apperror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors",
+      "label": "httpErrors.js",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_apperror",
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_notfounderror",
+      "label": "NotFoundError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_notfounderror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_validationerror",
+      "label": "ValidationError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_validationerror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_validationerror_fromfield",
+      "label": ".fromField()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_validationerror_fromfields",
+      "label": ".fromFields()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_conflicterror",
+      "label": "ConflictError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_conflicterror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_unauthorizederror",
+      "label": "UnauthorizedError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_httperrors_unauthorizederror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_index",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_index_apperror",
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_index_mappgerror",
+      "label": "mapPgError",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "label": "{\n  NotFoundError,\n  ValidationError,\n  ConflictError,\n  UnauthorizedError,\n}",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_pgerrormapper",
+      "label": "pgErrorMapper.js",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_pgerrormapper_apperror",
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_pgerrormapper_conflicterror",
+      "label": "{ ConflictError }",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "errors_pgerrormapper_mappgerror",
+      "label": "mapPgError()",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity",
+      "label": "BaseEntity.js",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity_pool",
+      "label": "pool",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity_baseentity",
+      "label": "BaseEntity",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity_baseentity_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity_baseentity_findbyid",
+      "label": ".findById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity_baseentity_findmany",
+      "label": ".findMany()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity_baseentity_create",
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity_baseentity_updatebyid",
+      "label": ".updateById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_baseentity_baseentity_deletebyid",
+      "label": ".deleteById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L95",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_asynchandler",
+      "label": "asyncHandler.js",
+      "file_type": "code",
+      "source_file": "src/lib/asyncHandler.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_asynchandler_asynchandler",
+      "label": "asyncHandler()",
+      "file_type": "code",
+      "source_file": "src/lib/asyncHandler.js",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_response",
+      "label": "response.js",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_response_sendsuccess",
+      "label": "sendSuccess()",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "lib_response_senderror",
+      "label": "sendError()",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler",
+      "label": "errorHandler.js",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler_apperror",
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler_mappgerror",
+      "label": "mapPgError",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler_logerror",
+      "label": "{ logError }",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler_senderror",
+      "label": "{ sendError }",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler_isproduction",
+      "label": "isProduction()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler_maperror",
+      "label": "mapError()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler_buildextras",
+      "label": "buildExtras()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_errorhandler_errorhandler",
+      "label": "errorHandler()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_notfound",
+      "label": "notFound.js",
+      "file_type": "code",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_notfound_notfounderror",
+      "label": "{ NotFoundError }",
+      "file_type": "code",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_notfound_notfound",
+      "label": "notFound()",
+      "file_type": "code",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_requestid",
+      "label": "requestId.js",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_requestid_randomuuid",
+      "label": "{ randomUUID }",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_requestid_requestid",
+      "label": "requestId()",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_validaterequired",
+      "label": "validateRequired.js",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_validaterequired_validationerror",
+      "label": "{ ValidationError }",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "middleware_validaterequired_validateschema",
+      "label": "validateSchema()",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_controller",
+      "label": "controller.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_controller_asynchandler",
+      "label": "asyncHandler",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_controller_service",
+      "label": "service",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_controller_sendsuccess",
+      "label": "{ sendSuccess }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_queries",
+      "label": "queries.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_queries_pool",
+      "label": "pool",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_queries_baseentity",
+      "label": "BaseEntity",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_queries_expensesentity",
+      "label": "expensesEntity",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_queries_createexpense",
+      "label": "createExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_queries_findduplicates",
+      "label": "findDuplicates()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_routes",
+      "label": "routes.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_routes_router",
+      "label": "{ Router }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_routes_ctrl",
+      "label": "ctrl",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_routes_validate",
+      "label": "validate",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_service",
+      "label": "service.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_service_q",
+      "label": "q",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_service_validationerror",
+      "label": "{ ValidationError }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_service_createexpense",
+      "label": "createExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_validator",
+      "label": "validator.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expenses_validator_validateschema",
+      "label": "validateSchema",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expense_tracker_index",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "expense_tracker_index_router",
+      "label": "{ Router }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_logger",
+      "label": "logger.js",
+      "file_type": "code",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_logger_logerror",
+      "label": "logError()",
+      "file_type": "code",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L5",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "package",
+      "target": "package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_migrate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_keywords",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_author",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_cors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_cors",
+      "target": "cors",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_dotenv",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_dotenv",
+      "target": "dotenv",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_express",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_express",
+      "target": "express",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_helmet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_helmet",
+      "target": "helmet",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_morgan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_morgan",
+      "target": "morgan",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_pg",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_pg",
+      "target": "pg",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "package",
+      "target": "package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_nodemon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "package_devdependencies_nodemon",
+      "target": "nodemon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "server",
+      "target": "src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "server",
+      "target": "server_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "server",
+      "target": "utils_logger",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "server",
+      "target": "utils_logger_logerror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "server",
+      "target": "server_logerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "express",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_express",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "cors",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_cors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "helmet",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_helmet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "morgan",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_morgan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "middleware_requestid",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_requestid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "middleware_notfound",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_notfound",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "middleware_errorhandler",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_errorhandler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "config_db",
+      "target": "pg",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config/db.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "config_db",
+      "target": "config_db_pool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config/db.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "config_db",
+      "target": "config_db_pool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config/db.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_apperror",
+      "target": "errors_apperror_apperror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_apperror_apperror",
+      "target": "errors_apperror_apperror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors",
+      "target": "errors_apperror",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_apperror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_notfounderror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors_notfounderror",
+      "target": "errors_httperrors_notfounderror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_validationerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_fromfield",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_fromfields",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_conflicterror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors_conflicterror",
+      "target": "errors_httperrors_conflicterror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_unauthorizederror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_httperrors_unauthorizederror",
+      "target": "errors_httperrors_unauthorizederror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_apperror",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_index_apperror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_pgerrormapper",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_index_mappgerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_httperrors",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_httperrors_notfounderror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_httperrors_validationerror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_httperrors_conflicterror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_httperrors_unauthorizederror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_index",
+      "target": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_pgerrormapper",
+      "target": "errors_apperror",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_apperror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_pgerrormapper",
+      "target": "errors_httperrors",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_pgerrormapper",
+      "target": "errors_httperrors_conflicterror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_conflicterror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_mappgerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity",
+      "target": "config_db",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity",
+      "target": "lib_baseentity_pool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity",
+      "target": "lib_baseentity_baseentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_findbyid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_findmany",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_create",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_updatebyid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_deletebyid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_baseentity_baseentity_updatebyid",
+      "target": "lib_baseentity_baseentity_findbyid",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_asynchandler",
+      "target": "lib_asynchandler_asynchandler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/asyncHandler.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_response",
+      "target": "lib_response_sendsuccess",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/response.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_response",
+      "target": "lib_response_senderror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/response.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "errors_apperror",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_apperror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "errors_pgerrormapper",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_mappgerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "utils_logger",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "utils_logger_logerror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_logerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "lib_response",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "lib_response_senderror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_senderror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_isproduction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_maperror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_buildextras",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_errorhandler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler_maperror",
+      "target": "middleware_errorhandler_mappgerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler_buildextras",
+      "target": "middleware_errorhandler_isproduction",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_maperror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_isproduction",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_buildextras",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_notfound",
+      "target": "errors_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_notfound",
+      "target": "errors_index_notfounderror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_notfound",
+      "target": "middleware_notfound_notfounderror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_notfound",
+      "target": "middleware_notfound_notfound",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_requestid",
+      "target": "crypto",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_requestid",
+      "target": "middleware_requestid_randomuuid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_requestid",
+      "target": "middleware_requestid_requestid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_validaterequired",
+      "target": "errors_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_validaterequired",
+      "target": "errors_index_validationerror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_validaterequired",
+      "target": "middleware_validaterequired_validationerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_validaterequired",
+      "target": "middleware_validaterequired_validateschema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_controller",
+      "target": "lib_asynchandler",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_controller",
+      "target": "expenses_controller_asynchandler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_controller",
+      "target": "expenses_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_controller",
+      "target": "expenses_controller_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_controller",
+      "target": "lib_response",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_controller",
+      "target": "lib_response_sendsuccess",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_controller",
+      "target": "expenses_controller_sendsuccess",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_queries",
+      "target": "config_db",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_queries",
+      "target": "expenses_queries_pool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_queries",
+      "target": "lib_baseentity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_queries",
+      "target": "expenses_queries_baseentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_queries",
+      "target": "expenses_queries_expensesentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_queries",
+      "target": "expenses_queries_createexpense",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_queries",
+      "target": "expenses_queries_findduplicates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_routes",
+      "target": "express",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_routes",
+      "target": "expenses_routes_router",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_routes",
+      "target": "expenses_controller",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_routes",
+      "target": "expenses_routes_ctrl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_routes",
+      "target": "expenses_validator",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_routes",
+      "target": "expenses_routes_validate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_routes",
+      "target": "expenses_routes_router",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_service",
+      "target": "expenses_queries",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_service",
+      "target": "expenses_service_q",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_service",
+      "target": "errors_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_service",
+      "target": "errors_index_validationerror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_service",
+      "target": "expenses_service_validationerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_service",
+      "target": "expenses_service_createexpense",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_validator",
+      "target": "middleware_validaterequired",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expenses_validator",
+      "target": "expenses_validator_validateschema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "expense_tracker_index",
+      "target": "express",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "expense_tracker_index",
+      "target": "expense_tracker_index_router",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "expense_tracker_index",
+      "target": "expense_tracker_index_router",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_logger",
+      "target": "utils_logger_logerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "utils_logger_logerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "lib_response_senderror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L84",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

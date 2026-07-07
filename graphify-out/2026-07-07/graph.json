@@ -1,36 +1,7 @@
 {
   "directed": false,
   "multigraph": false,
-  "graph": {
-    "hyperedges": [
-      {
-        "id": "expense_tracker_schema_evolution",
-        "label": "Expense Tracker Schema Evolution",
-        "nodes": [
-          "backend_architecture_walkthrough_migration001",
-          "backend_architecture_walkthrough_migration002",
-          "backend_architecture_walkthrough_migration003"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md"
-      },
-      {
-        "id": "request_lifecycle",
-        "label": "HTTP Request Lifecycle",
-        "nodes": [
-          "backend_architecture_walkthrough_appjs",
-          "backend_architecture_walkthrough_errorhandler",
-          "backend_architecture_walkthrough_baseentity"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md"
-      }
-    ]
-  },
+  "graph": {},
   "nodes": [
     {
       "label": "package.json",
@@ -1625,9 +1596,9 @@
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "middleware_validaterequired",
       "community": 7,
-      "norm_label": "validaterequired.js"
+      "norm_label": "validaterequired.js",
+      "id": "middleware_validaterequired"
     },
     {
       "label": "{ ValidationError }",
@@ -1635,9 +1606,9 @@
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "middleware_validaterequired_validationerror",
       "community": 7,
-      "norm_label": "{ validationerror }"
+      "norm_label": "{ validationerror }",
+      "id": "middleware_validaterequired_validationerror"
     },
     {
       "label": "validateSchema()",
@@ -1645,9 +1616,9 @@
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "middleware_validaterequired_validateschema",
       "community": 7,
-      "norm_label": "validateschema()"
+      "norm_label": "validateschema()",
+      "id": "middleware_validaterequired_validateschema"
     },
     {
       "label": "ValidationError",
@@ -1658,9 +1629,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "errors_httperrors_validationerror",
       "community": 7,
-      "norm_label": "validationerror"
+      "norm_label": "validationerror",
+      "id": "errors_httperrors_validationerror"
     },
     {
       "label": "graphify Skill",
@@ -1671,9 +1642,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_claude_graphify_skill_reference",
       "community": 12,
-      "norm_label": "graphify skill"
+      "norm_label": "graphify skill",
+      "id": "claude_claude_graphify_skill_reference"
     },
     {
       "label": "graphify Tool",
@@ -1684,9 +1655,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "graphify_skill_graphify_tool",
       "community": 12,
-      "norm_label": "graphify tool"
+      "norm_label": "graphify tool",
+      "id": "graphify_skill_graphify_tool"
     },
     {
       "label": "Knowledge Graph Pipeline",
@@ -1697,9 +1668,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "graphify_skill_detection_extraction_clustering",
       "community": 12,
-      "norm_label": "knowledge graph pipeline"
+      "norm_label": "knowledge graph pipeline",
+      "id": "graphify_skill_detection_extraction_clustering"
     }
   ],
   "links": [
@@ -3104,7 +3075,7 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
-      "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/README.md",
+      "source_file": "src/modules/expense-tracker/README.md",
       "source_location": null,
       "weight": 1.0,
       "source": "expense_tracker_readme_expense_tracker_module",
@@ -3184,7 +3155,7 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.75,
-      "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/src/modules/expense-tracker/README.md",
+      "source_file": "src/modules/expense-tracker/README.md",
       "source_location": null,
       "weight": 1.0,
       "source": "expense_tracker_readme_endpoints",
@@ -3344,7 +3315,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md",
+      "source_file": "backend_architecture_walkthrough.md",
       "source_location": null,
       "weight": 1.0,
       "source": "backend_architecture_walkthrough_serverjs",
@@ -3354,7 +3325,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md",
+      "source_file": "backend_architecture_walkthrough.md",
       "source_location": null,
       "weight": 1.0,
       "source": "backend_architecture_walkthrough_appjs",
@@ -3364,7 +3335,7 @@
       "relation": "shares_data_with",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md",
+      "source_file": "backend_architecture_walkthrough.md",
       "source_location": null,
       "weight": 1.0,
       "source": "backend_architecture_walkthrough_baseentity",
@@ -3374,7 +3345,7 @@
       "relation": "rationale_for",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
-      "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md",
+      "source_file": "backend_architecture_walkthrough.md",
       "source_location": null,
       "weight": 1.0,
       "source": "backend_architecture_walkthrough_migration003",
@@ -3386,9 +3357,9 @@
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_validaterequired",
-      "target": "middleware_validaterequired_validateschema",
-      "confidence_score": 1.0
+      "target": "middleware_validaterequired_validateschema"
     },
     {
       "relation": "contains",
@@ -3396,9 +3367,9 @@
       "source_file": "src/middleware/validateRequired.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_validaterequired",
-      "target": "middleware_validaterequired_validationerror",
-      "confidence_score": 1.0
+      "target": "middleware_validaterequired_validationerror"
     },
     {
       "relation": "calls",
@@ -3431,33 +3402,6 @@
       "target": "graphify_skill_detection_extraction_clustering"
     }
   ],
-  "hyperedges": [
-    {
-      "id": "expense_tracker_schema_evolution",
-      "label": "Expense Tracker Schema Evolution",
-      "nodes": [
-        "backend_architecture_walkthrough_migration001",
-        "backend_architecture_walkthrough_migration002",
-        "backend_architecture_walkthrough_migration003"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md"
-    },
-    {
-      "id": "request_lifecycle",
-      "label": "HTTP Request Lifecycle",
-      "nodes": [
-        "backend_architecture_walkthrough_appjs",
-        "backend_architecture_walkthrough_errorhandler",
-        "backend_architecture_walkthrough_baseentity"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "/home/miraj/Documents/WorkSpace Project/WorkSpace-BE/backend_architecture_walkthrough.md"
-    }
-  ],
+  "hyperedges": [],
   "built_at_commit": "d3b9924cacae8eaaa97bb5a5ae8da7f817fe179c"
 }
