@@ -6,14 +6,23 @@ const { ValidationError } = require('../errors');
  *                          Example: { title: 'string', amount: 'number' }
  */
 const validateSchema = (schema) => {
+  let AllowedFields= new Set(Object.keys(schema));
   return (req, res, next) => {
     const errors = {};
+
+    for(const field in req.body) {
+      if(!AllowedFields.has(field)) {
+        errors[field] = `${field} is not allowed`;
+      }
+    }
 
     for (const [field, expectedType] of Object.entries(schema)) {
       const value = req.body[field];
       
       const isOptional = expectedType.endsWith('?');
       const baseType = isOptional ? expectedType.slice(0, -1) : expectedType;
+
+      
 
       // 1. Check if value is missing, null, or an empty string
       if (value === undefined || value === null || (typeof value === 'string' && value.trim() === '')) {

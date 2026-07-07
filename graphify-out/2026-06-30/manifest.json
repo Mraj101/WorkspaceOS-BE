@@ -52,27 +52,27 @@
   ".claude/CLAUDE.md": {
     "mtime": 1780291955.9583032,
     "ast_hash": "db73b0edd7ffbc61ceac177130730865",
-    "semantic_hash": "db73b0edd7ffbc61ceac177130730865"
+    "semantic_hash": ""
   },
   ".claude/skills/graphify/SKILL.md": {
     "mtime": 1780291955.9580781,
     "ast_hash": "5ae00786ea53e4d944ab70abe11eedd1",
-    "semantic_hash": "5ae00786ea53e4d944ab70abe11eedd1"
+    "semantic_hash": ""
   },
   "CLAUDE.md": {
     "mtime": 1780291955.9585574,
     "ast_hash": "82efb97a359f5c7290bf2513d14686be",
-    "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
+    "semantic_hash": ""
   },
   "README.md": {
     "mtime": 1776870576.4482098,
     "ast_hash": "05d93307bd06b6976130536aacb3a449",
-    "semantic_hash": "05d93307bd06b6976130536aacb3a449"
+    "semantic_hash": ""
   },
   "src/modules/expense-tracker/README.md": {
     "mtime": 1780546321.7553048,
     "ast_hash": "651898023424347a62a8adbde9d260af",
-    "semantic_hash": "651898023424347a62a8adbde9d260af"
+    "semantic_hash": ""
   },
   "migrations/002_expense_tracker_enhance.sql": {
     "mtime": 1780545999.3099246,
@@ -100,7 +100,7 @@
     "semantic_hash": "c4b399dfc44639a096e30b6eae8f2b2b"
   },
   "src/errors/AppError.js": {
-    "mtime": 1783401882.4390664,
+    "mtime": 1782192452.729042,
     "ast_hash": "e7047a387101242d17dfb73eace71b18",
     "semantic_hash": "e7047a387101242d17dfb73eace71b18"
   },
@@ -130,9 +130,9 @@
     "semantic_hash": "36ac7f0c91e46bd5f22d27a11cf94c55"
   },
   "src/middleware/validateRequired.js": {
-    "mtime": 1783398592.2624478,
-    "ast_hash": "13166b5410bd63ba53fb7a81e880b324",
-    "semantic_hash": "13166b5410bd63ba53fb7a81e880b324"
+    "mtime": 1782661113.0238528,
+    "ast_hash": "497cc08c318a027915146e1d38ed9eb5",
+    "semantic_hash": "497cc08c318a027915146e1d38ed9eb5"
   },
   "src/modules/expense-tracker/expenses/validator.js": {
     "mtime": 1782661121.6338956,
@@ -157,7 +157,7 @@
   "backend_architecture_walkthrough.md": {
     "mtime": 1782667054.983487,
     "ast_hash": "2a6ebfca173d07aab494f1e48bb7be23",
-    "semantic_hash": "2a6ebfca173d07aab494f1e48bb7be23"
+    "semantic_hash": ""
   },
   "migrations/000_schema_migrations.sql": {
     "mtime": 1782715985.246783,

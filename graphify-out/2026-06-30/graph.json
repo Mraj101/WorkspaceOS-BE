@@ -1,0 +1,3658 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "expense_tracker_schema_evolution",
+        "label": "Expense Tracker Schema Evolution",
+        "nodes": [
+          "backend_architecture_walkthrough_migration001",
+          "backend_architecture_walkthrough_migration002",
+          "backend_architecture_walkthrough_migration003"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "backend_architecture_walkthrough.md"
+      },
+      {
+        "id": "request_lifecycle",
+        "label": "HTTP Request Lifecycle",
+        "nodes": [
+          "backend_architecture_walkthrough_appjs",
+          "backend_architecture_walkthrough_errorhandler",
+          "backend_architecture_walkthrough_baseentity"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "backend_architecture_walkthrough.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 14,
+      "norm_label": "claude.md",
+      "id": "claude_claude"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 14,
+      "norm_label": "graphify",
+      "id": "claude_claude_graphify"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "skill.md",
+      "id": "graphify_skill"
+    },
+    {
+      "label": "/graphify",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "/graphify",
+      "id": "graphify_skill_graphify"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "usage",
+      "id": "graphify_skill_usage"
+    },
+    {
+      "label": "What graphify is for",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "what graphify is for",
+      "id": "graphify_skill_what_graphify_is_for"
+    },
+    {
+      "label": "What You Must Do When Invoked",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "what you must do when invoked",
+      "id": "graphify_skill_what_you_must_do_when_invoked"
+    },
+    {
+      "label": "Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 0 - clone github repo(s) (only if a github url was given)",
+      "id": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
+    },
+    {
+      "label": "Step 1 - Ensure graphify is installed",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L103",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 1 - ensure graphify is installed",
+      "id": "graphify_skill_step_1_ensure_graphify_is_installed"
+    },
+    {
+      "label": "Step 2 - Detect files",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L145",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 2 - detect files",
+      "id": "graphify_skill_step_2_detect_files"
+    },
+    {
+      "label": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)",
+      "id": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
+    },
+    {
+      "label": "Step 3 - Extract entities and relationships",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L227",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 3 - extract entities and relationships",
+      "id": "graphify_skill_step_3_extract_entities_and_relationships"
+    },
+    {
+      "label": "Part A - Structural extraction for code files",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L244",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "part a - structural extraction for code files",
+      "id": "graphify_skill_part_a_structural_extraction_for_code_files"
+    },
+    {
+      "label": "Part B - Semantic extraction (parallel subagents)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L270",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "part b - semantic extraction (parallel subagents)",
+      "id": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
+    },
+    {
+      "label": "Part C - Merge AST + semantic into final extraction",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L478",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "part c - merge ast + semantic into final extraction",
+      "id": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
+    },
+    {
+      "label": "Step 4 - Build graph, cluster, analyze, generate outputs",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L512",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 4 - build graph, cluster, analyze, generate outputs",
+      "id": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
+    },
+    {
+      "label": "Step 5 - Label communities",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L564",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 5 - label communities",
+      "id": "graphify_skill_step_5_label_communities"
+    },
+    {
+      "label": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L604",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 6 - generate obsidian vault (opt-in) + html",
+      "id": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
+    },
+    {
+      "label": "Step 6b - Wiki (only if --wiki flag)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L624",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 6b - wiki (only if --wiki flag)",
+      "id": "graphify_skill_step_6b_wiki_only_if_wiki_flag"
+    },
+    {
+      "label": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L634",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)",
+      "id": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
+    },
+    {
+      "label": "Step 7b - SVG export (only if --svg flag)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L650",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 7b - svg export (only if --svg flag)",
+      "id": "graphify_skill_step_7b_svg_export_only_if_svg_flag"
+    },
+    {
+      "label": "Step 7c - GraphML export (only if --graphml flag)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L656",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 7c - graphml export (only if --graphml flag)",
+      "id": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag"
+    },
+    {
+      "label": "Step 7d - MCP server (only if --mcp flag)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L662",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 7d - mcp server (only if --mcp flag)",
+      "id": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag"
+    },
+    {
+      "label": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L682",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)",
+      "id": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000"
+    },
+    {
+      "label": "Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L694",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report",
+      "id": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
+    },
+    {
+      "label": "Interpreter guard for subcommands",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L768",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "interpreter guard for subcommands",
+      "id": "graphify_skill_interpreter_guard_for_subcommands"
+    },
+    {
+      "label": "For --update (incremental re-extraction)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L786",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for --update (incremental re-extraction)",
+      "id": "graphify_skill_for_update_incremental_re_extraction"
+    },
+    {
+      "label": "For --cluster-only",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L947",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for --cluster-only",
+      "id": "graphify_skill_for_cluster_only"
+    },
+    {
+      "label": "For /graphify query",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L959",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for /graphify query",
+      "id": "graphify_skill_for_graphify_query"
+    },
+    {
+      "label": "Step 0 \u2014 Constrained query expansion (REQUIRED before traversal)",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L968",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "step 0 \u2014 constrained query expansion (required before traversal)",
+      "id": "graphify_skill_step_0_constrained_query_expansion_required_before_traversal"
+    },
+    {
+      "label": "Step 1 \u2014 Traversal",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1006",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "step 1 \u2014 traversal",
+      "id": "graphify_skill_step_1_traversal"
+    },
+    {
+      "label": "For /graphify path",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1027",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for /graphify path",
+      "id": "graphify_skill_for_graphify_path"
+    },
+    {
+      "label": "For /graphify explain",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1045",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for /graphify explain",
+      "id": "graphify_skill_for_graphify_explain"
+    },
+    {
+      "label": "For /graphify add",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1063",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for /graphify add",
+      "id": "graphify_skill_for_graphify_add"
+    },
+    {
+      "label": "For --watch",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1097",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for --watch",
+      "id": "graphify_skill_for_watch"
+    },
+    {
+      "label": "For git commit hook",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1118",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for git commit hook",
+      "id": "graphify_skill_for_git_commit_hook"
+    },
+    {
+      "label": "For native CLAUDE.md integration",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1134",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "for native claude.md integration",
+      "id": "graphify_skill_for_native_claude_md_integration"
+    },
+    {
+      "label": "Honesty Rules",
+      "file_type": "document",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1150",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "honesty rules",
+      "id": "graphify_skill_honesty_rules"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "settings.json",
+      "id": "claude_settings"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "community": 12,
+      "norm_label": "hooks",
+      "id": "claude_settings_hooks"
+    },
+    {
+      "label": "PreToolUse",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "community": 12,
+      "norm_label": "pretooluse",
+      "id": "claude_settings_hooks_pretooluse"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 6,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 6,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 6,
+      "norm_label": "version"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_main",
+      "community": 6,
+      "norm_label": "main"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 6,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 6,
+      "norm_label": "dev"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 6,
+      "norm_label": "start"
+    },
+    {
+      "label": "migrate",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_migrate",
+      "community": 6,
+      "norm_label": "migrate"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_test",
+      "community": 6,
+      "norm_label": "test"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_keywords",
+      "community": 6,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_author",
+      "community": 6,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_license",
+      "community": 6,
+      "norm_label": "license"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_description",
+      "community": 6,
+      "norm_label": "description"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 9,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_dependencies_cors",
+      "community": 9,
+      "norm_label": "cors"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_dependencies_dotenv",
+      "community": 9,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "package_dependencies_express",
+      "community": 9,
+      "norm_label": "express"
+    },
+    {
+      "label": "helmet",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "package_dependencies_helmet",
+      "community": 9,
+      "norm_label": "helmet"
+    },
+    {
+      "label": "morgan",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_dependencies_morgan",
+      "community": 9,
+      "norm_label": "morgan"
+    },
+    {
+      "label": "pg",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_dependencies_pg",
+      "community": 9,
+      "norm_label": "pg"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 6,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "nodemon",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_devdependencies_nodemon",
+      "community": 6,
+      "norm_label": "nodemon"
+    },
+    {
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "server",
+      "community": 4,
+      "norm_label": "server.js"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "server_app",
+      "community": 4,
+      "norm_label": "app"
+    },
+    {
+      "label": "{ logError }",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "server_logerror",
+      "community": 4,
+      "norm_label": "{ logerror }"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 5,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_express",
+      "community": 5,
+      "norm_label": "express"
+    },
+    {
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "src_app_cors",
+      "community": 5,
+      "norm_label": "cors"
+    },
+    {
+      "label": "helmet",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_app_helmet",
+      "community": 5,
+      "norm_label": "helmet"
+    },
+    {
+      "label": "morgan",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "src_app_morgan",
+      "community": 5,
+      "norm_label": "morgan"
+    },
+    {
+      "label": "requestId",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_app_requestid",
+      "community": 5,
+      "norm_label": "requestid"
+    },
+    {
+      "label": "notFound",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_app_notfound",
+      "community": 5,
+      "norm_label": "notfound"
+    },
+    {
+      "label": "errorHandler",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_app_errorhandler",
+      "community": 5,
+      "norm_label": "errorhandler"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 5,
+      "norm_label": "app"
+    },
+    {
+      "label": "db.js",
+      "file_type": "code",
+      "source_file": "src/config/db.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "config_db",
+      "community": 2,
+      "norm_label": "db.js"
+    },
+    {
+      "label": "{ Pool }",
+      "file_type": "code",
+      "source_file": "src/config/db.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "config_db_pool",
+      "community": 2,
+      "norm_label": "{ pool }"
+    },
+    {
+      "label": "AppError.js",
+      "file_type": "code",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "errors_apperror",
+      "community": 0,
+      "norm_label": "apperror.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "errors_apperror_apperror",
+      "community": 0,
+      "norm_label": "apperror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "errors_apperror_apperror_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "httpErrors.js",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "errors_httperrors",
+      "community": 0,
+      "norm_label": "httperrors.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "errors_httperrors_apperror",
+      "community": 0,
+      "norm_label": "apperror"
+    },
+    {
+      "label": "NotFoundError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "errors_httperrors_notfounderror",
+      "community": 0,
+      "norm_label": "notfounderror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "errors_httperrors_notfounderror_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "ValidationError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "errors_httperrors_validationerror",
+      "community": 0,
+      "norm_label": "validationerror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "errors_httperrors_validationerror_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".fromField()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "errors_httperrors_validationerror_fromfield",
+      "community": 0,
+      "norm_label": ".fromfield()"
+    },
+    {
+      "label": ".fromFields()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "errors_httperrors_validationerror_fromfields",
+      "community": 0,
+      "norm_label": ".fromfields()"
+    },
+    {
+      "label": "ConflictError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "errors_httperrors_conflicterror",
+      "community": 0,
+      "norm_label": "conflicterror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "errors_httperrors_conflicterror_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "UnauthorizedError",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "errors_httperrors_unauthorizederror",
+      "community": 0,
+      "norm_label": "unauthorizederror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "errors_httperrors_unauthorizederror_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "errors_index",
+      "community": 0,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "errors_index_apperror",
+      "community": 0,
+      "norm_label": "apperror"
+    },
+    {
+      "label": "mapPgError",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "errors_index_mappgerror",
+      "community": 0,
+      "norm_label": "mappgerror"
+    },
+    {
+      "label": "{\n  NotFoundError,\n  ValidationError,\n  ConflictError,\n  UnauthorizedError,\n}",
+      "file_type": "code",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "community": 0,
+      "norm_label": "{\n  notfounderror,\n  validationerror,\n  conflicterror,\n  unauthorizederror,\n}"
+    },
+    {
+      "label": "pgErrorMapper.js",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "errors_pgerrormapper",
+      "community": 0,
+      "norm_label": "pgerrormapper.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "errors_pgerrormapper_apperror",
+      "community": 0,
+      "norm_label": "apperror"
+    },
+    {
+      "label": "{ ConflictError }",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "errors_pgerrormapper_conflicterror",
+      "community": 0,
+      "norm_label": "{ conflicterror }"
+    },
+    {
+      "label": "mapPgError()",
+      "file_type": "code",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "errors_pgerrormapper_mappgerror",
+      "community": 0,
+      "norm_label": "mappgerror()"
+    },
+    {
+      "label": "BaseEntity.js",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lib_baseentity",
+      "community": 2,
+      "norm_label": "baseentity.js"
+    },
+    {
+      "label": "pool",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lib_baseentity_pool",
+      "community": 2,
+      "norm_label": "pool"
+    },
+    {
+      "label": "BaseEntity",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "lib_baseentity_baseentity",
+      "community": 2,
+      "norm_label": "baseentity"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "lib_baseentity_baseentity_constructor",
+      "community": 2,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".findById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "lib_baseentity_baseentity_findbyid",
+      "community": 2,
+      "norm_label": ".findbyid()"
+    },
+    {
+      "label": ".findMany()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "lib_baseentity_baseentity_findmany",
+      "community": 2,
+      "norm_label": ".findmany()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "lib_baseentity_baseentity_create",
+      "community": 2,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".updateById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "lib_baseentity_baseentity_updatebyid",
+      "community": 2,
+      "norm_label": ".updatebyid()"
+    },
+    {
+      "label": ".deleteById()",
+      "file_type": "code",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "lib_baseentity_baseentity_deletebyid",
+      "community": 2,
+      "norm_label": ".deletebyid()"
+    },
+    {
+      "label": "asyncHandler.js",
+      "file_type": "code",
+      "source_file": "src/lib/asyncHandler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lib_asynchandler",
+      "community": 7,
+      "norm_label": "asynchandler.js"
+    },
+    {
+      "label": "asyncHandler()",
+      "file_type": "code",
+      "source_file": "src/lib/asyncHandler.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "lib_asynchandler_asynchandler",
+      "community": 7,
+      "norm_label": "asynchandler()"
+    },
+    {
+      "label": "response.js",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lib_response",
+      "community": 4,
+      "norm_label": "response.js"
+    },
+    {
+      "label": "sendSuccess()",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "lib_response_sendsuccess",
+      "community": 4,
+      "norm_label": "sendsuccess()"
+    },
+    {
+      "label": "sendError()",
+      "file_type": "code",
+      "source_file": "src/lib/response.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "lib_response_senderror",
+      "community": 4,
+      "norm_label": "senderror()"
+    },
+    {
+      "label": "errorHandler.js",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "middleware_errorhandler",
+      "community": 4,
+      "norm_label": "errorhandler.js"
+    },
+    {
+      "label": "AppError",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_apperror",
+      "community": 4,
+      "norm_label": "apperror"
+    },
+    {
+      "label": "mapPgError",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_mappgerror",
+      "community": 4,
+      "norm_label": "mappgerror"
+    },
+    {
+      "label": "{ logError }",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_logerror",
+      "community": 4,
+      "norm_label": "{ logerror }"
+    },
+    {
+      "label": "{ sendError }",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_senderror",
+      "community": 4,
+      "norm_label": "{ senderror }"
+    },
+    {
+      "label": "isProduction()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_isproduction",
+      "community": 4,
+      "norm_label": "isproduction()"
+    },
+    {
+      "label": "mapError()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_maperror",
+      "community": 4,
+      "norm_label": "maperror()"
+    },
+    {
+      "label": "buildExtras()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_buildextras",
+      "community": 4,
+      "norm_label": "buildextras()"
+    },
+    {
+      "label": "errorHandler()",
+      "file_type": "code",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "middleware_errorhandler_errorhandler",
+      "community": 4,
+      "norm_label": "errorhandler()"
+    },
+    {
+      "label": "notFound.js",
+      "file_type": "code",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "middleware_notfound",
+      "community": 5,
+      "norm_label": "notfound.js"
+    },
+    {
+      "label": "{ NotFoundError }",
+      "file_type": "code",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "middleware_notfound_notfounderror",
+      "community": 5,
+      "norm_label": "{ notfounderror }"
+    },
+    {
+      "label": "notFound()",
+      "file_type": "code",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "middleware_notfound_notfound",
+      "community": 5,
+      "norm_label": "notfound()"
+    },
+    {
+      "label": "requestId.js",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "middleware_requestid",
+      "community": 5,
+      "norm_label": "requestid.js"
+    },
+    {
+      "label": "{ randomUUID }",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "middleware_requestid_randomuuid",
+      "community": 5,
+      "norm_label": "{ randomuuid }"
+    },
+    {
+      "label": "requestId()",
+      "file_type": "code",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "middleware_requestid_requestid",
+      "community": 5,
+      "norm_label": "requestid()"
+    },
+    {
+      "label": "validateRequired.js",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "middleware_validaterequired",
+      "community": 8,
+      "norm_label": "validaterequired.js"
+    },
+    {
+      "label": "{ ValidationError }",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "middleware_validaterequired_validationerror",
+      "community": 8,
+      "norm_label": "{ validationerror }"
+    },
+    {
+      "label": "validateSchema()",
+      "file_type": "code",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "middleware_validaterequired_validateschema",
+      "community": 8,
+      "norm_label": "validateschema()"
+    },
+    {
+      "label": "controller.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_controller",
+      "community": 7,
+      "norm_label": "controller.js"
+    },
+    {
+      "label": "asyncHandler",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_controller_asynchandler",
+      "community": 7,
+      "norm_label": "asynchandler"
+    },
+    {
+      "label": "service",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "expenses_controller_service",
+      "community": 7,
+      "norm_label": "service"
+    },
+    {
+      "label": "{ sendSuccess }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "expenses_controller_sendsuccess",
+      "community": 7,
+      "norm_label": "{ sendsuccess }"
+    },
+    {
+      "label": "queries.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_queries",
+      "community": 2,
+      "norm_label": "queries.js"
+    },
+    {
+      "label": "pool",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_queries_pool",
+      "community": 2,
+      "norm_label": "pool"
+    },
+    {
+      "label": "BaseEntity",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "expenses_queries_baseentity",
+      "community": 2,
+      "norm_label": "baseentity"
+    },
+    {
+      "label": "expensesEntity",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "expenses_queries_expensesentity",
+      "community": 2,
+      "norm_label": "expensesentity"
+    },
+    {
+      "label": "createExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "expenses_queries_createexpense",
+      "community": 2,
+      "norm_label": "createexpense()"
+    },
+    {
+      "label": "findDuplicates()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "expenses_queries_findduplicates",
+      "community": 2,
+      "norm_label": "findduplicates()"
+    },
+    {
+      "label": "routes.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_routes",
+      "community": 8,
+      "norm_label": "routes.js"
+    },
+    {
+      "label": "{ Router }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_routes_router",
+      "community": 8,
+      "norm_label": "{ router }"
+    },
+    {
+      "label": "ctrl",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "expenses_routes_ctrl",
+      "community": 8,
+      "norm_label": "ctrl"
+    },
+    {
+      "label": "validate",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "expenses_routes_validate",
+      "community": 8,
+      "norm_label": "validate"
+    },
+    {
+      "label": "service.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_service",
+      "community": 7,
+      "norm_label": "service.js"
+    },
+    {
+      "label": "q",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_service_q",
+      "community": 7,
+      "norm_label": "q"
+    },
+    {
+      "label": "{ ValidationError }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "expenses_service_validationerror",
+      "community": 7,
+      "norm_label": "{ validationerror }"
+    },
+    {
+      "label": "createExpense()",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "expenses_service_createexpense",
+      "community": 7,
+      "norm_label": "createexpense()"
+    },
+    {
+      "label": "validator.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_validator",
+      "community": 8,
+      "norm_label": "validator.js"
+    },
+    {
+      "label": "validateSchema",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_validator_validateschema",
+      "community": 8,
+      "norm_label": "validateschema"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expense_tracker_index",
+      "community": 15,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "{ Router }",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "expense_tracker_index_router",
+      "community": 15,
+      "norm_label": "{ router }"
+    },
+    {
+      "label": "logger.js",
+      "file_type": "code",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "utils_logger",
+      "community": 4,
+      "norm_label": "logger.js"
+    },
+    {
+      "label": "logError()",
+      "file_type": "code",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "utils_logger_logerror",
+      "community": 4,
+      "norm_label": "logerror()"
+    },
+    {
+      "label": "Graphify Rules",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claudemd_graphify",
+      "community": 18,
+      "norm_label": "graphify rules"
+    },
+    {
+      "label": "WorkspaceOS-BE",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_workspaceosbe",
+      "community": 19,
+      "norm_label": "workspaceos-be"
+    },
+    {
+      "label": "server.js Entry Point",
+      "file_type": "code",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_architecture_walkthrough_serverjs",
+      "community": 10,
+      "norm_label": "server.js entry point"
+    },
+    {
+      "label": "src/app.js Express App",
+      "file_type": "code",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_architecture_walkthrough_appjs",
+      "community": 10,
+      "norm_label": "src/app.js express app"
+    },
+    {
+      "label": "BaseEntity.js CRUD Powerhouse",
+      "file_type": "code",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_architecture_walkthrough_baseentity",
+      "community": 11,
+      "norm_label": "baseentity.js crud powerhouse"
+    },
+    {
+      "label": "errorHandler.js Global Handler",
+      "file_type": "code",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_architecture_walkthrough_errorhandler",
+      "community": 10,
+      "norm_label": "errorhandler.js global handler"
+    },
+    {
+      "label": "Migration 001: Expense Tracker Init",
+      "file_type": "code",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_architecture_walkthrough_migration001",
+      "community": 13,
+      "norm_label": "migration 001: expense tracker init"
+    },
+    {
+      "label": "Migration 002: Expense Tracker Enhance",
+      "file_type": "code",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_architecture_walkthrough_migration002",
+      "community": 17,
+      "norm_label": "migration 002: expense tracker enhance"
+    },
+    {
+      "label": "Migration 003: Base Audit Pattern",
+      "file_type": "code",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_architecture_walkthrough_migration003",
+      "community": 11,
+      "norm_label": "migration 003: base audit pattern"
+    },
+    {
+      "label": "Soft Delete Pattern",
+      "file_type": "rationale",
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_architecture_walkthrough_softdeletes",
+      "community": 11,
+      "norm_label": "soft delete pattern"
+    },
+    {
+      "label": "Expense Tracker Module",
+      "file_type": "document",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "expense_tracker_readme_module",
+      "community": 13,
+      "norm_label": "expense tracker module"
+    },
+    {
+      "label": "Expense Tracker API Endpoints",
+      "file_type": "concept",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "expense_tracker_readme_endpoints",
+      "community": 16,
+      "norm_label": "expense tracker api endpoints"
+    },
+    {
+      "label": "Expense Tracker Business Logic",
+      "file_type": "rationale",
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "expense_tracker_readme_businessrules",
+      "community": 16,
+      "norm_label": "expense tracker business logic"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_claude",
+      "target": "claude_claude_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill",
+      "target": "graphify_skill_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L947",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_cluster_only"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_git_commit_hook"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1063",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_add"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1045",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_explain"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1027",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_path"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L959",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_query"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_native_claude_md_integration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L786",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_update_incremental_re_extraction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1097",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_watch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1150",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_honesty_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L768",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_interpreter_guard_for_subcommands"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_usage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_what_graphify_is_for"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_what_you_must_do_when_invoked"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_1_ensure_graphify_is_installed"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_2_detect_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L227",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_3_extract_entities_and_relationships"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L512",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L564",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_5_label_communities"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L604",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L624",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_6b_wiki_only_if_wiki_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L634",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L650",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7b_svg_export_only_if_svg_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L656",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L662",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L682",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L694",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L244",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_a_structural_extraction_for_code_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L270",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L478",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L968",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_for_graphify_query",
+      "target": "graphify_skill_step_0_constrained_query_expansion_required_before_traversal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/graphify/SKILL.md",
+      "source_location": "L1006",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_for_graphify_query",
+      "target": "graphify_skill_step_1_traversal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings",
+      "target": "claude_settings_hooks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_pretooluse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_author",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_keywords",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_migrate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_cors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_dotenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_helmet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_morgan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_pg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_nodemon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server",
+      "target": "server_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server",
+      "target": "server_logerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server",
+      "target": "src_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server",
+      "target": "utils_logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server",
+      "target": "utils_logger_logerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "middleware_errorhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "middleware_notfound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "middleware_requestid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_cors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_errorhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_helmet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_morgan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_notfound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_requestid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config/db.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "config_db",
+      "target": "config_db_pool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "config_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "lib_baseentity",
+      "target": "config_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "errors_apperror",
+      "target": "errors_apperror_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "errors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/AppError.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "errors_apperror_apperror",
+      "target": "errors_apperror_apperror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_conflicterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_notfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_unauthorizederror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "errors_httperrors",
+      "target": "errors_httperrors_validationerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_httperrors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "errors_httperrors_notfounderror",
+      "target": "errors_httperrors_notfounderror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors_notfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_fromfield",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "errors_httperrors_validationerror",
+      "target": "errors_httperrors_validationerror_fromfields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors_validationerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "errors_httperrors_conflicterror",
+      "target": "errors_httperrors_conflicterror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors_conflicterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_httperrors_conflicterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/httpErrors.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "errors_httperrors_unauthorizederror",
+      "target": "errors_httperrors_unauthorizederror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_httperrors_unauthorizederror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_index_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_index_mappgerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/index.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "errors_index",
+      "target": "errors_pgerrormapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "errors_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_notfound",
+      "target": "errors_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_validaterequired",
+      "target": "errors_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_conflicterror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errors/pgErrorMapper.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "errors_pgerrormapper",
+      "target": "errors_pgerrormapper_mappgerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "errors_pgerrormapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "lib_baseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lib_baseentity",
+      "target": "lib_baseentity_baseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "lib_baseentity",
+      "target": "lib_baseentity_pool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_deletebyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_findbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_findmany",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "lib_baseentity_baseentity",
+      "target": "lib_baseentity_baseentity_updatebyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/BaseEntity.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "lib_baseentity_baseentity_updatebyid",
+      "target": "lib_baseentity_baseentity_findbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "lib_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/asyncHandler.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "lib_asynchandler",
+      "target": "lib_asynchandler_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "lib_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/response.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "lib_response",
+      "target": "lib_response_senderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/response.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "lib_response",
+      "target": "lib_response_sendsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "lib_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "lib_response_sendsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "lib_response_senderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "lib_response_senderror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_apperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_buildextras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_errorhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_isproduction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_logerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_maperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_mappgerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "middleware_errorhandler_senderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "utils_logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_errorhandler",
+      "target": "utils_logger_logerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_maperror",
+      "target": "middleware_errorhandler_mappgerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_buildextras",
+      "target": "middleware_errorhandler_isproduction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_isproduction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_maperror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "middleware_errorhandler_buildextras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/middleware/errorHandler.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "middleware_errorhandler_errorhandler",
+      "target": "utils_logger_logerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "middleware_notfound",
+      "target": "middleware_notfound_notfound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/notFound.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_notfound",
+      "target": "middleware_notfound_notfounderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_requestid",
+      "target": "middleware_requestid_randomuuid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "middleware_requestid",
+      "target": "middleware_requestid_requestid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_validator",
+      "target": "middleware_validaterequired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "middleware_validaterequired",
+      "target": "middleware_validaterequired_validateschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/middleware/validateRequired.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "middleware_validaterequired",
+      "target": "middleware_validaterequired_validationerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "expenses_controller_asynchandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "expenses_controller_sendsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "expenses_controller_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/controller.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_controller",
+      "target": "expenses_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_controller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_baseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_createexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_expensesentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_findduplicates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_queries",
+      "target": "expenses_queries_pool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_queries",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_routes_ctrl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_routes_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_routes_validate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/routes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "expenses_routes",
+      "target": "expenses_validator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_createexpense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_q",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_service_validationerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/validator.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "expenses_validator",
+      "target": "expenses_validator_validateschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/index.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "expense_tracker_index",
+      "target": "expense_tracker_index_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/logger.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "utils_logger",
+      "target": "utils_logger_logerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_serverjs",
+      "target": "backend_architecture_walkthrough_appjs"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_appjs",
+      "target": "backend_architecture_walkthrough_errorhandler"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_baseentity",
+      "target": "backend_architecture_walkthrough_softdeletes"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "expense_tracker_readme_module",
+      "target": "backend_architecture_walkthrough_migration001"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend_architecture_walkthrough.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_architecture_walkthrough_migration003",
+      "target": "backend_architecture_walkthrough_softdeletes"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/modules/expense-tracker/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "expense_tracker_readme_endpoints",
+      "target": "expense_tracker_readme_businessrules"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "expense_tracker_schema_evolution",
+      "label": "Expense Tracker Schema Evolution",
+      "nodes": [
+        "backend_architecture_walkthrough_migration001",
+        "backend_architecture_walkthrough_migration002",
+        "backend_architecture_walkthrough_migration003"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend_architecture_walkthrough.md"
+    },
+    {
+      "id": "request_lifecycle",
+      "label": "HTTP Request Lifecycle",
+      "nodes": [
+        "backend_architecture_walkthrough_appjs",
+        "backend_architecture_walkthrough_errorhandler",
+        "backend_architecture_walkthrough_baseentity"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend_architecture_walkthrough.md"
+    }
+  ],
+  "built_at_commit": "d3b9924cacae8eaaa97bb5a5ae8da7f817fe179c"
+}

@@ -1,0 +1,339 @@
+{
+  "communities": {
+    "0": [
+      "package",
+      "package_author",
+      "package_dependencies",
+      "package_dependencies_cors",
+      "package_dependencies_dotenv",
+      "package_dependencies_express",
+      "package_dependencies_helmet",
+      "package_dependencies_morgan",
+      "package_dependencies_pg",
+      "package_description",
+      "package_devdependencies",
+      "package_devdependencies_nodemon",
+      "package_keywords",
+      "package_license",
+      "package_main",
+      "package_name",
+      "package_scripts",
+      "package_scripts_dev",
+      "package_scripts_migrate",
+      "package_scripts_start",
+      "package_scripts_test",
+      "package_version"
+    ],
+    "1": [
+      "errors_apperror",
+      "errors_apperror_apperror",
+      "errors_apperror_apperror_constructor",
+      "errors_index",
+      "errors_index_apperror",
+      "errors_index_mappgerror",
+      "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "errors_pgerrormapper",
+      "errors_pgerrormapper_apperror",
+      "errors_pgerrormapper_conflicterror",
+      "errors_pgerrormapper_mappgerror",
+      "expenses_service",
+      "expenses_service_createexpense",
+      "expenses_service_q",
+      "expenses_service_validationerror",
+      "middleware_notfound",
+      "middleware_notfound_notfound",
+      "middleware_notfound_notfounderror"
+    ],
+    "2": [
+      "backend_architecture_walkthrough",
+      "backend_architecture_walkthrough_1_the_entry_point_server_js_src_app_js",
+      "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
+      "backend_architecture_walkthrough_3_how_responses_and_errors_are_handled",
+      "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "backend_architecture_walkthrough_errors",
+      "backend_architecture_walkthrough_how_migrations_work_in_practice",
+      "backend_architecture_walkthrough_migration_001_the_foundation_001_expense_tracker_init_sql",
+      "backend_architecture_walkthrough_migration_002_the_enhancement_002_expense_tracker_enhance_sql",
+      "backend_architecture_walkthrough_migration_003_the_base_audit_pattern_003_base_audit_pattern_sql",
+      "backend_architecture_walkthrough_soft_deletes",
+      "backend_architecture_walkthrough_step_1_the_route_validator_routes_js_validator_js",
+      "backend_architecture_walkthrough_step_2_the_controller_controller_js",
+      "backend_architecture_walkthrough_step_3_the_service_layer_service_js",
+      "backend_architecture_walkthrough_step_4_the_query_layer_baseentity_queries_js_baseentity_js",
+      "backend_architecture_walkthrough_success",
+      "backend_architecture_walkthrough_the_story_behind_migrations_why_they_exist"
+    ],
+    "3": [
+      "backend_architecture_walkthrough_migration001",
+      "expense_tracker_readme",
+      "expense_tracker_readme_business_logic_rules",
+      "expense_tracker_readme_businessrules",
+      "expense_tracker_readme_categories",
+      "expense_tracker_readme_data_access_style",
+      "expense_tracker_readme_duplicate_warning",
+      "expense_tracker_readme_endpoints",
+      "expense_tracker_readme_expense_tracker_module",
+      "expense_tracker_readme_expenses",
+      "expense_tracker_readme_paginated_list_get_api_expenses",
+      "expense_tracker_readme_payment_methods",
+      "expense_tracker_readme_query_filters_get_api_expenses",
+      "expense_tracker_readme_response_format",
+      "expense_tracker_readme_single_expense_includes_tags",
+      "expense_tracker_readme_tables",
+      "expense_tracker_readme_tags"
+    ],
+    "4": [
+      "config_db",
+      "config_db_pool",
+      "expenses_queries",
+      "expenses_queries_baseentity",
+      "expenses_queries_createexpense",
+      "expenses_queries_expensesentity",
+      "expenses_queries_findduplicates",
+      "expenses_queries_pool",
+      "lib_baseentity",
+      "lib_baseentity_baseentity",
+      "lib_baseentity_baseentity_constructor",
+      "lib_baseentity_baseentity_create",
+      "lib_baseentity_baseentity_deletebyid",
+      "lib_baseentity_baseentity_findbyid",
+      "lib_baseentity_baseentity_findmany",
+      "lib_baseentity_baseentity_updatebyid",
+      "lib_baseentity_pool"
+    ],
+    "5": [
+      "lib_response_senderror",
+      "middleware_errorhandler",
+      "middleware_errorhandler_apperror",
+      "middleware_errorhandler_buildextras",
+      "middleware_errorhandler_errorhandler",
+      "middleware_errorhandler_isproduction",
+      "middleware_errorhandler_logerror",
+      "middleware_errorhandler_maperror",
+      "middleware_errorhandler_mappgerror",
+      "middleware_errorhandler_senderror",
+      "server",
+      "server_app",
+      "server_logerror",
+      "utils_logger",
+      "utils_logger_logerror"
+    ],
+    "6": [
+      "middleware_requestid",
+      "middleware_requestid_randomuuid",
+      "middleware_requestid_requestid",
+      "src_app",
+      "src_app_app",
+      "src_app_cors",
+      "src_app_errorhandler",
+      "src_app_express",
+      "src_app_helmet",
+      "src_app_morgan",
+      "src_app_notfound",
+      "src_app_requestid"
+    ],
+    "7": [
+      "errors_httperrors_validationerror",
+      "expenses_routes",
+      "expenses_routes_ctrl",
+      "expenses_routes_router",
+      "expenses_routes_validate",
+      "expenses_validator",
+      "expenses_validator_validateschema",
+      "middleware_validaterequired",
+      "middleware_validaterequired_validateschema",
+      "middleware_validaterequired_validationerror"
+    ],
+    "8": [
+      "expenses_controller",
+      "expenses_controller_asynchandler",
+      "expenses_controller_sendsuccess",
+      "expenses_controller_service",
+      "lib_asynchandler",
+      "lib_asynchandler_asynchandler",
+      "lib_response",
+      "lib_response_sendsuccess"
+    ],
+    "9": [
+      "expense_tracker_readme_attach_tag",
+      "expense_tracker_readme_bulk_create",
+      "expense_tracker_readme_bulk_delete",
+      "expense_tracker_readme_create_category",
+      "expense_tracker_readme_create_expense",
+      "expense_tracker_readme_create_tag",
+      "expense_tracker_readme_example_request_bodies"
+    ],
+    "10": [
+      "backend_architecture_walkthrough_appjs",
+      "backend_architecture_walkthrough_errorhandler",
+      "backend_architecture_walkthrough_serverjs"
+    ],
+    "11": [
+      "backend_architecture_walkthrough_baseentity",
+      "backend_architecture_walkthrough_migration003",
+      "backend_architecture_walkthrough_softdeletes"
+    ],
+    "12": [
+      "claude_claude_graphify_skill_reference",
+      "graphify_skill_detection_extraction_clustering",
+      "graphify_skill_graphify_tool"
+    ],
+    "13": [
+      "claude_settings",
+      "claude_settings_hooks",
+      "claude_settings_hooks_pretooluse"
+    ],
+    "14": [
+      "claude",
+      "claude_graphify"
+    ],
+    "15": [
+      "expense_tracker_index",
+      "expense_tracker_index_router"
+    ],
+    "16": [
+      "readme",
+      "readme_workspaceos_be"
+    ],
+    "17": [
+      "backend_architecture_walkthrough_migration002"
+    ],
+    "18": [
+      "claudemd_graphify"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09090909090909091,
+    "1": 0.11764705882352941,
+    "2": 0.11764705882352941,
+    "3": 0.11764705882352941,
+    "4": 0.1323529411764706,
+    "5": 0.21904761904761905,
+    "6": 0.16666666666666666,
+    "7": 0.2,
+    "8": 0.2857142857142857,
+    "9": 0.2857142857142857,
+    "10": 0.6666666666666666,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666,
+    "13": 0.6666666666666666,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0
+  },
+  "gods": [
+    {
+      "id": "expense_tracker_readme_expense_tracker_module",
+      "label": "Expense Tracker Module",
+      "degree": 9
+    },
+    {
+      "id": "lib_baseentity_baseentity",
+      "label": "BaseEntity",
+      "degree": 7
+    },
+    {
+      "id": "backend_architecture_walkthrough_4_how_the_database_migrations_work",
+      "label": "4. How the Database & Migrations Work",
+      "degree": 7
+    },
+    {
+      "id": "expense_tracker_readme_example_request_bodies",
+      "label": "Example Request Bodies",
+      "degree": 7
+    },
+    {
+      "id": "middleware_errorhandler_errorhandler",
+      "label": "errorHandler()",
+      "degree": 6
+    },
+    {
+      "id": "expense_tracker_readme_endpoints",
+      "label": "Endpoints",
+      "degree": 6
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "backend_architecture_walkthrough_2_the_http_request_journey_the_expense_tracker",
+      "label": "2. The HTTP Request Journey (The Expense Tracker)",
+      "degree": 5
+    },
+    {
+      "id": "utils_logger_logerror",
+      "label": "logError()",
+      "degree": 4
+    },
+    {
+      "id": "expense_tracker_readme_response_format",
+      "label": "Response Format",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Expense Tracker Module",
+      "target": "Migration 001: Expense Tracker Init",
+      "source_files": [
+        "src/modules/expense-tracker/README.md",
+        "backend_architecture_walkthrough.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Migration 001: Expense Tracker Init` unexpectedly reaches hub `Expense Tracker Module`"
+    },
+    {
+      "source": "errorHandler()",
+      "target": "sendError()",
+      "source_files": [
+        "src/middleware/errorHandler.js",
+        "src/lib/response.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "errorHandler()",
+      "target": "logError()",
+      "source_files": [
+        "src/middleware/errorHandler.js",
+        "src/utils/logger.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "validateSchema()",
+      "target": "ValidationError",
+      "source_files": [
+        "src/middleware/validateRequired.js",
+        "src/errors/httpErrors.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "graphify Skill",
+      "target": "graphify Tool",
+      "source_files": [
+        ".claude/CLAUDE.md",
+        ".claude/skills/graphify/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "communities": {
+    "0": [
+      "errors_apperror",
+      "errors_apperror_apperror",
+      "errors_apperror_apperror_constructor",
+      "errors_httperrors",
+      "errors_httperrors_apperror",
+      "errors_httperrors_conflicterror",
+      "errors_httperrors_conflicterror_constructor",
+      "errors_httperrors_notfounderror",
+      "errors_httperrors_notfounderror_constructor",
+      "errors_httperrors_unauthorizederror",
+      "errors_httperrors_unauthorizederror_constructor",
+      "errors_httperrors_validationerror",
+      "errors_httperrors_validationerror_constructor",
+      "errors_httperrors_validationerror_fromfield",
+      "errors_httperrors_validationerror_fromfields",
+      "errors_index",
+      "errors_index_apperror",
+      "errors_index_mappgerror",
+      "errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "errors_pgerrormapper",
+      "errors_pgerrormapper_apperror",
+      "errors_pgerrormapper_conflicterror",
+      "errors_pgerrormapper_mappgerror"
+    ],
+    "1": [
+      "graphify_skill_part_a_structural_extraction_for_code_files",
+      "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
+      "graphify_skill_step_1_ensure_graphify_is_installed",
+      "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
+      "graphify_skill_step_2_detect_files",
+      "graphify_skill_step_3_extract_entities_and_relationships",
+      "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "graphify_skill_step_5_label_communities",
+      "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "graphify_skill_step_6b_wiki_only_if_wiki_flag",
+      "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "graphify_skill_step_7b_svg_export_only_if_svg_flag",
+      "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
+      "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
+      "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
+      "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "graphify_skill_what_you_must_do_when_invoked"
+    ],
+    "2": [
+      "config_db",
+      "config_db_pool",
+      "expenses_queries",
+      "expenses_queries_baseentity",
+      "expenses_queries_createexpense",
+      "expenses_queries_expensesentity",
+      "expenses_queries_findduplicates",
+      "expenses_queries_pool",
+      "lib_baseentity",
+      "lib_baseentity_baseentity",
+      "lib_baseentity_baseentity_constructor",
+      "lib_baseentity_baseentity_create",
+      "lib_baseentity_baseentity_deletebyid",
+      "lib_baseentity_baseentity_findbyid",
+      "lib_baseentity_baseentity_findmany",
+      "lib_baseentity_baseentity_updatebyid",
+      "lib_baseentity_pool"
+    ],
+    "3": [
+      "graphify_skill",
+      "graphify_skill_for_cluster_only",
+      "graphify_skill_for_git_commit_hook",
+      "graphify_skill_for_graphify_add",
+      "graphify_skill_for_graphify_explain",
+      "graphify_skill_for_graphify_path",
+      "graphify_skill_for_graphify_query",
+      "graphify_skill_for_native_claude_md_integration",
+      "graphify_skill_for_update_incremental_re_extraction",
+      "graphify_skill_for_watch",
+      "graphify_skill_graphify",
+      "graphify_skill_honesty_rules",
+      "graphify_skill_interpreter_guard_for_subcommands",
+      "graphify_skill_step_0_constrained_query_expansion_required_before_traversal",
+      "graphify_skill_step_1_traversal",
+      "graphify_skill_usage",
+      "graphify_skill_what_graphify_is_for"
+    ],
+    "4": [
+      "lib_response",
+      "lib_response_senderror",
+      "lib_response_sendsuccess",
+      "middleware_errorhandler",
+      "middleware_errorhandler_apperror",
+      "middleware_errorhandler_buildextras",
+      "middleware_errorhandler_errorhandler",
+      "middleware_errorhandler_isproduction",
+      "middleware_errorhandler_logerror",
+      "middleware_errorhandler_maperror",
+      "middleware_errorhandler_mappgerror",
+      "middleware_errorhandler_senderror",
+      "server",
+      "server_app",
+      "server_logerror",
+      "utils_logger",
+      "utils_logger_logerror"
+    ],
+    "5": [
+      "middleware_notfound",
+      "middleware_notfound_notfound",
+      "middleware_notfound_notfounderror",
+      "middleware_requestid",
+      "middleware_requestid_randomuuid",
+      "middleware_requestid_requestid",
+      "src_app",
+      "src_app_app",
+      "src_app_cors",
+      "src_app_errorhandler",
+      "src_app_express",
+      "src_app_helmet",
+      "src_app_morgan",
+      "src_app_notfound",
+      "src_app_requestid"
+    ],
+    "6": [
+      "package",
+      "package_author",
+      "package_description",
+      "package_devdependencies",
+      "package_devdependencies_nodemon",
+      "package_keywords",
+      "package_license",
+      "package_main",
+      "package_name",
+      "package_scripts",
+      "package_scripts_dev",
+      "package_scripts_migrate",
+      "package_scripts_start",
+      "package_scripts_test",
+      "package_version"
+    ],
+    "7": [
+      "expenses_controller",
+      "expenses_controller_asynchandler",
+      "expenses_controller_sendsuccess",
+      "expenses_controller_service",
+      "expenses_service",
+      "expenses_service_createexpense",
+      "expenses_service_q",
+      "expenses_service_validationerror",
+      "lib_asynchandler",
+      "lib_asynchandler_asynchandler"
+    ],
+    "8": [
+      "expenses_routes",
+      "expenses_routes_ctrl",
+      "expenses_routes_router",
+      "expenses_routes_validate",
+      "expenses_validator",
+      "expenses_validator_validateschema",
+      "middleware_validaterequired",
+      "middleware_validaterequired_validateschema",
+      "middleware_validaterequired_validationerror"
+    ],
+    "9": [
+      "package_dependencies",
+      "package_dependencies_cors",
+      "package_dependencies_dotenv",
+      "package_dependencies_express",
+      "package_dependencies_helmet",
+      "package_dependencies_morgan",
+      "package_dependencies_pg"
+    ],
+    "10": [
+      "backend_architecture_walkthrough_appjs",
+      "backend_architecture_walkthrough_errorhandler",
+      "backend_architecture_walkthrough_serverjs"
+    ],
+    "11": [
+      "backend_architecture_walkthrough_baseentity",
+      "backend_architecture_walkthrough_migration003",
+      "backend_architecture_walkthrough_softdeletes"
+    ],
+    "12": [
+      "claude_settings",
+      "claude_settings_hooks",
+      "claude_settings_hooks_pretooluse"
+    ],
+    "13": [
+      "backend_architecture_walkthrough_migration001",
+      "expense_tracker_readme_module"
+    ],
+    "14": [
+      "claude_claude",
+      "claude_claude_graphify"
+    ],
+    "15": [
+      "expense_tracker_index",
+      "expense_tracker_index_router"
+    ],
+    "16": [
+      "expense_tracker_readme_businessrules",
+      "expense_tracker_readme_endpoints"
+    ],
+    "17": [
+      "backend_architecture_walkthrough_migration002"
+    ],
+    "18": [
+      "claudemd_graphify"
+    ],
+    "19": [
+      "readme_workspaceosbe"
+    ]
+  },
+  "cohesion": {
+    "0": 0.11857707509881422,
+    "1": 0.10526315789473684,
+    "2": 0.1323529411764706,
+    "3": 0.11764705882352941,
+    "4": 0.19117647058823528,
+    "5": 0.13333333333333333,
+    "6": 0.13333333333333333,
+    "7": 0.2,
+    "8": 0.2222222222222222,
+    "9": 0.2857142857142857,
+    "10": 0.6666666666666666,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0
+  },
+  "gods": [
+    {
+      "id": "graphify_skill_what_you_must_do_when_invoked",
+      "label": "What You Must Do When Invoked",
+      "degree": 16
+    },
+    {
+      "id": "graphify_skill_graphify",
+      "label": "/graphify",
+      "degree": 15
+    },
+    {
+      "id": "lib_baseentity_baseentity",
+      "label": "BaseEntity",
+      "degree": 7
+    },
+    {
+      "id": "middleware_errorhandler_errorhandler",
+      "label": "errorHandler()",
+      "degree": 6
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "errors_httperrors_validationerror",
+      "label": "ValidationError",
+      "degree": 5
+    },
+    {
+      "id": "graphify_skill_step_3_extract_entities_and_relationships",
+      "label": "Step 3 - Extract entities and relationships",
+      "degree": 4
+    },
+    {
+      "id": "errors_httperrors_conflicterror",
+      "label": "ConflictError",
+      "degree": 4
+    },
+    {
+      "id": "utils_logger_logerror",
+      "label": "logError()",
+      "degree": 4
+    },
+    {
+      "id": "graphify_skill_for_graphify_query",
+      "label": "For /graphify query",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Expense Tracker Module",
+      "target": "Migration 001: Expense Tracker Init",
+      "source_files": [
+        "src/modules/expense-tracker/README.md",
+        "backend_architecture_walkthrough.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "errorHandler()",
+      "target": "sendError()",
+      "source_files": [
+        "src/middleware/errorHandler.js",
+        "src/lib/response.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "errorHandler()",
+      "target": "logError()",
+      "source_files": [
+        "src/middleware/errorHandler.js",
+        "src/utils/logger.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 22965,
+    "output": 1474
+  }
+}
