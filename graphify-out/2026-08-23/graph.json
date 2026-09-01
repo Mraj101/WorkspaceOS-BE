@@ -1,23 +1,7 @@
 {
   "directed": false,
   "multigraph": false,
-  "graph": {
-    "hyperedges": [
-      {
-        "id": "graphify_system_integration",
-        "label": "Graphify System Integration",
-        "nodes": [
-          "graphify_graphify_rule",
-          "graphify_graphify_workflow",
-          "graphify_graphify_cli"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.9,
-        "source_file": ".agents/rules/graphify.md"
-      }
-    ]
-  },
+  "graph": {},
   "nodes": [
     {
       "label": "package.json",
@@ -245,7 +229,7 @@
       "source_file": "server.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "server.js",
       "id": "server"
     },
@@ -255,7 +239,7 @@
       "source_file": "server.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "app",
       "id": "server_app"
     },
@@ -265,7 +249,7 @@
       "source_file": "server.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "{ logerror }",
       "id": "server_logerror"
     },
@@ -275,7 +259,7 @@
       "source_file": "src/app.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "app.js",
       "id": "src_app"
     },
@@ -285,7 +269,7 @@
       "source_file": "src/app.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "express",
       "id": "src_app_express"
     },
@@ -295,7 +279,7 @@
       "source_file": "src/app.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "cors",
       "id": "src_app_cors"
     },
@@ -305,7 +289,7 @@
       "source_file": "src/app.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "helmet",
       "id": "src_app_helmet"
     },
@@ -315,7 +299,7 @@
       "source_file": "src/app.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "morgan",
       "id": "src_app_morgan"
     },
@@ -325,7 +309,7 @@
       "source_file": "src/app.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "requestid",
       "id": "src_app_requestid"
     },
@@ -335,7 +319,7 @@
       "source_file": "src/app.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "notfound",
       "id": "src_app_notfound"
     },
@@ -345,7 +329,7 @@
       "source_file": "src/app.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "errorhandler",
       "id": "src_app_errorhandler"
     },
@@ -355,7 +339,7 @@
       "source_file": "src/app.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "app",
       "id": "src_app_app"
     },
@@ -365,7 +349,7 @@
       "source_file": "src/config/db.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": "db.js",
       "id": "config_db"
     },
@@ -375,7 +359,7 @@
       "source_file": "src/config/db.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": "{ pool }",
       "id": "config_db_pool"
     },
@@ -615,7 +599,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": "baseentity.js",
       "id": "lib_baseentity"
     },
@@ -625,7 +609,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": "pool",
       "id": "lib_baseentity_pool"
     },
@@ -635,7 +619,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": "baseentity",
       "id": "lib_baseentity_baseentity"
     },
@@ -645,7 +629,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": ".constructor()",
       "id": "lib_baseentity_baseentity_constructor"
     },
@@ -655,7 +639,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": ".findbyid()",
       "id": "lib_baseentity_baseentity_findbyid"
     },
@@ -665,7 +649,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": ".findmany()",
       "id": "lib_baseentity_baseentity_findmany"
     },
@@ -675,7 +659,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": ".create()",
       "id": "lib_baseentity_baseentity_create"
     },
@@ -685,7 +669,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L68",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": ".updatebyid()",
       "id": "lib_baseentity_baseentity_updatebyid"
     },
@@ -695,7 +679,7 @@
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L95",
       "_origin": "ast",
-      "community": 5,
+      "community": 9,
       "norm_label": ".deletebyid()",
       "id": "lib_baseentity_baseentity_deletebyid"
     },
@@ -725,7 +709,7 @@
       "source_file": "src/lib/response.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "response.js",
       "id": "lib_response"
     },
@@ -735,7 +719,7 @@
       "source_file": "src/lib/response.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "sendsuccess()",
       "id": "lib_response_sendsuccess"
     },
@@ -745,7 +729,7 @@
       "source_file": "src/lib/response.js",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "senderror()",
       "id": "lib_response_senderror"
     },
@@ -755,7 +739,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "errorhandler.js",
       "id": "middleware_errorhandler"
     },
@@ -765,7 +749,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "apperror",
       "id": "middleware_errorhandler_apperror"
     },
@@ -775,7 +759,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "mappgerror",
       "id": "middleware_errorhandler_mappgerror"
     },
@@ -785,7 +769,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "{ logerror }",
       "id": "middleware_errorhandler_logerror"
     },
@@ -795,7 +779,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "{ senderror }",
       "id": "middleware_errorhandler_senderror"
     },
@@ -805,7 +789,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "isproduction()",
       "id": "middleware_errorhandler_isproduction"
     },
@@ -815,7 +799,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "maperror()",
       "id": "middleware_errorhandler_maperror"
     },
@@ -825,7 +809,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "buildextras()",
       "id": "middleware_errorhandler_buildextras"
     },
@@ -835,7 +819,7 @@
       "source_file": "src/middleware/errorHandler.js",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "errorhandler()",
       "id": "middleware_errorhandler_errorhandler"
     },
@@ -845,7 +829,7 @@
       "source_file": "src/middleware/notFound.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "notfound.js",
       "id": "middleware_notfound"
     },
@@ -855,7 +839,7 @@
       "source_file": "src/middleware/notFound.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "{ notfounderror }",
       "id": "middleware_notfound_notfounderror"
     },
@@ -865,39 +849,9 @@
       "source_file": "src/middleware/notFound.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 9,
+      "community": 7,
       "norm_label": "notfound()",
       "id": "middleware_notfound_notfound"
-    },
-    {
-      "label": "requestId.js",
-      "file_type": "code",
-      "source_file": "src/middleware/requestId.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "requestid.js",
-      "id": "middleware_requestid"
-    },
-    {
-      "label": "{ randomUUID }",
-      "file_type": "code",
-      "source_file": "src/middleware/requestId.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "{ randomuuid }",
-      "id": "middleware_requestid_randomuuid"
-    },
-    {
-      "label": "requestId()",
-      "file_type": "code",
-      "source_file": "src/middleware/requestId.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "requestid()",
-      "id": "middleware_requestid_requestid"
     },
     {
       "label": "validateRequired.js",
@@ -970,66 +924,6 @@
       "id": "expenses_controller_sendsuccess"
     },
     {
-      "label": "queries.js",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "queries.js",
-      "id": "expenses_queries"
-    },
-    {
-      "label": "pool",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "pool",
-      "id": "expenses_queries_pool"
-    },
-    {
-      "label": "BaseEntity",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "baseentity",
-      "id": "expenses_queries_baseentity"
-    },
-    {
-      "label": "expensesEntity",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "expensesentity",
-      "id": "expenses_queries_expensesentity"
-    },
-    {
-      "label": "createExpense()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "createexpense()",
-      "id": "expenses_queries_createexpense"
-    },
-    {
-      "label": "findDuplicates()",
-      "file_type": "code",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "findduplicates()",
-      "id": "expenses_queries_findduplicates"
-    },
-    {
       "label": "routes.js",
       "file_type": "code",
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
@@ -1075,7 +969,7 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 10,
       "norm_label": "service.js",
       "id": "expenses_service"
     },
@@ -1085,7 +979,7 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 10,
       "norm_label": "q",
       "id": "expenses_service_q"
     },
@@ -1095,7 +989,7 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 8,
+      "community": 10,
       "norm_label": "{ validationerror }",
       "id": "expenses_service_validationerror"
     },
@@ -1105,7 +999,7 @@
       "source_file": "src/modules/expense-tracker/expenses/service.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 8,
+      "community": 10,
       "norm_label": "createexpense()",
       "id": "expenses_service_createexpense"
     },
@@ -1135,7 +1029,7 @@
       "source_file": "src/modules/expense-tracker/index.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "norm_label": "index.js",
       "id": "expense_tracker_index"
     },
@@ -1145,7 +1039,7 @@
       "source_file": "src/modules/expense-tracker/index.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "norm_label": "{ router }",
       "id": "expense_tracker_index_router"
     },
@@ -1155,7 +1049,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "logger.js",
       "id": "utils_logger"
     },
@@ -1165,7 +1059,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 7,
+      "community": 6,
       "norm_label": "logerror()",
       "id": "utils_logger_logerror"
     },
@@ -1175,7 +1069,7 @@
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 17,
+      "community": 16,
       "norm_label": "claude.md",
       "id": "claude_claude"
     },
@@ -1185,7 +1079,7 @@
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 17,
+      "community": 16,
       "norm_label": "graphify",
       "id": "claude_claude_graphify"
     },
@@ -1195,7 +1089,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "skill.md",
       "id": "graphify_skill"
     },
@@ -1205,7 +1099,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "/graphify",
       "id": "graphify_skill_graphify"
     },
@@ -1215,7 +1109,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "usage",
       "id": "graphify_skill_usage"
     },
@@ -1225,7 +1119,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "what graphify is for",
       "id": "graphify_skill_what_graphify_is_for"
     },
@@ -1425,7 +1319,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L768",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "interpreter guard for subcommands",
       "id": "graphify_skill_interpreter_guard_for_subcommands"
     },
@@ -1435,7 +1329,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L786",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for --update (incremental re-extraction)",
       "id": "graphify_skill_for_update_incremental_re_extraction"
     },
@@ -1445,7 +1339,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L947",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for --cluster-only",
       "id": "graphify_skill_for_cluster_only"
     },
@@ -1455,7 +1349,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L959",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for /graphify query",
       "id": "graphify_skill_for_graphify_query"
     },
@@ -1465,7 +1359,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L968",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "step 0 \u2014 constrained query expansion (required before traversal)",
       "id": "graphify_skill_step_0_constrained_query_expansion_required_before_traversal"
     },
@@ -1475,7 +1369,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1006",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "step 1 \u2014 traversal",
       "id": "graphify_skill_step_1_traversal"
     },
@@ -1485,7 +1379,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1027",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for /graphify path",
       "id": "graphify_skill_for_graphify_path"
     },
@@ -1495,7 +1389,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1045",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for /graphify explain",
       "id": "graphify_skill_for_graphify_explain"
     },
@@ -1505,7 +1399,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1063",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for /graphify add",
       "id": "graphify_skill_for_graphify_add"
     },
@@ -1515,7 +1409,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1097",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for --watch",
       "id": "graphify_skill_for_watch"
     },
@@ -1525,7 +1419,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1118",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for git commit hook",
       "id": "graphify_skill_for_git_commit_hook"
     },
@@ -1535,7 +1429,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1134",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "for native claude.md integration",
       "id": "graphify_skill_for_native_claude_md_integration"
     },
@@ -1545,7 +1439,7 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1150",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "honesty rules",
       "id": "graphify_skill_honesty_rules"
     },
@@ -1555,7 +1449,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "norm_label": "claude.md",
       "id": "claude"
     },
@@ -1565,7 +1459,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "norm_label": "graphify",
       "id": "claude_graphify"
     },
@@ -1575,7 +1469,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "readme.md",
       "id": "readme"
     },
@@ -1585,7 +1479,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "workspaceos-be",
       "id": "readme_workspaceos_be"
     },
@@ -1984,7 +1878,7 @@
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L1",
-      "community": 15,
+      "community": 14,
       "norm_label": "settings.json",
       "id": "claude_settings"
     },
@@ -1993,7 +1887,7 @@
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L2",
-      "community": 15,
+      "community": 14,
       "norm_label": "hooks",
       "id": "claude_settings_hooks"
     },
@@ -2002,7 +1896,7 @@
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L3",
-      "community": 15,
+      "community": 14,
       "norm_label": "pretooluse",
       "id": "claude_settings_hooks_pretooluse"
     },
@@ -2015,7 +1909,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 20,
       "norm_label": "graphify rules",
       "id": "claudemd_graphify"
     },
@@ -2028,7 +1922,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 11,
       "norm_label": "server.js entry point",
       "id": "backend_architecture_walkthrough_serverjs"
     },
@@ -2041,7 +1935,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 11,
       "norm_label": "src/app.js express app",
       "id": "backend_architecture_walkthrough_appjs"
     },
@@ -2054,7 +1948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 12,
       "norm_label": "baseentity.js crud powerhouse",
       "id": "backend_architecture_walkthrough_baseentity"
     },
@@ -2067,7 +1961,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 11,
       "norm_label": "errorhandler.js global handler",
       "id": "backend_architecture_walkthrough_errorhandler"
     },
@@ -2093,7 +1987,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 19,
       "norm_label": "migration 002: expense tracker enhance",
       "id": "backend_architecture_walkthrough_migration002"
     },
@@ -2106,7 +2000,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 12,
       "norm_label": "migration 003: base audit pattern",
       "id": "backend_architecture_walkthrough_migration003"
     },
@@ -2119,7 +2013,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 12,
       "norm_label": "soft delete pattern",
       "id": "backend_architecture_walkthrough_softdeletes"
     },
@@ -2145,7 +2039,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 13,
       "norm_label": "graphify skill",
       "id": "claude_claude_graphify_skill_reference"
     },
@@ -2158,7 +2052,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 13,
       "norm_label": "graphify tool",
       "id": "graphify_skill_graphify_tool"
     },
@@ -2171,124 +2065,99 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 13,
       "norm_label": "knowledge graph pipeline",
       "id": "graphify_skill_detection_extraction_clustering"
     },
     {
-      "label": "migrate.js",
+      "label": "requestId.js",
       "file_type": "code",
-      "source_file": "scripts/migrate.js",
+      "source_file": "src/middleware/requestId.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "scripts_migrate",
-      "community": 11,
-      "norm_label": "migrate.js"
+      "id": "middleware_requestid",
+      "community": 7,
+      "norm_label": "requestid.js"
     },
     {
-      "label": "fs",
+      "label": "{ randomUUID }",
       "file_type": "code",
-      "source_file": "scripts/migrate.js",
+      "source_file": "src/middleware/requestId.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "scripts_migrate_fs",
-      "community": 11,
-      "norm_label": "fs"
+      "id": "middleware_requestid_randomuuid",
+      "community": 7,
+      "norm_label": "{ randomuuid }"
     },
     {
-      "label": "path",
+      "label": "requestId()",
       "file_type": "code",
-      "source_file": "scripts/migrate.js",
-      "source_location": "L2",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L6",
       "_origin": "ast",
-      "id": "scripts_migrate_path",
-      "community": 11,
-      "norm_label": "path"
+      "id": "middleware_requestid_requestid",
+      "community": 7,
+      "norm_label": "requestid()"
+    },
+    {
+      "label": "queries.js",
+      "file_type": "code",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "expenses_queries",
+      "community": 10,
+      "norm_label": "queries.js"
     },
     {
       "label": "pool",
       "file_type": "code",
-      "source_file": "scripts/migrate.js",
-      "source_location": "L3",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
       "_origin": "ast",
-      "id": "scripts_migrate_pool",
-      "community": 11,
+      "id": "expenses_queries_pool",
+      "community": 10,
       "norm_label": "pool"
     },
     {
-      "label": "runMigrations()",
+      "label": "BaseEntity",
       "file_type": "code",
-      "source_file": "scripts/migrate.js",
-      "source_location": "L5",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L3",
       "_origin": "ast",
-      "id": "scripts_migrate_runmigrations",
-      "community": 11,
-      "norm_label": "runmigrations()"
+      "id": "expenses_queries_baseentity",
+      "community": 10,
+      "norm_label": "baseentity"
     },
     {
-      "label": "Graphify Rule",
+      "label": "expensesEntity",
       "file_type": "code",
-      "source_file": ".agents/rules/graphify.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "graphify_graphify_rule",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "expenses_queries_expensesentity",
       "community": 10,
-      "norm_label": "graphify rule"
+      "norm_label": "expensesentity"
     },
     {
-      "label": "Graphify Output Directory",
-      "file_type": "concept",
-      "source_file": ".agents/rules/graphify.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "graphify_graphify_out",
-      "community": 10,
-      "norm_label": "graphify output directory"
-    },
-    {
-      "label": "Graphify CLI",
+      "label": "createExpense()",
       "file_type": "code",
-      "source_file": ".agents/rules/graphify.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "graphify_graphify_cli",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "expenses_queries_createexpense",
       "community": 10,
-      "norm_label": "graphify cli"
+      "norm_label": "createexpense()"
     },
     {
-      "label": "Graphify Workflow",
+      "label": "findDuplicates()",
       "file_type": "code",
-      "source_file": ".agents/workflows/graphify.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "graphify_graphify_workflow",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "expenses_queries_findduplicates",
       "community": 10,
-      "norm_label": "graphify workflow"
-    },
-    {
-      "label": "Graphify Skill Definition",
-      "file_type": "document",
-      "source_file": ".agents/workflows/graphify.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "graphify_skill_definition",
-      "community": 10,
-      "norm_label": "graphify skill definition"
+      "norm_label": "findduplicates()"
     }
   ],
   "links": [
@@ -2682,17 +2551,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expenses_queries",
-      "target": "config_db"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/lib/BaseEntity.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -3077,17 +2935,6 @@
       "target": "errors_pgerrormapper"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expenses_queries",
-      "target": "lib_baseentity"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/BaseEntity.js",
@@ -3463,26 +3310,6 @@
       "target": "middleware_notfound_notfounderror"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/middleware/requestId.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "middleware_requestid",
-      "target": "middleware_requestid_randomuuid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/middleware/requestId.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "middleware_requestid",
-      "target": "middleware_requestid_requestid"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3568,67 +3395,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expenses_queries",
-      "target": "expenses_queries_baseentity"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expenses_queries",
-      "target": "expenses_queries_createexpense"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expenses_queries",
-      "target": "expenses_queries_expensesentity"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expenses_queries",
-      "target": "expenses_queries_findduplicates"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/queries.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expenses_queries",
-      "target": "expenses_queries_pool"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/modules/expense-tracker/expenses/service.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "expenses_service",
-      "target": "expenses_queries"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/modules/expense-tracker/expenses/routes.js",
       "source_location": "L2",
       "weight": 1.0,
@@ -3666,6 +3432,17 @@
       "confidence_score": 1.0,
       "source": "expenses_routes",
       "target": "expenses_validator"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/modules/expense-tracker/expenses/service.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "expenses_service",
+      "target": "expenses_queries"
     },
     {
       "relation": "contains",
@@ -4580,98 +4357,74 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/migrate.js",
+      "source_file": "src/middleware/requestId.js",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "scripts_migrate",
-      "target": "scripts_migrate_fs",
+      "source": "middleware_requestid",
+      "target": "middleware_requestid_randomuuid",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/migrate.js",
-      "source_location": "L2",
+      "source_file": "src/middleware/requestId.js",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "scripts_migrate",
-      "target": "scripts_migrate_path",
+      "source": "middleware_requestid",
+      "target": "middleware_requestid_requestid",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/migrate.js",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "scripts_migrate",
-      "target": "scripts_migrate_pool",
+      "source": "expenses_queries",
+      "target": "expenses_queries_baseentity",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/migrate.js",
-      "source_location": "L5",
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L8",
       "weight": 1.0,
-      "source": "scripts_migrate",
-      "target": "scripts_migrate_runmigrations",
+      "source": "expenses_queries",
+      "target": "expenses_queries_createexpense",
       "confidence_score": 1.0
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/rules/graphify.md",
-      "source_location": null,
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "graphify_graphify_rule",
-      "target": "graphify_graphify_cli"
+      "source": "expenses_queries",
+      "target": "expenses_queries_expensesentity",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/rules/graphify.md",
-      "source_location": null,
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L21",
       "weight": 1.0,
-      "source": "graphify_graphify_rule",
-      "target": "graphify_graphify_out"
+      "source": "expenses_queries",
+      "target": "expenses_queries_findduplicates",
+      "confidence_score": 1.0
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": ".agents/workflows/graphify.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "graphify_graphify_workflow",
-      "target": "graphify_graphify_rule"
-    },
-    {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/workflows/graphify.md",
-      "source_location": null,
+      "source_file": "src/modules/expense-tracker/expenses/queries.js",
+      "source_location": "L1",
       "weight": 1.0,
-      "source": "graphify_graphify_workflow",
-      "target": "graphify_skill_definition"
+      "source": "expenses_queries",
+      "target": "expenses_queries_pool",
+      "confidence_score": 1.0
     }
   ],
-  "hyperedges": [
-    {
-      "id": "graphify_system_integration",
-      "label": "Graphify System Integration",
-      "nodes": [
-        "graphify_graphify_rule",
-        "graphify_graphify_workflow",
-        "graphify_graphify_cli"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": ".agents/rules/graphify.md"
-    }
-  ],
+  "hyperedges": [],
   "built_at_commit": "a2016b3df0700ae03f4307228d0d6375730593b3"
 }

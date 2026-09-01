@@ -19,6 +19,7 @@ const createExpense = async (data) => {
 };
 
 const findDuplicates = async ({ title, amount, spent_at, withinMinutes = 5 }) => {
+  console.log(`Checking for duplicates: title="${title}", amount=${amount}, spent_at=${spent_at}, withinMinutes=${withinMinutes}`);
   const { rows } = await pool.query(
     `SELECT id, title, amount, spent_at, created_at
      FROM ${EXPENSES_TABLE}
@@ -26,7 +27,6 @@ const findDuplicates = async ({ title, amount, spent_at, withinMinutes = 5 }) =>
        AND amount = $2
        AND spent_at = $3
        AND created_at >= NOW() - INTERVAL '1 minute' * $4
-       AND deleted_at IS NULL
      ORDER BY created_at DESC
      LIMIT 5`,
     [title, amount, spent_at ?? new Date(), withinMinutes]

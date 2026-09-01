@@ -4,6 +4,11 @@
     "ast_hash": "87f0d903477984d0587a02f8fe185263",
     "semantic_hash": "87f0d903477984d0587a02f8fe185263"
   },
+  "migrations/001_expense_tracker_init.sql": {
+    "mtime": 1780290378.1863654,
+    "ast_hash": "2f2b8ec753a8509146efae511ba31a92",
+    "semantic_hash": "2f2b8ec753a8509146efae511ba31a92"
+  },
   "package.json": {
     "mtime": 1782716017.3149638,
     "ast_hash": "f1f227e63f423158adde7aee39bc89cf",
@@ -69,15 +74,20 @@
     "ast_hash": "651898023424347a62a8adbde9d260af",
     "semantic_hash": "651898023424347a62a8adbde9d260af"
   },
+  "migrations/002_expense_tracker_enhance.sql": {
+    "mtime": 1780545999.3099246,
+    "ast_hash": "13727a4720e7e2368883fff29bc26cf1",
+    "semantic_hash": "13727a4720e7e2368883fff29bc26cf1"
+  },
   "src/modules/expense-tracker/expenses/controller.js": {
     "mtime": 1782663815.9184806,
     "ast_hash": "ff391aa17a360eb6afb761ad403d552e",
     "semantic_hash": "ff391aa17a360eb6afb761ad403d552e"
   },
   "src/modules/expense-tracker/expenses/queries.js": {
-    "mtime": 1787052656.5711417,
-    "ast_hash": "84258210bc27fc5f37b873f4d2ae338d",
-    "semantic_hash": "84258210bc27fc5f37b873f4d2ae338d"
+    "mtime": 1782660185.055545,
+    "ast_hash": "37cc95dc556932535a09e911f4eaadf0",
+    "semantic_hash": "37cc95dc556932535a09e911f4eaadf0"
   },
   "src/modules/expense-tracker/expenses/routes.js": {
     "mtime": 1782629626.044049,
@@ -85,7 +95,7 @@
     "semantic_hash": "3ad8626ada84cf288373fa565050433f"
   },
   "src/modules/expense-tracker/expenses/service.js": {
-    "mtime": 1785222872.079762,
+    "mtime": 1782629481.5405114,
     "ast_hash": "c4b399dfc44639a096e30b6eae8f2b2b",
     "semantic_hash": "c4b399dfc44639a096e30b6eae8f2b2b"
   },
@@ -110,9 +120,9 @@
     "semantic_hash": "9ef877537f40a43485726dcd51a4f708"
   },
   "src/middleware/requestId.js": {
-    "mtime": 1787050925.2486744,
-    "ast_hash": "5128ac0dc18d394468e51194575465bc",
-    "semantic_hash": "5128ac0dc18d394468e51194575465bc"
+    "mtime": 1782192452.7277672,
+    "ast_hash": "d780fd2ad3866f4d345057240e567fbc",
+    "semantic_hash": "d780fd2ad3866f4d345057240e567fbc"
   },
   "src/utils/logger.js": {
     "mtime": 1782192452.7277672,
@@ -129,6 +139,11 @@
     "ast_hash": "d071ee0fc084e76efde9f731ab11a822",
     "semantic_hash": "d071ee0fc084e76efde9f731ab11a822"
   },
+  "migrations/003_base_audit_pattern.sql": {
+    "mtime": 1782662707.3495476,
+    "ast_hash": "b513d84931df90887f355c49d907cead",
+    "semantic_hash": "b513d84931df90887f355c49d907cead"
+  },
   "src/lib/BaseEntity.js": {
     "mtime": 1782715968.7696915,
     "ast_hash": "be6f8d1913f93450f271595e54931f6b",
@@ -144,24 +159,9 @@
     "ast_hash": "2a6ebfca173d07aab494f1e48bb7be23",
     "semantic_hash": "2a6ebfca173d07aab494f1e48bb7be23"
   },
-  "migrations/001_setup_schema.sql": {
-    "mtime": 1787114007.5465822,
-    "ast_hash": "fa953a2443e198772a5dc79861c739e2",
-    "semantic_hash": "fa953a2443e198772a5dc79861c739e2"
-  },
-  "scripts/migrate.js": {
-    "mtime": 1787125301.9367912,
-    "ast_hash": "dfc2c0f6a937014c35be6b6d93e067fd",
-    "semantic_hash": "dfc2c0f6a937014c35be6b6d93e067fd"
-  },
-  ".agents/rules/graphify.md": {
-    "mtime": 1787497124.648068,
-    "ast_hash": "f1e53ecc9194573d3c28fc116c743a2e",
-    "semantic_hash": "f1e53ecc9194573d3c28fc116c743a2e"
-  },
-  ".agents/workflows/graphify.md": {
-    "mtime": 1787497124.648099,
-    "ast_hash": "0bc020d491fca99550c1ea3de0a5f862",
-    "semantic_hash": "0bc020d491fca99550c1ea3de0a5f862"
+  "migrations/000_schema_migrations.sql": {
+    "mtime": 1782715985.246783,
+    "ast_hash": "c64306cb55e7570d5f7574439502d5cd",
+    "semantic_hash": "c64306cb55e7570d5f7574439502d5cd"
   }
 }
