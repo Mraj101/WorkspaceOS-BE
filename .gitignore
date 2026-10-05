@@ -1,3 +1,6 @@
 .env
 node_modules/
+.obsidian/workspace*.json
+.obsidian/cache
 
+postman.tar.gz

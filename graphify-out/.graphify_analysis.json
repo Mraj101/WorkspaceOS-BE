@@ -1,0 +1,494 @@
+{
+  "communities": {
+    "0": [
+      "_claude_claude_graphify_skill_registration",
+      "_claude_claude_graphify_slash_trigger",
+      "_claude_skills_graphify_references_add_watch_folder_watcher",
+      "_claude_skills_graphify_references_add_watch_url_ingest",
+      "_claude_skills_graphify_references_exports_falkordb_export",
+      "_claude_skills_graphify_references_exports_mcp_server",
+      "_claude_skills_graphify_references_exports_neo4j_export",
+      "_claude_skills_graphify_references_exports_wiki_export",
+      "_claude_skills_graphify_references_extraction_spec_extraction_subagent_prompt",
+      "_claude_skills_graphify_references_extraction_spec_hyperedges",
+      "_claude_skills_graphify_references_extraction_spec_semantic_similarity_edge",
+      "_claude_skills_graphify_references_extraction_spec_source_file_rule",
+      "_claude_skills_graphify_references_github_and_merge_cross_repo_merge",
+      "_claude_skills_graphify_references_github_and_merge_repo_clone",
+      "_claude_skills_graphify_references_hooks_claude_md_integration",
+      "_claude_skills_graphify_references_hooks_post_commit_hook",
+      "_claude_skills_graphify_references_query_bfs_dfs_traversal",
+      "_claude_skills_graphify_references_query_explain_node",
+      "_claude_skills_graphify_references_query_query_expansion",
+      "_claude_skills_graphify_references_query_shortest_path_query",
+      "_claude_skills_graphify_references_query_token_budget",
+      "_claude_skills_graphify_references_query_work_memory_loop",
+      "_claude_skills_graphify_references_transcribe_domain_hint_prompt",
+      "_claude_skills_graphify_references_transcribe_whisper_transcription",
+      "_claude_skills_graphify_references_update_build_merge",
+      "_claude_skills_graphify_references_update_cluster_only",
+      "_claude_skills_graphify_references_update_code_only_shortcut",
+      "_claude_skills_graphify_references_update_graph_diff",
+      "_claude_skills_graphify_references_update_incremental_update",
+      "_claude_skills_graphify_skill_ast_structural_extraction",
+      "_claude_skills_graphify_skill_community_labeling",
+      "_claude_skills_graphify_skill_fast_path_existing_graph",
+      "_claude_skills_graphify_skill_god_nodes",
+      "_claude_skills_graphify_skill_graphify_pipeline",
+      "_claude_skills_graphify_skill_manifest_stamping",
+      "_claude_skills_graphify_skill_no_api_key_required",
+      "_claude_skills_graphify_skill_semantic_extraction",
+      "_claude_skills_graphify_skill_semantic_extraction_cache",
+      "_claude_skills_graphify_skill_shrink_guard"
+    ],
+    "1": [
+      "package",
+      "package_author",
+      "package_description",
+      "package_devdependencies",
+      "package_devdependencies_nodemon",
+      "package_keywords",
+      "package_license",
+      "package_main",
+      "package_name",
+      "package_scripts",
+      "package_scripts_db_create",
+      "package_scripts_dev",
+      "package_scripts_migrate",
+      "package_scripts_start",
+      "package_scripts_test",
+      "package_version",
+      "ref_cors",
+      "ref_crypto",
+      "ref_dotenv",
+      "ref_helmet",
+      "ref_morgan",
+      "ref_nodemon",
+      "src_app",
+      "src_app_app",
+      "src_app_cors",
+      "src_app_currentuser",
+      "src_app_errorhandler",
+      "src_app_express",
+      "src_app_helmet",
+      "src_app_morgan",
+      "src_app_notfound",
+      "src_app_requestid",
+      "src_middleware_currentuser",
+      "src_middleware_requestid",
+      "src_middleware_requestid_randomuuid",
+      "src_middleware_requestid_requestid"
+    ],
+    "2": [
+      "ref_fs",
+      "ref_path",
+      "ref_pg",
+      "scripts_migrate",
+      "scripts_migrate_client",
+      "scripts_migrate_ensuredatabaseexists",
+      "scripts_migrate_fs",
+      "scripts_migrate_path",
+      "scripts_migrate_runmigrations",
+      "src_config_db",
+      "src_config_db_pool",
+      "src_errors_index_notfounderror",
+      "src_lib_baseentity",
+      "src_lib_baseentity_pool",
+      "src_middleware_notfound",
+      "src_middleware_notfound_notfound",
+      "src_middleware_notfound_notfounderror",
+      "src_modules_expense_tracker_budget_budget_queries",
+      "src_modules_expense_tracker_budget_budget_queries_baseentity",
+      "src_modules_expense_tracker_budget_budget_queries_budgetsentity",
+      "src_modules_expense_tracker_budget_budget_queries_createbudget",
+      "src_modules_expense_tracker_budget_budget_queries_deletebudget",
+      "src_modules_expense_tracker_budget_budget_queries_findoverlapping",
+      "src_modules_expense_tracker_budget_budget_queries_getbudgetbyid",
+      "src_modules_expense_tracker_budget_budget_queries_pool",
+      "src_modules_expense_tracker_expenses_expense_queries",
+      "src_modules_expense_tracker_expenses_expense_queries_baseentity",
+      "src_modules_expense_tracker_expenses_expense_queries_categoryexists",
+      "src_modules_expense_tracker_expenses_expense_queries_createexpense",
+      "src_modules_expense_tracker_expenses_expense_queries_expensecreationrecord",
+      "src_modules_expense_tracker_expenses_expense_queries_expensesentity",
+      "src_modules_expense_tracker_expenses_expense_queries_findcoveringbudget",
+      "src_modules_expense_tracker_expenses_expense_queries_findduplicates",
+      "src_modules_expense_tracker_expenses_expense_queries_getbudget",
+      "src_modules_expense_tracker_expenses_expense_queries_getcurrentbudget",
+      "src_modules_expense_tracker_expenses_expense_queries_pool",
+      "src_modules_expense_tracker_expenses_expense_queries_updatebudgetleftamount",
+      "src_modules_expense_tracker_expenses_expense_service",
+      "src_modules_expense_tracker_expenses_expense_service_createexpense",
+      "src_modules_expense_tracker_expenses_expense_service_pool",
+      "src_modules_expense_tracker_expenses_expense_service_q",
+      "src_modules_expense_tracker_expenses_expense_service_validationerror_notfounderror"
+    ],
+    "3": [
+      "migrations_001_setup_schema",
+      "migrations_001_setup_schema_expense_tracker_categories",
+      "migrations_001_setup_schema_set_updated_at_categories",
+      "migrations_001_setup_schema_set_updated_at_users",
+      "migrations_001_setup_schema_trigger_set_updated_at",
+      "migrations_001_setup_schema_users",
+      "migrations_002_budgets",
+      "migrations_002_budgets_expense_tracker_budgets",
+      "migrations_002_budgets_set_updated_at_budgets",
+      "migrations_003_expenses",
+      "migrations_003_expenses_expense_tracker_expenses",
+      "migrations_003_expenses_set_updated_at_expenses"
+    ],
+    "4": [
+      "ref_express",
+      "src_errors_index_validationerror",
+      "src_middleware_validaterequired",
+      "src_middleware_validaterequired_validateschema",
+      "src_middleware_validaterequired_validationerror",
+      "src_modules_expense_tracker_budget_budget_routes",
+      "src_modules_expense_tracker_budget_budget_routes_ctrl",
+      "src_modules_expense_tracker_budget_budget_routes_router",
+      "src_modules_expense_tracker_budget_budget_routes_validate",
+      "src_modules_expense_tracker_budget_budget_validator",
+      "src_modules_expense_tracker_budget_budget_validator_validateschema",
+      "src_modules_expense_tracker_category_category_routes",
+      "src_modules_expense_tracker_category_category_routes_router",
+      "src_modules_expense_tracker_expenses_exepnse_validator",
+      "src_modules_expense_tracker_expenses_exepnse_validator_validateschema",
+      "src_modules_expense_tracker_expenses_expense_routes",
+      "src_modules_expense_tracker_expenses_expense_routes_ctrl",
+      "src_modules_expense_tracker_expenses_expense_routes_router",
+      "src_modules_expense_tracker_expenses_expense_routes_validate",
+      "src_modules_expense_tracker_index",
+      "src_modules_expense_tracker_index_router"
+    ],
+    "5": [
+      "src_errors_apperror",
+      "src_errors_apperror_apperror",
+      "src_errors_apperror_apperror_constructor",
+      "src_errors_httperrors",
+      "src_errors_httperrors_apperror",
+      "src_errors_httperrors_conflicterror",
+      "src_errors_httperrors_conflicterror_constructor",
+      "src_errors_httperrors_notfounderror",
+      "src_errors_httperrors_notfounderror_constructor",
+      "src_errors_httperrors_unauthorizederror",
+      "src_errors_httperrors_unauthorizederror_constructor",
+      "src_errors_httperrors_validationerror",
+      "src_errors_httperrors_validationerror_constructor",
+      "src_errors_httperrors_validationerror_fromfield",
+      "src_errors_httperrors_validationerror_fromfields",
+      "src_errors_index",
+      "src_errors_index_apperror",
+      "src_errors_index_mappgerror",
+      "src_errors_index_notfounderror_validationerror_conflicterror_unauthorizederror",
+      "src_errors_pgerrormapper",
+      "src_errors_pgerrormapper_apperror",
+      "src_errors_pgerrormapper_conflicterror",
+      "src_errors_pgerrormapper_mappgerror"
+    ],
+    "6": [
+      "src_lib_asynchandler",
+      "src_lib_asynchandler_asynchandler",
+      "src_lib_response_sendsuccess",
+      "src_modules_expense_tracker_budget_budget_controller",
+      "src_modules_expense_tracker_budget_budget_controller_asynchandler",
+      "src_modules_expense_tracker_budget_budget_controller_createbudget",
+      "src_modules_expense_tracker_budget_budget_controller_deletebudget",
+      "src_modules_expense_tracker_budget_budget_controller_sendsuccess",
+      "src_modules_expense_tracker_budget_budget_controller_service",
+      "src_modules_expense_tracker_category_category_controller",
+      "src_modules_expense_tracker_category_category_controller_asynchandler",
+      "src_modules_expense_tracker_category_category_controller_createcategory",
+      "src_modules_expense_tracker_category_category_controller_deletecategory",
+      "src_modules_expense_tracker_category_category_controller_getallcategories",
+      "src_modules_expense_tracker_category_category_controller_getcategorybyid",
+      "src_modules_expense_tracker_category_category_controller_sendsuccess",
+      "src_modules_expense_tracker_category_category_controller_service",
+      "src_modules_expense_tracker_category_category_controller_updatecategory",
+      "src_modules_expense_tracker_category_category_service",
+      "src_modules_expense_tracker_expenses_expense_controller",
+      "src_modules_expense_tracker_expenses_expense_controller_asynchandler",
+      "src_modules_expense_tracker_expenses_expense_controller_createexpense",
+      "src_modules_expense_tracker_expenses_expense_controller_sendsuccess",
+      "src_modules_expense_tracker_expenses_expense_controller_service"
+    ],
+    "7": [
+      "_claude_skills_graphify_references_exports_token_reduction_benchmark",
+      "_claude_skills_graphify_references_extraction_spec_audit_trail_confidence_tiers",
+      "_claude_skills_graphify_references_extraction_spec_confidence_rubric",
+      "_claude_skills_graphify_references_extraction_spec_node_id_format",
+      "_claude_skills_graphify_skill_graph_health_check",
+      "_claude_skills_graphify_skill_honesty_rules",
+      "_claude_skills_graphify_skill_interpreter_resolution",
+      "src_modules_expense_tracker_readme_api_endpoints",
+      "src_modules_expense_tracker_readme_base_entity",
+      "src_modules_expense_tracker_readme_budget",
+      "src_modules_expense_tracker_readme_budget_envelope",
+      "src_modules_expense_tracker_readme_category",
+      "src_modules_expense_tracker_readme_current_user_middleware",
+      "src_modules_expense_tracker_readme_duplicate_detection",
+      "src_modules_expense_tracker_readme_envelope_budgeting",
+      "src_modules_expense_tracker_readme_expense",
+      "src_modules_expense_tracker_readme_expense_tracker_module",
+      "src_modules_expense_tracker_readme_migration_004_removals",
+      "src_modules_expense_tracker_readme_one_budget_per_scope_per_window",
+      "src_modules_expense_tracker_readme_ownership_filtering",
+      "src_modules_expense_tracker_readme_raw_sql_queries_layer",
+      "src_modules_expense_tracker_readme_server_side_budget_resolution",
+      "src_modules_expense_tracker_readme_unbudgeted_expense"
+    ],
+    "8": [
+      "server",
+      "server_app",
+      "server_logerror",
+      "src_lib_response",
+      "src_lib_response_senderror",
+      "src_middleware_errorhandler",
+      "src_middleware_errorhandler_apperror",
+      "src_middleware_errorhandler_buildextras",
+      "src_middleware_errorhandler_errorhandler",
+      "src_middleware_errorhandler_isproduction",
+      "src_middleware_errorhandler_logerror",
+      "src_middleware_errorhandler_maperror",
+      "src_middleware_errorhandler_mappgerror",
+      "src_middleware_errorhandler_senderror",
+      "src_utils_logger",
+      "src_utils_logger_logerror"
+    ],
+    "9": [
+      "package_dependencies",
+      "package_dependencies_cors",
+      "package_dependencies_dotenv",
+      "package_dependencies_express",
+      "package_dependencies_helmet",
+      "package_dependencies_morgan",
+      "package_dependencies_pg"
+    ],
+    "10": [
+      "src_errors_index_conflicterror",
+      "src_modules_expense_tracker_budget_budget_service",
+      "src_modules_expense_tracker_budget_budget_service_createbudget",
+      "src_modules_expense_tracker_budget_budget_service_deletebudget",
+      "src_modules_expense_tracker_budget_budget_service_parsedatefield",
+      "src_modules_expense_tracker_budget_budget_service_q",
+      "src_modules_expense_tracker_budget_budget_service_validationerror_conflicterror"
+    ],
+    "11": [
+      "agents_rules_graphify_graphify_cli",
+      "agents_rules_graphify_graphify_out",
+      "agents_rules_graphify_graphify_rule",
+      "agents_workflows_graphify_graphify_workflow",
+      "agents_workflows_graphify_skill_definition"
+    ],
+    "12": [
+      "backend_architecture_walkthrough_appjs",
+      "backend_architecture_walkthrough_errorhandler",
+      "backend_architecture_walkthrough_serverjs"
+    ],
+    "13": [
+      "backend_architecture_walkthrough_baseentity",
+      "backend_architecture_walkthrough_migration003",
+      "backend_architecture_walkthrough_softdeletes"
+    ],
+    "14": [
+      "backend_architecture_walkthrough_migration001"
+    ],
+    "15": [
+      "backend_architecture_walkthrough_migration002"
+    ],
+    "16": [
+      "claudemd_graphify"
+    ],
+    "17": [
+      "readme_workspaceosbe"
+    ],
+    "18": [
+      "src_lib_baseentity_baseentity",
+      "src_lib_baseentity_baseentity_constructor",
+      "src_lib_baseentity_baseentity_create",
+      "src_lib_baseentity_baseentity_deletebyid",
+      "src_lib_baseentity_baseentity_findbyid",
+      "src_lib_baseentity_baseentity_findmany",
+      "src_lib_baseentity_baseentity_updatebyid"
+    ],
+    "19": [
+      "workspace_create_a_link",
+      "workspace_welcome"
+    ],
+    "20": [
+      "migrations_004_expense_budget_coulum"
+    ],
+    "21": [
+      "migrations_005_left_amountbudgetcolumn"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07557354925775979,
+    "1": 0.05873015873015873,
+    "2": 0.053426248548199766,
+    "3": 0.25757575757575757,
+    "4": 0.1,
+    "5": 0.1422924901185771,
+    "6": 0.11956521739130435,
+    "7": 0.11067193675889328,
+    "8": 0.21666666666666667,
+    "9": 0.2857142857142857,
+    "10": 0.3333333333333333,
+    "11": 0.4,
+    "12": 0.6666666666666666,
+    "13": 0.6666666666666666,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 0.3333333333333333,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0
+  },
+  "gods": [
+    {
+      "id": "_claude_skills_graphify_skill_graphify_pipeline",
+      "label": "Graphify Pipeline",
+      "degree": 16
+    },
+    {
+      "id": "src_lib_response_sendsuccess",
+      "label": "sendSuccess()",
+      "degree": 12
+    },
+    {
+      "id": "_claude_skills_graphify_references_update_incremental_update",
+      "label": "Incremental Update (--update)",
+      "degree": 8
+    },
+    {
+      "id": "src_lib_baseentity_baseentity",
+      "label": "BaseEntity",
+      "degree": 7
+    },
+    {
+      "id": "_claude_skills_graphify_references_extraction_spec_extraction_subagent_prompt",
+      "label": "Extraction Subagent Prompt",
+      "degree": 7
+    },
+    {
+      "id": "src_errors_httperrors_conflicterror",
+      "label": "ConflictError",
+      "degree": 6
+    },
+    {
+      "id": "src_errors_httperrors_validationerror",
+      "label": "ValidationError",
+      "degree": 6
+    },
+    {
+      "id": "src_middleware_errorhandler_errorhandler",
+      "label": "errorHandler()",
+      "degree": 6
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 6
+    },
+    {
+      "id": "ref_express",
+      "label": "express",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Duplicate Expense Detection",
+      "target": "EXTRACTED / INFERRED / AMBIGUOUS Audit Trail",
+      "source_files": [
+        "src/modules/expense-tracker/README.md",
+        ".claude/skills/graphify/references/extraction-spec.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "One Budget Per Scope Per Window",
+      "target": "Node ID Format",
+      "source_files": [
+        "src/modules/expense-tracker/README.md",
+        ".claude/skills/graphify/references/extraction-spec.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "currentUser Identity Seam",
+      "target": "Python Interpreter Resolution",
+      "source_files": [
+        "src/modules/expense-tracker/README.md",
+        ".claude/skills/graphify/SKILL.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Post-Commit Auto-Rebuild Hook",
+      "target": "Folder Watcher (--watch)",
+      "source_files": [
+        ".claude/skills/graphify/references/hooks.md",
+        ".claude/skills/graphify/references/add-watch.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Cross-Repo Graph Merge",
+      "target": "build_merge Replace-on-Re-extract",
+      "source_files": [
+        ".claude/skills/graphify/references/github-and-merge.md",
+        ".claude/skills/graphify/references/update.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `express` connect `express` to `app.js`?",
+      "why": "High betweenness centrality (0.075) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `pg` connect `expense.queries.js` to `app.js`?",
+      "why": "High betweenness centrality (0.060) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `sendSuccess()` connect `sendSuccess` to `errorHandler.js`?",
+      "why": "High betweenness centrality (0.030) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `author`, `description`, `nodemon` to the rest of the system?",
+      "why": "95 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Graphify Pipeline` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07557354925775979 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `app.js` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05873015873015873 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `expense.queries.js` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.053426248548199766 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

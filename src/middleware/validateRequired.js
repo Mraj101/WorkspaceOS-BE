@@ -9,15 +9,17 @@ const validateSchema = (schema) => {
   let AllowedFields= new Set(Object.keys(schema));
   return (req, res, next) => {
     const errors = {};
+    // Express 5 leaves req.body undefined when no body was parsed
+    const body = req.body ?? {};
 
-    for(const field in req.body) {
+    for(const field in body) {
       if(!AllowedFields.has(field)) {
         errors[field] = `${field} is not allowed`;
       }
     }
 
     for (const [field, expectedType] of Object.entries(schema)) {
-      const value = req.body[field];
+      const value = body[field];
       
       const isOptional = expectedType.endsWith('?');
       const baseType = isOptional ? expectedType.slice(0, -1) : expectedType;

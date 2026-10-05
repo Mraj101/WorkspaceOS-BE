@@ -21,10 +21,10 @@ class BaseEntity {
     this.tableName = tableName;
   }
 
-  async findById(id) {
+  async findById(userId, id) {
     const { rows } = await pool.query(
-      `SELECT * FROM ${this.tableName} WHERE id = $1 AND deleted_at IS NULL`,
-      [id]
+      `SELECT * FROM ${this.tableName} WHERE user_id = $1 AND id = $2 AND deleted_at IS NULL`,
+      [userId, id]
     );
     return rows[0] ?? null;
   }
@@ -99,6 +99,7 @@ class BaseEntity {
       [id]
     );
     return rows[0] ?? null;
+    
   }
 }
 

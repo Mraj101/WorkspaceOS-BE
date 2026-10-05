@@ -1,9 +1,9 @@
 -- ============================================================
--- Workspace — Consolidated Expense Tracker Schema
+-- Workspace — Expense Tracker: users & categories
 -- Migration: 001_setup_schema.sql
 -- ============================================================
 
--- 1. Create set_updated_at trigger function
+-- Shared trigger: every table below keeps its own updated_at current.
 CREATE OR REPLACE FUNCTION trigger_set_updated_at()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -12,7 +12,35 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+-- 1. Users table
+-- Deliberately minimal and NOT prefixed: users are platform-level, not owned
+-- by the expense tracker module. Credentials are the auth module's business,
+-- so there is no password column here yet.
+CREATE TABLE IF NOT EXISTS users (
+  id         SERIAL PRIMARY KEY,
+  email      VARCHAR(255) NOT NULL UNIQUE,
+  name       VARCHAR(100),
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  deleted_at TIMESTAMPTZ
+);
+
+CREATE TRIGGER set_updated_at_users
+  BEFORE UPDATE ON users
+  FOR EACH ROW EXECUTE FUNCTION trigger_set_updated_at();
+
+-- Seed the development user so ownership FKs resolve before auth exists.
+INSERT INTO users (id, email, name) VALUES
+  (1, 'dev@localhost', 'Dev User')
+ON CONFLICT (email) DO NOTHING;
+
+-- Keep the sequence ahead of the explicit id above, or the first real signup
+-- would collide on id = 1.
+SELECT setval('users_id_seq', GREATEST((SELECT MAX(id) FROM users), 1));
+
 -- 2. Categories table
+-- Global reference data, shared by every user — a tag on an expense, nothing
+-- more. Budgets do not reference this table; see 002_budgets.sql.
 CREATE TABLE IF NOT EXISTS expense_tracker_categories (
   id         SERIAL PRIMARY KEY,
   name       VARCHAR(100) NOT NULL UNIQUE,
@@ -27,76 +55,7 @@ CREATE TRIGGER set_updated_at_categories
   BEFORE UPDATE ON expense_tracker_categories
   FOR EACH ROW EXECUTE FUNCTION trigger_set_updated_at();
 
--- 3. Payment Methods table
-CREATE TABLE IF NOT EXISTS expense_tracker_payment_methods (
-  id         SERIAL PRIMARY KEY,
-  name       VARCHAR(50) NOT NULL UNIQUE,
-  icon       VARCHAR(10),
-  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  deleted_at TIMESTAMPTZ
-);
-
-CREATE TRIGGER set_updated_at_payment_methods
-  BEFORE UPDATE ON expense_tracker_payment_methods
-  FOR EACH ROW EXECUTE FUNCTION trigger_set_updated_at();
-
--- 4. Expenses table
-CREATE TABLE IF NOT EXISTS expense_tracker_expenses (
-  id             SERIAL PRIMARY KEY,
-  title          VARCHAR(255) NOT NULL,
-  amount         NUMERIC(12, 2) NOT NULL CHECK (amount > 0),
-  category_id    INTEGER REFERENCES expense_tracker_categories(id) ON DELETE SET NULL,
-  note           TEXT,
-  spent_at       DATE NOT NULL DEFAULT CURRENT_DATE,
-  payment_method VARCHAR(50) DEFAULT 'cash',
-  is_recurring   BOOLEAN DEFAULT FALSE,
-  created_at     TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at     TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  deleted_at     TIMESTAMPTZ
-);
-
-CREATE TRIGGER set_updated_at_expenses
-  BEFORE UPDATE ON expense_tracker_expenses
-  FOR EACH ROW EXECUTE FUNCTION trigger_set_updated_at();
-
-CREATE INDEX IF NOT EXISTS idx_et_expenses_category_id ON expense_tracker_expenses(category_id);
-CREATE INDEX IF NOT EXISTS idx_et_expenses_spent_at    ON expense_tracker_expenses(spent_at DESC);
-CREATE INDEX IF NOT EXISTS idx_et_expenses_updated_at  ON expense_tracker_expenses(updated_at DESC);
-CREATE INDEX IF NOT EXISTS idx_et_expenses_payment_method ON expense_tracker_expenses(payment_method);
-
--- 5. Tags table
-CREATE TABLE IF NOT EXISTS expense_tracker_tags (
-  id         SERIAL PRIMARY KEY,
-  name       VARCHAR(50) NOT NULL UNIQUE,
-  color      VARCHAR(7) DEFAULT '#6B7280',
-  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  deleted_at TIMESTAMPTZ
-);
-
-CREATE TRIGGER set_updated_at_tags
-  BEFORE UPDATE ON expense_tracker_tags
-  FOR EACH ROW EXECUTE FUNCTION trigger_set_updated_at();
-
--- 6. Expense ↔ Tags junction table
-CREATE TABLE IF NOT EXISTS expense_tracker_expense_tags (
-  id         SERIAL PRIMARY KEY,
-  expense_id INTEGER REFERENCES expense_tracker_expenses(id) ON DELETE CASCADE,
-  tag_id     INTEGER REFERENCES expense_tracker_tags(id) ON DELETE CASCADE,
-  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  deleted_at TIMESTAMPTZ,
-  CONSTRAINT expense_tracker_expense_tags_expense_id_tag_id_key UNIQUE (expense_id, tag_id)
-);
-
-CREATE TRIGGER set_updated_at_expense_tags
-  BEFORE UPDATE ON expense_tracker_expense_tags
-  FOR EACH ROW EXECUTE FUNCTION trigger_set_updated_at();
-
-CREATE INDEX IF NOT EXISTS idx_et_expense_tags_tag_id ON expense_tracker_expense_tags(tag_id);
-
--- 7. Seed default categories
+-- Seed default categories
 INSERT INTO expense_tracker_categories (name, icon, color) VALUES
   ('Food',          '🍕', '#FF6B6B'),
   ('Transport',     '🚗', '#4ECDC4'),
@@ -105,21 +64,4 @@ INSERT INTO expense_tracker_categories (name, icon, color) VALUES
   ('Shopping',      '🛍️',  '#FFEAA7'),
   ('Utilities',     '💡', '#DDA0DD'),
   ('Other',         '📦', '#6B7280')
-ON CONFLICT (name) DO NOTHING;
-
--- 8. Seed default payment methods
-INSERT INTO expense_tracker_payment_methods (name, icon) VALUES
-  ('Cash',          '💵'),
-  ('Credit Card',   '💳'),
-  ('Debit Card',    '💳'),
-  ('Bank Transfer', '🏦'),
-  ('Mobile Pay',    '📱')
-ON CONFLICT (name) DO NOTHING;
-
--- 9. Seed example tags
-INSERT INTO expense_tracker_tags (name, color) VALUES
-  ('Work',       '#3B82F6'),
-  ('Personal',   '#EF4444'),
-  ('Urgent',     '#F59E0B'),
-  ('Reimbursable','#10B981')
 ON CONFLICT (name) DO NOTHING;

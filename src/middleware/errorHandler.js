@@ -16,6 +16,11 @@ const mapError = (err) => {
     return new AppError('Invalid JSON in request body', 400, { code: 'INVALID_JSON' });
   }
 
+  // Client errors from body-parser (413 too large, 415 charset, 400 encoding, ...)
+  if (err.expose && err.status >= 400 && err.status < 500) {
+    return new AppError(err.message, err.status, { code: err.type || 'BAD_REQUEST' });
+  }
+
   const pgError = mapPgError(err);
   if (pgError) return pgError;
 
@@ -65,6 +70,9 @@ const buildExtras = (err, req) => {
  *   - notFound middleware            → NotFoundError
  */
 const errorHandler = (err, req, res, next) => {
+  // Response already started — let Express close the connection
+  if (res.headersSent) return next(err);
+
   const normalized = mapError(err);
   const statusCode = normalized.statusCode || 500;
   const isOperational = normalized.isOperational !== false;

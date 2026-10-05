@@ -11,7 +11,8 @@ const router = Router();
 
 
 // Core expenses routes
-router.use('/expenses', require('./expenses/routes'));
-route.use('/categories',require('./category/routes'))
+router.use('/expenses', require('./expenses/expense.routes'));
+router.use('/budgets', require('./budget/budget.routes'));
+// route.use('/categories',require('./category/routes'))
 
 module.exports = router;

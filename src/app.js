@@ -4,6 +4,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 
 const requestId = require('./middleware/requestId');
+const currentUser = require('./middleware/currentUser');
 const notFound = require('./middleware/notFound');
 const errorHandler = require('./middleware/errorHandler');
 
@@ -25,6 +26,11 @@ app.use(express.urlencoded({ extended: false }));
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
 });
+
+// ─── Identity ─────────────────────────────────────────────────────────────────
+// Mounted below /health on purpose: once this enforces real auth, the health
+// check must stay reachable without credentials.
+app.use(currentUser);
 
 // ─── Module Routes ────────────────────────────────────────────────────────────
 // Register each module's router here as you add them.
