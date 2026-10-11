@@ -14,6 +14,7 @@ const createBudget = async (userId, data) => {
     amount: data.amount,
     start_date: data.start_date,
     end_date: data.end_date,
+    left_amount: data.amount, // Initialize left_amount to the total budget amount
   });
 };
 
