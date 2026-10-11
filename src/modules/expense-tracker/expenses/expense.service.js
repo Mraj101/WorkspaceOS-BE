@@ -42,6 +42,14 @@ exports.createExpense = async (userId, expenseData) => {
       budget_id,
     });
 
+    if(budget.left_amount < parsedAmount) {
+      throw ValidationError.fromField('expense_amount', 'Expense amount exceeds the remaining budget');
+    }
+    
+    if (duplicateExpenses.length > 0) {
+      throw ValidationError.fromField('title', 'Duplicate expense detected within the last 5 minutes');
+    }
+
     const updatedBudget = await q.updateBudgetLeftAmount(client, userId, budget_id, parsedAmount);
 
     await client.query('COMMIT');
