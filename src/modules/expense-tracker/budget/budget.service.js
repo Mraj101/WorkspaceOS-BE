@@ -48,20 +48,20 @@ exports.createBudget = async (userId, budgetData) => {
   // of a user's budgets may cover the same date at all, or an expense in that
   // overlap would have two pots to draw from and "what's left" stops being
   // a single number.
-  const overlapping = await q.findOverlapping(userId, {
-    start_date: resolvedStart,
-    end_date: resolvedEnd,
-  });
+  // const overlapping = await q.findOverlapping(userId, {
+  //   start_date: resolvedStart,
+  //   end_date: resolvedEnd,
+  // });
 
-  if (overlapping.length > 0) {
-    throw new ConflictError(
-      `A budget already covers this date range (budget #${overlapping[0].id} "${overlapping[0].name}")`
-    );
-  }
+  // if (overlapping.length > 0) {
+  //   throw new ConflictError(
+  //     `A budget already covers this date range (budget #${overlapping[0].id} "${overlapping[0].name}")`
+  //   );
+  // }
 
   return await q.createBudget(userId, {
     name: trimmedName,
-    amount: parsedAmount,
+    budget_amount: parsedAmount,
     start_date: resolvedStart,
     end_date: resolvedEnd,
   });

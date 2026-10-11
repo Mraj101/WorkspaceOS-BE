@@ -125,6 +125,7 @@ const updateBudgetLeftAmount = async (client, userId, budgetId, amount) => {
      WHERE id = $1
        AND user_id = $2
        AND deleted_at IS NULL
+       AND left_amount >= $3
      RETURNING *`,
     [budgetId, userId, amount]
   );

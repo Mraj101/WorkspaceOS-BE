@@ -11,10 +11,10 @@ const createBudget = async (userId, data) => {
   return await budgetsEntity.create({
     user_id: userId,
     name: data.name,
-    amount: data.amount,
+    budget_amount: data.budget_amount,
     start_date: data.start_date,
     end_date: data.end_date,
-    left_amount: data.amount, // Initialize left_amount to the total budget amount
+    left_amount: data.budget_amount, // Initialize left_amount to the total budget amount
   });
 };
 
@@ -28,7 +28,7 @@ const createBudget = async (userId, data) => {
  */
 const findOverlapping = async (userId, { start_date, end_date }) => {
   const { rows } = await pool.query(
-    `SELECT id, name, amount, start_date, end_date
+    `SELECT id, name, budget_amount, start_date, end_date, left_amount
      FROM ${BUDGETS_TABLE}
      WHERE user_id = $1
        AND deleted_at IS NULL
